@@ -73,7 +73,7 @@ segmentedControl.configure(segmentItems: segmentItems, preset: preset)
 
 ## Layout Types
 
-<img align="right" src="./Images/1.png" width="360"/>
+<img align="right" src="./Images/1.png" width="280"/>
 
 It’s possible to show content in three way. `Segmented Control` could be show with text only, image inly or text with image.
 
@@ -105,7 +105,7 @@ let segmentsItem: [SegmentModel] = [SegmentModel(title: “Title”, imageUrl: i
 
 ## Actions
 
-<img align="right" src="./Images/3.png" width="360"/>
+<img align="right" src="./Images/3.png" width="280"/>
 
 Here is the list of available API:
 
@@ -138,7 +138,7 @@ func deselect()
 
 ## Presets and Styles
 
-<img align="right" src="./Images/2.png" width="360"/>
+<img align="right" src="./Images/2.png" width="280"/>
 
 `SegmentControl` supports a wide range of customization appearance. It is also possible to apply ready-made presets of styles or create your own preset.
 
