@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RESegmentedControl_Example' do
+  pod 'RESegmentedControl', :path => '../'
+
+  target 'RESegmentedControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
