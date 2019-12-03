@@ -1,0 +1,6 @@
+framework module Pods_RESegmentedControl_Example {
+  umbrella header "Pods-RESegmentedControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

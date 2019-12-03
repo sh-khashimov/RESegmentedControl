@@ -1,0 +1,22 @@
+{
+  "name": "RESegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of RESegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sherzod Khashimov/RESegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sherzod Khashimov": "sh.khashimov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sherzod Khashimov/RESegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RESegmentedControl/Classes/**/*"
+}

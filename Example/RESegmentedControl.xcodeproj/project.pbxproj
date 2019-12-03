@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		022198CCD8F433E5E57192E5 /* Pods_RESegmentedControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6ADB5D3A9E8612D42960159 /* Pods_RESegmentedControl_Example.framework */; };
+		2761BF422396C1310088F3EF /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF3E2396C1310088F3EF /* ActionViewController.swift */; };
+		2761BF432396C1310088F3EF /* BasicExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF3F2396C1310088F3EF /* BasicExampleViewController.swift */; };
+		2761BF442396C1310088F3EF /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF402396C1310088F3EF /* ExampleViewController.swift */; };
+		2761BF452396C1310088F3EF /* PresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF412396C1310088F3EF /* PresetsViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,19 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		462BE5DA3480404C497B03F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5C558C4879B21863C182B883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2761BF3E2396C1310088F3EF /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		2761BF3F2396C1310088F3EF /* BasicExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicExampleViewController.swift; sourceTree = "<group>"; };
+		2761BF402396C1310088F3EF /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		2761BF412396C1310088F3EF /* PresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetsViewController.swift; sourceTree = "<group>"; };
+		462BE5DA3480404C497B03F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C558C4879B21863C182B883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RESegmentedControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESegmentedControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RESegmentedControl_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESegmentedControl_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9AEA451E55008A40602598D2 /* RESegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RESegmentedControl.podspec; path = ../RESegmentedControl.podspec; sourceTree = "<group>"; };
+		9AEA451E55008A40602598D2 /* RESegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RESegmentedControl.podspec; path = ../RESegmentedControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6ADB5D3A9E8612D42960159 /* Pods_RESegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C457988A5566A012256D67F9 /* Pods_RESegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A6475F158A240A2DF1AF38 /* Pods-RESegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESegmentedControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +83,6 @@
 				C7A6475F158A240A2DF1AF38 /* Pods-RESegmentedControl_Tests.debug.xcconfig */,
 				F881816DD0FF904D88D22951 /* Pods-RESegmentedControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,8 +119,11 @@
 		607FACD21AFB9204008FA782 /* Example for RESegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				2761BF3E2396C1310088F3EF /* ActionViewController.swift */,
+				2761BF3F2396C1310088F3EF /* BasicExampleViewController.swift */,
+				2761BF402396C1310088F3EF /* ExampleViewController.swift */,
+				2761BF412396C1310088F3EF /* PresetsViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2761BF452396C1310088F3EF /* PresetsViewController.swift in Sources */,
+				2761BF422396C1310088F3EF /* ActionViewController.swift in Sources */,
+				2761BF442396C1310088F3EF /* ExampleViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2761BF432396C1310088F3EF /* BasicExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

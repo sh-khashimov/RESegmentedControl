@@ -1,30 +1,508 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Example View Controller-->
+        <scene sceneID="Iww-wf-reH">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RESegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="7vo-ck-Eh0" customClass="ExampleViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ULF-TL-D2a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="FMf-es-GNY">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="IlT-3u-BNt" style="IBUITableViewCellStyleDefault" id="7SD-fh-QbJ">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7SD-fh-QbJ" id="cA8-DC-FEB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IlT-3u-BNt">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o6O-5I-3Ie" firstAttribute="bottom" secondItem="FMf-es-GNY" secondAttribute="bottom" id="5w4-ab-Suq"/>
+                            <constraint firstItem="o6O-5I-3Ie" firstAttribute="trailing" secondItem="FMf-es-GNY" secondAttribute="trailing" id="QyK-6C-7KE"/>
+                            <constraint firstItem="FMf-es-GNY" firstAttribute="leading" secondItem="o6O-5I-3Ie" secondAttribute="leading" id="omj-7I-7Oq"/>
+                            <constraint firstItem="FMf-es-GNY" firstAttribute="top" secondItem="o6O-5I-3Ie" secondAttribute="top" id="pvw-Cx-OPW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o6O-5I-3Ie"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aCW-ZJ-Nf3"/>
+                    <connections>
+                        <outlet property="tableView" destination="FMf-es-GNY" id="NSE-0Z-Qi4"/>
+                        <segue destination="i1a-zR-yeP" kind="show" identifier="showActionViewController" id="Tkh-I1-5ou"/>
+                        <segue destination="tKk-6W-ts3" kind="show" identifier="showBasicExampleViewController" id="asf-qf-8U2"/>
+                        <segue destination="5HL-TK-t5N" kind="show" identifier="showPresetsViewController" id="wdg-dg-LL5"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9FU-5L-quI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="15.942028985507248" y="130.58035714285714"/>
+        </scene>
+        <!--Presets View Controller-->
+        <scene sceneID="21c-ea-Zfe">
+            <objects>
+                <viewController id="5HL-TK-t5N" customClass="PresetsViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bBE-qF-rZF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FO-Dm-O8g">
+                                <rect key="frame" x="10" y="54" width="355" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="29e-Pv-5eh">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="659"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ed3-R4-fQz">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="58"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 7 Style (iOS7SegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRG-ze-Qso">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oeM-Fy-WTa" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="30"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="w3f-ku-uFu"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aoc-1C-WCY">
+                                                <rect key="frame" x="0.0" y="73" width="355" height="58"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 13 Style (iOS13SegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Blp-dk-cTB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epW-AF-aw9" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="30"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="7pF-OC-Oz8"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-rQ-q91">
+                                                <rect key="frame" x="0.0" y="146" width="355" height="78"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material Style (MaterialSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd6-gT-07G">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8B-b0-pMX" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="AJ3-Oe-PtT"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sym-x6-PI9">
+                                                <rect key="frame" x="0.0" y="239" width="355" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsZ-HX-Uy2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fKY-eI-Y0z" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="mGr-DF-PaP"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rkN-4A-kRF">
+                                                <rect key="frame" x="0.0" y="322" width="355" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltB-eI-iOd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-RV-4UJ" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="oDm-eL-NJW"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I1K-Oz-dVM">
+                                                <rect key="frame" x="0.0" y="405" width="355" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDl-Q3-5Um">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fw-MA-Oxt" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="ylg-yJ-Bzt"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pzd-Ly-Vef">
+                                                <rect key="frame" x="0.0" y="488" width="355" height="78"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRy-ZO-ASQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7C0-fI-iPL" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="iai-Z3-1Pq"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-59-KoM">
+                                                <rect key="frame" x="0.0" y="581" width="355" height="78"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHu-3l-aWj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42j-UW-F99" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="nwz-64-uYa"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="29e-Pv-5eh" secondAttribute="bottom" id="Mr2-Vu-Qs5"/>
+                                    <constraint firstItem="29e-Pv-5eh" firstAttribute="top" secondItem="6FO-Dm-O8g" secondAttribute="top" id="QUv-Au-o5Z"/>
+                                    <constraint firstItem="29e-Pv-5eh" firstAttribute="width" secondItem="RfW-ji-b6b" secondAttribute="width" id="jkj-nd-1IK"/>
+                                    <constraint firstItem="29e-Pv-5eh" firstAttribute="leading" secondItem="6FO-Dm-O8g" secondAttribute="leading" id="mDV-bh-3lR"/>
+                                    <constraint firstAttribute="trailing" secondItem="29e-Pv-5eh" secondAttribute="trailing" id="pbR-yX-9rD"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="ICI-AF-KAd"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="DPj-Rb-Y3b"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="RfW-ji-b6b"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6FO-Dm-O8g" firstAttribute="trailing" secondItem="b6r-9C-fG3" secondAttribute="trailing" constant="-10" id="BLu-nL-8vZ"/>
+                            <constraint firstItem="6FO-Dm-O8g" firstAttribute="leading" secondItem="b6r-9C-fG3" secondAttribute="leading" constant="10" id="K8E-lK-kbL"/>
+                            <constraint firstItem="b6r-9C-fG3" firstAttribute="bottom" secondItem="6FO-Dm-O8g" secondAttribute="bottom" constant="10" id="Rzn-li-bSR"/>
+                            <constraint firstItem="6FO-Dm-O8g" firstAttribute="top" secondItem="b6r-9C-fG3" secondAttribute="top" constant="10" id="mvB-Bm-OgA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b6r-9C-fG3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="COP-d5-mD9"/>
+                    <connections>
+                        <outlet property="customSimple1SegmentedControl" destination="fKY-eI-Y0z" id="yKL-Ca-14u"/>
+                        <outlet property="customSimple2SegmentedControl" destination="5mJ-RV-4UJ" id="kEo-0X-l3x"/>
+                        <outlet property="customSimple3SegmentedControl" destination="3fw-MA-Oxt" id="pZ7-ND-BXx"/>
+                        <outlet property="customSimple4SegmentedControl" destination="7C0-fI-iPL" id="bCW-TQ-BCQ"/>
+                        <outlet property="customSimple5SegmentedControl" destination="42j-UW-F99" id="ELF-kj-kOD"/>
+                        <outlet property="ios13SegmentedControl" destination="epW-AF-aw9" id="nsM-BS-2VY"/>
+                        <outlet property="ios7SegmentedControl" destination="oeM-Fy-WTa" id="Fdo-Wt-PyY"/>
+                        <outlet property="materialSegmentedControl" destination="l8B-b0-pMX" id="KdB-qk-SHQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n1Z-QQ-Pwr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="901"/>
+        </scene>
+        <!--Basic Example View Controller-->
+        <scene sceneID="Wqs-8d-Yeq">
+            <objects>
+                <viewController id="tKk-6W-ts3" customClass="BasicExampleViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="snX-ie-sMp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SrG-R9-vht">
+                                <rect key="frame" x="10" y="54" width="355" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4ud-J5-Lbn">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="390"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ppp-HW-41r">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="58"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmR-Gm-GgZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="olM-tv-ujn" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="30"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="7dY-zK-uPu"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dqn-TL-xZt">
+                                                <rect key="frame" x="0.0" y="73" width="355" height="58"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18X-db-Wdi">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtb-DG-ven" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="30"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="ORs-RN-svu"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ObK-fK-Fz4">
+                                                <rect key="frame" x="0.0" y="146" width="355" height="78"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image and Text with Vertical Axis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBE-b5-OIz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zU-2M-0BB" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="e1A-XE-af4"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yhP-pg-8lR">
+                                                <rect key="frame" x="0.0" y="239" width="355" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image and Text with Horizontal Axis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEt-nc-wCD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9l-gM-daj" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="Wzk-r5-Hfg"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kzC-mL-647">
+                                                <rect key="frame" x="0.0" y="322" width="355" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images Loaded from HTTPS Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkY-BP-2uA">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfg-5g-hn7" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="DOa-Oe-0yp"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4ud-J5-Lbn" firstAttribute="leading" secondItem="SrG-R9-vht" secondAttribute="leading" id="9K4-Or-F8j"/>
+                                    <constraint firstItem="4ud-J5-Lbn" firstAttribute="top" secondItem="SrG-R9-vht" secondAttribute="top" id="L9g-9U-Odr"/>
+                                    <constraint firstAttribute="bottom" secondItem="4ud-J5-Lbn" secondAttribute="bottom" id="Oha-aD-hkN"/>
+                                    <constraint firstItem="4ud-J5-Lbn" firstAttribute="width" secondItem="Cv0-zr-jTD" secondAttribute="width" id="ZDJ-Nq-aJE"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ud-J5-Lbn" secondAttribute="trailing" id="mv0-BH-Clf"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="n3C-HA-Wc7"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="HqT-WO-qAs"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Cv0-zr-jTD"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SrG-R9-vht" firstAttribute="top" secondItem="au1-B4-AID" secondAttribute="top" constant="10" id="4Ke-Up-CBw"/>
+                            <constraint firstItem="SrG-R9-vht" firstAttribute="leading" secondItem="au1-B4-AID" secondAttribute="leading" constant="10" id="Qrh-U7-u0U"/>
+                            <constraint firstItem="au1-B4-AID" firstAttribute="bottom" secondItem="SrG-R9-vht" secondAttribute="bottom" constant="10" id="pM3-Rk-C7m"/>
+                            <constraint firstItem="SrG-R9-vht" firstAttribute="trailing" secondItem="au1-B4-AID" secondAttribute="trailing" constant="-10" id="zsB-Pr-64C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="au1-B4-AID"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rCA-n6-P91"/>
+                    <connections>
+                        <outlet property="horizontalTextAndImageSegment" destination="j9l-gM-daj" id="mWt-tm-XLT"/>
+                        <outlet property="imageSegment" destination="dtb-DG-ven" id="TWL-2b-XqK"/>
+                        <outlet property="imageUrlSegment" destination="wfg-5g-hn7" id="kks-h3-EvM"/>
+                        <outlet property="textSegment" destination="olM-tv-ujn" id="WfR-Oa-nGz"/>
+                        <outlet property="verticalTextAndImageSegment" destination="1zU-2M-0BB" id="FcO-0n-nXI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="joT-hz-G9I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="-580"/>
+        </scene>
+        <!--Action View Controller-->
+        <scene sceneID="81o-wp-Sms">
+            <objects>
+                <viewController id="i1a-zR-yeP" customClass="ActionViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="btt-jJ-8qm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-Un-7Nt" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                <rect key="frame" x="15" y="74" width="345" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lzV-Cp-0kD"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="segmentValueChanged:" destination="i1a-zR-yeP" eventType="valueChanged" id="Wtm-k9-2Fe"/>
+                                </connections>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-C1-Woy">
+                                <rect key="frame" x="10" y="144" width="355" height="340"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDu-QR-HMI">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-86-IZC">
+                                        <rect key="frame" x="0.0" y="58" width="355" height="50"/>
+                                        <state key="normal" title="Add Item"/>
+                                        <connections>
+                                            <action selector="addItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="Xrg-SM-X0E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBL-gB-aht">
+                                        <rect key="frame" x="0.0" y="116" width="355" height="50"/>
+                                        <state key="normal" title="Remove First Item"/>
+                                        <connections>
+                                            <action selector="removeFirstItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="CB2-gt-28D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N5-PW-9Gb">
+                                        <rect key="frame" x="0.0" y="174" width="355" height="50"/>
+                                        <state key="normal" title="Remove Last Time"/>
+                                        <connections>
+                                            <action selector="removeItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="WtL-x3-z9O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVM-VE-mE1">
+                                        <rect key="frame" x="0.0" y="232" width="355" height="50"/>
+                                        <state key="normal" title="Select Last Segment Item"/>
+                                        <connections>
+                                            <action selector="selectLastItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="X5s-YR-KAT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZS-fe-v6S">
+                                        <rect key="frame" x="0.0" y="290" width="355" height="50"/>
+                                        <state key="normal" title="Deselect Segment Item"/>
+                                        <connections>
+                                            <action selector="deselectItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="egJ-an-pO2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kpy-C1-Woy" firstAttribute="top" secondItem="PRu-Un-7Nt" secondAttribute="bottom" constant="30" id="A27-1H-fJd"/>
+                            <constraint firstItem="Kpy-C1-Woy" firstAttribute="leading" secondItem="PVU-Lr-cH1" secondAttribute="leading" constant="10" id="X5f-IX-yXO"/>
+                            <constraint firstItem="PRu-Un-7Nt" firstAttribute="top" secondItem="PVU-Lr-cH1" secondAttribute="top" constant="30" id="cyR-Hr-gWE"/>
+                            <constraint firstItem="PRu-Un-7Nt" firstAttribute="leading" secondItem="PVU-Lr-cH1" secondAttribute="leading" constant="15" id="h7W-d4-jd7"/>
+                            <constraint firstItem="PVU-Lr-cH1" firstAttribute="trailing" secondItem="PRu-Un-7Nt" secondAttribute="trailing" constant="15" id="ugD-cz-XsT"/>
+                            <constraint firstItem="PVU-Lr-cH1" firstAttribute="trailing" secondItem="Kpy-C1-Woy" secondAttribute="trailing" constant="10" id="wEU-qp-Ldh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PVU-Lr-cH1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zGQ-wz-sia"/>
+                    <connections>
+                        <outlet property="segment" destination="PRu-Un-7Nt" id="YA2-qn-wTn"/>
+                        <outlet property="selectedIndexLabel" destination="GDu-QR-HMI" id="VLZ-vp-hi7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRH-IO-Ibb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="131"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sIE-Dd-TRc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a2d-ak-oDh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tqd-G0-smt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7vo-ck-Eh0" kind="relationship" relationship="rootViewController" id="DZ2-id-9eo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7P5-uu-rMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-891.304347826087" y="130.58035714285714"/>
         </scene>
     </scenes>
 </document>

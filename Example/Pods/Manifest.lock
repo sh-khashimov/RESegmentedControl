@@ -1,0 +1,16 @@
+PODS:
+  - RESegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - RESegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  RESegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RESegmentedControl: 29c8c0d7ebe91ea5f08364b826342f71bffcd56b
+
+PODFILE CHECKSUM: cf23995294595fd77bf3b84435085fdd8e637df7
+
+COCOAPODS: 1.8.4

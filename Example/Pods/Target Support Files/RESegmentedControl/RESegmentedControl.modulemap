@@ -1,0 +1,6 @@
+framework module RESegmentedControl {
+  umbrella header "RESegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

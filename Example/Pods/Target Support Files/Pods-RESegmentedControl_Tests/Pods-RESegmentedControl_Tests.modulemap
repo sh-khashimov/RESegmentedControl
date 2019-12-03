@@ -1,0 +1,6 @@
+framework module Pods_RESegmentedControl_Tests {
+  umbrella header "Pods-RESegmentedControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
