@@ -1,7 +1,7 @@
 
 # RESegmentedControl
 
-<img align="right" src="./Images/demo.mp4" width="320"/>
+<img align="right" src="./Images/demo.gif" width="320"/>
 
 [![CI Status](https://img.shields.io/travis/sh-khashimov/RESegmentedControl.svg?style=flat)](https://travis-ci.org/sh-khashimov/RESegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)

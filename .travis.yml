@@ -5,7 +5,7 @@
 osx_image: xcode11.2
 language: swift
 xcode_workspace: Example/RESegmentedControl.xcworkspace # path to your xcodeproj folder
-xcode_scheme: Pods-RESegmentedControl_Tests
+xcode_scheme: RESegmentedControl-Example
 xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 11
 
 # cache: cocoapods
