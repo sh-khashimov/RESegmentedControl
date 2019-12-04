@@ -79,7 +79,7 @@ class BasicExampleViewController: UIViewController {
 
     @IBOutlet weak var imageUrlSegment: RESegmentedControl! {
         didSet {
-            let urls: [String?] = ["https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/safari.png", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/chrome.png", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/firefox.png"]
+            let urls: [String?] = ["https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/safari.png?raw=true", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/chrome.png?raw=true", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/firefox.png?raw=true"]
 
             let segmentItems: [SegmentModel] = urls.map({ SegmentModel(imageUrl: $0) })
 
