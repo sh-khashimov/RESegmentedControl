@@ -12,10 +12,10 @@ To remove the dependency, select the project and open **Swift Packages** (which 
 
 ### CocoaPods
 
-`RESegmentedControl ` is available through [CocoaPods](http://cocoapods.org). To install
+`RESegmentedControl` is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```
+``` ruby
 pod "RESegmentedControl"
 ```
 
