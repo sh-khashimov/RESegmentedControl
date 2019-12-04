@@ -10,35 +10,35 @@
 		0530B7E01C21ACA3F7382BDB6E3B1FE0 /* Pods-RESegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DF3C70CD8ED4EC217E3E32802AA07 /* Pods-RESegmentedControl_Example-dummy.m */; };
 		1AD062414FE65AA48D872C0FE1857C67 /* Pods-RESegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD633DB8B5FF8C04B1CB22FA0617ED /* Pods-RESegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		256E9CFB5F0C14A0E901496E98E32108 /* RESegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3CEA53C37046F53BC25B7C76CD47AB /* RESegmentedControl-dummy.m */; };
-		2761BF462396C3CD0088F3EF /* RESegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF0B2396C0A30088F3EF /* RESegmentedControl.swift */; };
-		2761BF472396C3CD0088F3EF /* iOS7Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF1D2396C0A30088F3EF /* iOS7Preset.swift */; };
-		2761BF482396C3CD0088F3EF /* BootstapPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF1E2396C0A30088F3EF /* BootstapPreset.swift */; };
-		2761BF492396C3CD0088F3EF /* MaterialPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF1F2396C0A30088F3EF /* MaterialPreset.swift */; };
-		2761BF4A2396C3CD0088F3EF /* iOS13Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF202396C0A30088F3EF /* iOS13Preset.swift */; };
-		2761BF4B2396C3CD0088F3EF /* SegmentedControl+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BEFD2396C0A20088F3EF /* SegmentedControl+API.swift */; };
-		2761BF4C2396C3CD0088F3EF /* ShadowStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BEFF2396C0A20088F3EF /* ShadowStylable.swift */; };
-		2761BF4D2396C3CD0088F3EF /* SegmentStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF002396C0A20088F3EF /* SegmentStylable.swift */; };
-		2761BF4E2396C3CD0088F3EF /* SegmentItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF012396C0A20088F3EF /* SegmentItemStylable.swift */; };
-		2761BF4F2396C3CD0088F3EF /* SegmentSelectedItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF022396C0A20088F3EF /* SegmentSelectedItemStylable.swift */; };
-		2761BF502396C3CD0088F3EF /* SegmentedControlPresettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF032396C0A20088F3EF /* SegmentedControlPresettable.swift */; };
-		2761BF512396C3CD0088F3EF /* SeporatorStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF042396C0A20088F3EF /* SeporatorStylable.swift */; };
-		2761BF522396C3CD0088F3EF /* SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF062396C0A30088F3EF /* SegmentStyle.swift */; };
-		2761BF532396C3CD0088F3EF /* SeporatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF072396C0A30088F3EF /* SeporatorStyle.swift */; };
-		2761BF542396C3CD0088F3EF /* SegmentSelectedItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF082396C0A30088F3EF /* SegmentSelectedItemStyle.swift */; };
-		2761BF552396C3CD0088F3EF /* SegmentItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF092396C0A30088F3EF /* SegmentItemStyle.swift */; };
-		2761BF562396C3CD0088F3EF /* SegmentItemShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF0A2396C0A30088F3EF /* SegmentItemShadowStyle.swift */; };
-		2761BF572396C3D90088F3EF /* SegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BF0D2396C0A30088F3EF /* SegmentCollectionViewCell.xib */; };
-		2761BF582396C3D90088F3EF /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF0E2396C0A30088F3EF /* BackgroundCollectionViewCell.swift */; };
-		2761BF592396C3D90088F3EF /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF0F2396C0A30088F3EF /* SegmentCollectionViewCell.swift */; };
-		2761BF5A2396C3D90088F3EF /* BackgroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BF102396C0A30088F3EF /* BackgroundCollectionViewCell.xib */; };
-		2761BF5B2396C3D90088F3EF /* Data+HexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF162396C0A30088F3EF /* Data+HexEncodedString.swift */; };
-		2761BF5C2396C3D90088F3EF /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF172396C0A30088F3EF /* URL+Filename.swift */; };
-		2761BF5D2396C3D90088F3EF /* FileManager+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF182396C0A30088F3EF /* FileManager+Save.swift */; };
-		2761BF5E2396C3D90088F3EF /* UIView+SementItemShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF192396C0A30088F3EF /* UIView+SementItemShadow.swift */; };
-		2761BF5F2396C3D90088F3EF /* SegmentedControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF122396C0A30088F3EF /* SegmentedControlSize.swift */; };
-		2761BF602396C3D90088F3EF /* SelectedSegmentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF132396C0A30088F3EF /* SelectedSegmentSize.swift */; };
-		2761BF612396C3D90088F3EF /* SegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF142396C0A30088F3EF /* SegmentModel.swift */; };
-		2761BF622396C3D90088F3EF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF1B2396C0A30088F3EF /* ImageDownloader.swift */; };
+		2761BFC92397B3090088F3EF /* SegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */; };
+		2761BFCA2397B3090088F3EF /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */; };
+		2761BFCB2397B3090088F3EF /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */; };
+		2761BFCC2397B3090088F3EF /* BackgroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */; };
+		2761BFCE2397B3090088F3EF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA92397B3090088F3EF /* ImageDownloader.swift */; };
+		2761BFCF2397B3090088F3EF /* SegmentedControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */; };
+		2761BFD02397B3090088F3EF /* SelectedSegmentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */; };
+		2761BFD12397B3090088F3EF /* SegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAD2397B3090088F3EF /* SegmentModel.swift */; };
+		2761BFD22397B3090088F3EF /* Data+HexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */; };
+		2761BFD32397B3090088F3EF /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB02397B3090088F3EF /* URL+Filename.swift */; };
+		2761BFD42397B3090088F3EF /* FileManager+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB12397B3090088F3EF /* FileManager+Save.swift */; };
+		2761BFD52397B3090088F3EF /* UIView+SementItemShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */; };
+		2761BFD62397B3090088F3EF /* SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB42397B3090088F3EF /* SegmentStyle.swift */; };
+		2761BFD72397B3090088F3EF /* SeporatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB52397B3090088F3EF /* SeporatorStyle.swift */; };
+		2761BFD82397B3090088F3EF /* SegmentSelectedItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */; };
+		2761BFD92397B3090088F3EF /* SegmentItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */; };
+		2761BFDA2397B3090088F3EF /* SegmentItemShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */; };
+		2761BFDB2397B3090088F3EF /* RESegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB92397B3090088F3EF /* RESegmentedControl.swift */; };
+		2761BFDC2397B3090088F3EF /* iOS7Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBB2397B3090088F3EF /* iOS7Preset.swift */; };
+		2761BFDD2397B3090088F3EF /* BootstapPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBC2397B3090088F3EF /* BootstapPreset.swift */; };
+		2761BFDE2397B3090088F3EF /* MaterialPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBD2397B3090088F3EF /* MaterialPreset.swift */; };
+		2761BFDF2397B3090088F3EF /* iOS13Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBE2397B3090088F3EF /* iOS13Preset.swift */; };
+		2761BFE02397B3090088F3EF /* ShadowStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC02397B3090088F3EF /* ShadowStylable.swift */; };
+		2761BFE12397B3090088F3EF /* SegmentStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC12397B3090088F3EF /* SegmentStylable.swift */; };
+		2761BFE22397B3090088F3EF /* SegmentItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */; };
+		2761BFE32397B3090088F3EF /* SegmentSelectedItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */; };
+		2761BFE42397B3090088F3EF /* SegmentedControlPresettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */; };
+		2761BFE52397B3090088F3EF /* SeporatorStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC52397B3090088F3EF /* SeporatorStylable.swift */; };
+		2761BFE62397B3090088F3EF /* SegmentedControl+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */; };
 		349ED9E470D1F8A664F42D792810769D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		66599A363B95D2600C8E164533FE7517 /* RESegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB83A9242902A688FBF876FAE5A5EDE2 /* RESegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E030A6B5BF1AFF80EE0686720BAE79A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -71,35 +71,35 @@
 		16BC05B3E3382074D32E4D3CC12A34B2 /* Pods-RESegmentedControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Example-Info.plist"; sourceTree = "<group>"; };
 		182AC485D9C1F5B3EC811125D64BE6EA /* Pods-RESegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RESegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
 		19367A7CCECA76265EEE3197B63FFE97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2761BEFD2396C0A20088F3EF /* SegmentedControl+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SegmentedControl+API.swift"; path = "../RESegmentedControl/Classes/SegmentedControl+API.swift"; sourceTree = "<group>"; };
-		2761BEFF2396C0A20088F3EF /* ShadowStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStylable.swift; sourceTree = "<group>"; };
-		2761BF002396C0A20088F3EF /* SegmentStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStylable.swift; sourceTree = "<group>"; };
-		2761BF012396C0A20088F3EF /* SegmentItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStylable.swift; sourceTree = "<group>"; };
-		2761BF022396C0A20088F3EF /* SegmentSelectedItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStylable.swift; sourceTree = "<group>"; };
-		2761BF032396C0A20088F3EF /* SegmentedControlPresettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlPresettable.swift; sourceTree = "<group>"; };
-		2761BF042396C0A20088F3EF /* SeporatorStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStylable.swift; sourceTree = "<group>"; };
-		2761BF062396C0A30088F3EF /* SegmentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
-		2761BF072396C0A30088F3EF /* SeporatorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStyle.swift; sourceTree = "<group>"; };
-		2761BF082396C0A30088F3EF /* SegmentSelectedItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStyle.swift; sourceTree = "<group>"; };
-		2761BF092396C0A30088F3EF /* SegmentItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStyle.swift; sourceTree = "<group>"; };
-		2761BF0A2396C0A30088F3EF /* SegmentItemShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemShadowStyle.swift; sourceTree = "<group>"; };
-		2761BF0B2396C0A30088F3EF /* RESegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESegmentedControl.swift; path = ../RESegmentedControl/Classes/RESegmentedControl.swift; sourceTree = "<group>"; };
-		2761BF0D2396C0A30088F3EF /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
-		2761BF0E2396C0A30088F3EF /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
-		2761BF0F2396C0A30088F3EF /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
-		2761BF102396C0A30088F3EF /* BackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
-		2761BF122396C0A30088F3EF /* SegmentedControlSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlSize.swift; sourceTree = "<group>"; };
-		2761BF132396C0A30088F3EF /* SelectedSegmentSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedSegmentSize.swift; sourceTree = "<group>"; };
-		2761BF142396C0A30088F3EF /* SegmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentModel.swift; sourceTree = "<group>"; };
-		2761BF162396C0A30088F3EF /* Data+HexEncodedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HexEncodedString.swift"; sourceTree = "<group>"; };
-		2761BF172396C0A30088F3EF /* URL+Filename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Filename.swift"; sourceTree = "<group>"; };
-		2761BF182396C0A30088F3EF /* FileManager+Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Save.swift"; sourceTree = "<group>"; };
-		2761BF192396C0A30088F3EF /* UIView+SementItemShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SementItemShadow.swift"; sourceTree = "<group>"; };
-		2761BF1B2396C0A30088F3EF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		2761BF1D2396C0A30088F3EF /* iOS7Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS7Preset.swift; sourceTree = "<group>"; };
-		2761BF1E2396C0A30088F3EF /* BootstapPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstapPreset.swift; sourceTree = "<group>"; };
-		2761BF1F2396C0A30088F3EF /* MaterialPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
-		2761BF202396C0A30088F3EF /* iOS13Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS13Preset.swift; sourceTree = "<group>"; };
+		2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
+		2761BFA92397B3090088F3EF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlSize.swift; sourceTree = "<group>"; };
+		2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedSegmentSize.swift; sourceTree = "<group>"; };
+		2761BFAD2397B3090088F3EF /* SegmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentModel.swift; sourceTree = "<group>"; };
+		2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HexEncodedString.swift"; sourceTree = "<group>"; };
+		2761BFB02397B3090088F3EF /* URL+Filename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Filename.swift"; sourceTree = "<group>"; };
+		2761BFB12397B3090088F3EF /* FileManager+Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Save.swift"; sourceTree = "<group>"; };
+		2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SementItemShadow.swift"; sourceTree = "<group>"; };
+		2761BFB42397B3090088F3EF /* SegmentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
+		2761BFB52397B3090088F3EF /* SeporatorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStyle.swift; sourceTree = "<group>"; };
+		2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStyle.swift; sourceTree = "<group>"; };
+		2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStyle.swift; sourceTree = "<group>"; };
+		2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemShadowStyle.swift; sourceTree = "<group>"; };
+		2761BFB92397B3090088F3EF /* RESegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESegmentedControl.swift; sourceTree = "<group>"; };
+		2761BFBB2397B3090088F3EF /* iOS7Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS7Preset.swift; sourceTree = "<group>"; };
+		2761BFBC2397B3090088F3EF /* BootstapPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstapPreset.swift; sourceTree = "<group>"; };
+		2761BFBD2397B3090088F3EF /* MaterialPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
+		2761BFBE2397B3090088F3EF /* iOS13Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS13Preset.swift; sourceTree = "<group>"; };
+		2761BFC02397B3090088F3EF /* ShadowStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStylable.swift; sourceTree = "<group>"; };
+		2761BFC12397B3090088F3EF /* SegmentStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStylable.swift; sourceTree = "<group>"; };
+		2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStylable.swift; sourceTree = "<group>"; };
+		2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStylable.swift; sourceTree = "<group>"; };
+		2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlPresettable.swift; sourceTree = "<group>"; };
+		2761BFC52397B3090088F3EF /* SeporatorStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStylable.swift; sourceTree = "<group>"; };
+		2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SegmentedControl+API.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		550DF3C70CD8ED4EC217E3E32802AA07 /* Pods-RESegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RESegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
 		56550EFF1DE5DEEF073A48040D8A665D /* Pods-RESegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -155,103 +155,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2761BEFC2396C0950088F3EF /* Classes */ = {
+		2761BF9F2397B3090088F3EF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF0C2396C0A30088F3EF /* Cells */,
-				2761BF152396C0A30088F3EF /* Extensions */,
-				2761BF112396C0A30088F3EF /* Models */,
-				2761BF1A2396C0A30088F3EF /* Network */,
-				2761BF0B2396C0A30088F3EF /* RESegmentedControl.swift */,
-				2761BF1C2396C0A30088F3EF /* Presets */,
-				2761BEFD2396C0A20088F3EF /* SegmentedControl+API.swift */,
-				2761BEFE2396C0A20088F3EF /* Stylables */,
-				2761BF052396C0A30088F3EF /* Styles */,
+				2761BFA02397B3090088F3EF /* RESegmentedControl */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		2761BFA02397B3090088F3EF /* RESegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				2761BFA12397B3090088F3EF /* Classes */,
+				2761BFC72397B3090088F3EF /* Assets */,
+			);
+			path = RESegmentedControl;
+			sourceTree = "<group>";
+		};
+		2761BFA12397B3090088F3EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2761BFA22397B3090088F3EF /* Cells */,
+				2761BFA82397B3090088F3EF /* Network */,
+				2761BFAA2397B3090088F3EF /* Models */,
+				2761BFAE2397B3090088F3EF /* Extensions */,
+				2761BFB32397B3090088F3EF /* Styles */,
+				2761BFB92397B3090088F3EF /* RESegmentedControl.swift */,
+				2761BFBA2397B3090088F3EF /* Presets */,
+				2761BFBF2397B3090088F3EF /* Stylables */,
+				2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2761BEFE2396C0A20088F3EF /* Stylables */ = {
+		2761BFA22397B3090088F3EF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				2761BEFF2396C0A20088F3EF /* ShadowStylable.swift */,
-				2761BF002396C0A20088F3EF /* SegmentStylable.swift */,
-				2761BF012396C0A20088F3EF /* SegmentItemStylable.swift */,
-				2761BF022396C0A20088F3EF /* SegmentSelectedItemStylable.swift */,
-				2761BF032396C0A20088F3EF /* SegmentedControlPresettable.swift */,
-				2761BF042396C0A20088F3EF /* SeporatorStylable.swift */,
+				2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */,
+				2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */,
+				2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */,
+				2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */,
 			);
-			name = Stylables;
-			path = ../RESegmentedControl/Classes/Stylables;
+			path = Cells;
 			sourceTree = "<group>";
 		};
-		2761BF052396C0A30088F3EF /* Styles */ = {
+		2761BFA82397B3090088F3EF /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF062396C0A30088F3EF /* SegmentStyle.swift */,
-				2761BF072396C0A30088F3EF /* SeporatorStyle.swift */,
-				2761BF082396C0A30088F3EF /* SegmentSelectedItemStyle.swift */,
-				2761BF092396C0A30088F3EF /* SegmentItemStyle.swift */,
-				2761BF0A2396C0A30088F3EF /* SegmentItemShadowStyle.swift */,
+				2761BFA92397B3090088F3EF /* ImageDownloader.swift */,
 			);
-			name = Styles;
-			path = ../RESegmentedControl/Classes/Styles;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		2761BF0C2396C0A30088F3EF /* Cells */ = {
+		2761BFAA2397B3090088F3EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF0D2396C0A30088F3EF /* SegmentCollectionViewCell.xib */,
-				2761BF0E2396C0A30088F3EF /* BackgroundCollectionViewCell.swift */,
-				2761BF0F2396C0A30088F3EF /* SegmentCollectionViewCell.swift */,
-				2761BF102396C0A30088F3EF /* BackgroundCollectionViewCell.xib */,
+				2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */,
+				2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */,
+				2761BFAD2397B3090088F3EF /* SegmentModel.swift */,
 			);
-			name = Cells;
-			path = ../RESegmentedControl/Classes/Cells;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		2761BF112396C0A30088F3EF /* Models */ = {
+		2761BFAE2397B3090088F3EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF122396C0A30088F3EF /* SegmentedControlSize.swift */,
-				2761BF132396C0A30088F3EF /* SelectedSegmentSize.swift */,
-				2761BF142396C0A30088F3EF /* SegmentModel.swift */,
+				2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */,
+				2761BFB02397B3090088F3EF /* URL+Filename.swift */,
+				2761BFB12397B3090088F3EF /* FileManager+Save.swift */,
+				2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */,
 			);
-			name = Models;
-			path = ../RESegmentedControl/Classes/Models;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		2761BF152396C0A30088F3EF /* Extensions */ = {
+		2761BFB32397B3090088F3EF /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF162396C0A30088F3EF /* Data+HexEncodedString.swift */,
-				2761BF172396C0A30088F3EF /* URL+Filename.swift */,
-				2761BF182396C0A30088F3EF /* FileManager+Save.swift */,
-				2761BF192396C0A30088F3EF /* UIView+SementItemShadow.swift */,
+				2761BFB42397B3090088F3EF /* SegmentStyle.swift */,
+				2761BFB52397B3090088F3EF /* SeporatorStyle.swift */,
+				2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */,
+				2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */,
+				2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */,
 			);
-			name = Extensions;
-			path = ../RESegmentedControl/Classes/Extensions;
+			path = Styles;
 			sourceTree = "<group>";
 		};
-		2761BF1A2396C0A30088F3EF /* Network */ = {
+		2761BFBA2397B3090088F3EF /* Presets */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF1B2396C0A30088F3EF /* ImageDownloader.swift */,
+				2761BFBB2397B3090088F3EF /* iOS7Preset.swift */,
+				2761BFBC2397B3090088F3EF /* BootstapPreset.swift */,
+				2761BFBD2397B3090088F3EF /* MaterialPreset.swift */,
+				2761BFBE2397B3090088F3EF /* iOS13Preset.swift */,
 			);
-			name = Network;
-			path = ../RESegmentedControl/Classes/Network;
+			path = Presets;
 			sourceTree = "<group>";
 		};
-		2761BF1C2396C0A30088F3EF /* Presets */ = {
+		2761BFBF2397B3090088F3EF /* Stylables */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF1D2396C0A30088F3EF /* iOS7Preset.swift */,
-				2761BF1E2396C0A30088F3EF /* BootstapPreset.swift */,
-				2761BF1F2396C0A30088F3EF /* MaterialPreset.swift */,
-				2761BF202396C0A30088F3EF /* iOS13Preset.swift */,
+				2761BFC02397B3090088F3EF /* ShadowStylable.swift */,
+				2761BFC12397B3090088F3EF /* SegmentStylable.swift */,
+				2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */,
+				2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */,
+				2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */,
+				2761BFC52397B3090088F3EF /* SeporatorStylable.swift */,
 			);
-			name = Presets;
-			path = ../RESegmentedControl/Classes/Presets;
+			path = Stylables;
+			sourceTree = "<group>";
+		};
+		2761BFC72397B3090088F3EF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		87AA70D404FDACCA0737EB19B4F0BCCC /* Pods-RESegmentedControl_Example */ = {
@@ -360,6 +378,7 @@
 		EDD74A64B0081C0558BCC69C6E46178F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				2761BF9F2397B3090088F3EF /* Sources */,
 				F9D9DA0B2E12138BE5862602803D640A /* RESegmentedControl */,
 			);
 			name = "Development Pods";
@@ -368,7 +387,6 @@
 		F9D9DA0B2E12138BE5862602803D640A /* RESegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				2761BEFC2396C0950088F3EF /* Classes */,
 				B72DAAF43DFB609C987BD9C154A326A4 /* Pod */,
 				CB5580DC9F03FDDB0288625944F14B81 /* Support Files */,
 			);
@@ -508,8 +526,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2761BF5A2396C3D90088F3EF /* BackgroundCollectionViewCell.xib in Resources */,
-				2761BF572396C3D90088F3EF /* SegmentCollectionViewCell.xib in Resources */,
+				2761BFCC2397B3090088F3EF /* BackgroundCollectionViewCell.xib in Resources */,
+				2761BFC92397B3090088F3EF /* SegmentCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,34 +545,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2761BF592396C3D90088F3EF /* SegmentCollectionViewCell.swift in Sources */,
-				2761BF532396C3CD0088F3EF /* SeporatorStyle.swift in Sources */,
-				2761BF622396C3D90088F3EF /* ImageDownloader.swift in Sources */,
-				2761BF502396C3CD0088F3EF /* SegmentedControlPresettable.swift in Sources */,
-				2761BF552396C3CD0088F3EF /* SegmentItemStyle.swift in Sources */,
-				2761BF5D2396C3D90088F3EF /* FileManager+Save.swift in Sources */,
-				2761BF5E2396C3D90088F3EF /* UIView+SementItemShadow.swift in Sources */,
-				2761BF5F2396C3D90088F3EF /* SegmentedControlSize.swift in Sources */,
-				2761BF612396C3D90088F3EF /* SegmentModel.swift in Sources */,
+				2761BFE32397B3090088F3EF /* SegmentSelectedItemStylable.swift in Sources */,
+				2761BFDA2397B3090088F3EF /* SegmentItemShadowStyle.swift in Sources */,
+				2761BFCA2397B3090088F3EF /* BackgroundCollectionViewCell.swift in Sources */,
+				2761BFD62397B3090088F3EF /* SegmentStyle.swift in Sources */,
+				2761BFD22397B3090088F3EF /* Data+HexEncodedString.swift in Sources */,
+				2761BFE52397B3090088F3EF /* SeporatorStylable.swift in Sources */,
+				2761BFCF2397B3090088F3EF /* SegmentedControlSize.swift in Sources */,
+				2761BFD72397B3090088F3EF /* SeporatorStyle.swift in Sources */,
+				2761BFD52397B3090088F3EF /* UIView+SementItemShadow.swift in Sources */,
 				256E9CFB5F0C14A0E901496E98E32108 /* RESegmentedControl-dummy.m in Sources */,
-				2761BF582396C3D90088F3EF /* BackgroundCollectionViewCell.swift in Sources */,
-				2761BF4F2396C3CD0088F3EF /* SegmentSelectedItemStylable.swift in Sources */,
-				2761BF5B2396C3D90088F3EF /* Data+HexEncodedString.swift in Sources */,
-				2761BF4D2396C3CD0088F3EF /* SegmentStylable.swift in Sources */,
-				2761BF542396C3CD0088F3EF /* SegmentSelectedItemStyle.swift in Sources */,
-				2761BF472396C3CD0088F3EF /* iOS7Preset.swift in Sources */,
-				2761BF512396C3CD0088F3EF /* SeporatorStylable.swift in Sources */,
-				2761BF4A2396C3CD0088F3EF /* iOS13Preset.swift in Sources */,
-				2761BF562396C3CD0088F3EF /* SegmentItemShadowStyle.swift in Sources */,
-				2761BF492396C3CD0088F3EF /* MaterialPreset.swift in Sources */,
-				2761BF482396C3CD0088F3EF /* BootstapPreset.swift in Sources */,
-				2761BF602396C3D90088F3EF /* SelectedSegmentSize.swift in Sources */,
-				2761BF4E2396C3CD0088F3EF /* SegmentItemStylable.swift in Sources */,
-				2761BF4C2396C3CD0088F3EF /* ShadowStylable.swift in Sources */,
-				2761BF5C2396C3D90088F3EF /* URL+Filename.swift in Sources */,
-				2761BF522396C3CD0088F3EF /* SegmentStyle.swift in Sources */,
-				2761BF462396C3CD0088F3EF /* RESegmentedControl.swift in Sources */,
-				2761BF4B2396C3CD0088F3EF /* SegmentedControl+API.swift in Sources */,
+				2761BFD92397B3090088F3EF /* SegmentItemStyle.swift in Sources */,
+				2761BFD02397B3090088F3EF /* SelectedSegmentSize.swift in Sources */,
+				2761BFD32397B3090088F3EF /* URL+Filename.swift in Sources */,
+				2761BFD42397B3090088F3EF /* FileManager+Save.swift in Sources */,
+				2761BFDB2397B3090088F3EF /* RESegmentedControl.swift in Sources */,
+				2761BFDD2397B3090088F3EF /* BootstapPreset.swift in Sources */,
+				2761BFCE2397B3090088F3EF /* ImageDownloader.swift in Sources */,
+				2761BFE02397B3090088F3EF /* ShadowStylable.swift in Sources */,
+				2761BFCB2397B3090088F3EF /* SegmentCollectionViewCell.swift in Sources */,
+				2761BFE42397B3090088F3EF /* SegmentedControlPresettable.swift in Sources */,
+				2761BFD12397B3090088F3EF /* SegmentModel.swift in Sources */,
+				2761BFDE2397B3090088F3EF /* MaterialPreset.swift in Sources */,
+				2761BFDC2397B3090088F3EF /* iOS7Preset.swift in Sources */,
+				2761BFD82397B3090088F3EF /* SegmentSelectedItemStyle.swift in Sources */,
+				2761BFDF2397B3090088F3EF /* iOS13Preset.swift in Sources */,
+				2761BFE22397B3090088F3EF /* SegmentItemStylable.swift in Sources */,
+				2761BFE12397B3090088F3EF /* SegmentStylable.swift in Sources */,
+				2761BFE62397B3090088F3EF /* SegmentedControl+API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

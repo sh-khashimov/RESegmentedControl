@@ -1,6 +1,6 @@
 //
 //  BasicExampleViewController.swift
-//  podTest
+//  RESegmentedControl
 //
 //  Created by Sherzod Khashimov on 11/26/19.
 //  Copyright © 2019 Sherzod Khashimov. All rights reserved.
@@ -79,7 +79,7 @@ class BasicExampleViewController: UIViewController {
 
     @IBOutlet weak var imageUrlSegment: RESegmentedControl! {
         didSet {
-            let urls: [String?] = ["https://i.ibb.co/WV4SnWr/safari.png", "https://i.ibb.co/34K16t4/chrome.png", "https://i.ibb.co/2MgDgYD/firefox.png"]
+            let urls: [String?] = ["https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/safari.png", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/chrome.png", "https://github.com/sh-khashimov/RESegmentedControl/blob/master/Images/browsers/firefox.png"]
 
             let segmentItems: [SegmentModel] = urls.map({ SegmentModel(imageUrl: $0) })
 

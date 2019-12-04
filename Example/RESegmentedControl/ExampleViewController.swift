@@ -1,6 +1,6 @@
 //
 //  ExampleViewController.swift
-//  podTest
+//  RESegmentedControl
 //
 //  Created by Sherzod Khashimov on 11/22/19.
 //  Copyright © 2019 Sherzod Khashimov. All rights reserved.

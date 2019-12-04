@@ -1,6 +1,6 @@
 # Advanded Style Guide
 
-If the project uses a stylized **Segmented Control** in many places, there are two options for implementing your style with `SegmentedControl`. The first and easiest option is to write an extension for `BootstapPreset` and configure it for your needs.
+Since `RESegmentedControl` can be stylized only in code, there are couple of options you can consider to avoid code dublication. The easiest option is to write an extension for `BootstapPreset` and configure it for your needs.
 
 ``` Swift
 extension BootstapPreset {
@@ -22,15 +22,16 @@ segmentedControl.configure(segmentItems: items, preset: preset)
 
 ### Creating a Preset
 
-The second option requires more time and code but is a more reusable option. To implement the second method, you need to create your own preset.
+A better option is to create a **preset**, while it requires more time and code but is more reusable. 
 
-To create a Preset, inherit from the `SegmentedControlPresettable` protocol.
+To create a **preset**, create a `struct` and inherit from the `SegmentedControlPresettable` protocol.
 
 ``` Swift
 struct DarkPreset: SegmentedControlPresettable
 ```
 
-`SegmentedControlPresettable` protocol contains three main style that you need implament in your preset:
+`SegmentedControlPresettable` protocol contains three main styles that you need to implement in your **preset**:
+
 ``` Swift
 struct DarkPreset: SegmentedControlPresettable {
 
@@ -46,7 +47,7 @@ struct DarkPreset: SegmentedControlPresettable {
 }
 ```
 
-Initialize and configure style for your needs. It’s possible to use existed *Style* structs that already inherit from `Stylable` protocols.
+Initiate and configure styles for your needs. It’s possible to use existing ***styles*** structs that already inherit from `Stylable` protocols.
 
 ``` Swift
 import UIKit
@@ -82,5 +83,5 @@ let preset = DarkPreset(backgroundColor: .white, selectedBackgroundColor: .red)
 segmentedControl.configure(segmentItems: items, preset: preset)
 ```
 
-> To learn more see a full [**API Reference**](https://kean.github.io/Nuke/reference/8.0/index.html), and check out the demo project included in the repository.
+> To learn more see a full [**API Reference**](http://cocoadocs.org/docsets/RESegmentedControl/0.1.0/), and check out the demo project included in the repository.
 

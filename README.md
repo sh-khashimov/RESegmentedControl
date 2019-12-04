@@ -1,63 +1,54 @@
 
-# RESegmentedControl (In progress...)
+# RESegmentedControl
 
 [![CI Status](https://img.shields.io/travis/sh-khashimov/RESegmentedControl.svg?style=flat)](https://travis-ci.org/sh-khashimov/RESegmentedControl)
-[![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/OKSegmentedControl)
-[![License](https://img.shields.io/cocoapods/l/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/OKSegmentedControl)
-[![Platform](https://img.shields.io/cocoapods/p/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/OKSegmentedControl)
+[![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
+[![License](https://img.shields.io/cocoapods/l/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
+[![Platform](https://img.shields.io/cocoapods/p/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
 
-Customizable Segmented Control.
-
-## Features
-
-- Customizable
-- Adaptive and dynamic layout
-- Can load images from remote server
-- Layout-Driven UI
-- Natural animations
-
-# Getting Started
-
-- [**How to use**](#how-to-use)
-- [**Layout Types**](#layout-types)
-- [**Actions**](#actions)
-- [**Presets and Styles**](#presets-and-styles)
+Customizable segmented control with style presets. It can display both texts and images, vertically or horizontally. Able to download and cache images. Adaptive Layout-Driven UI. Natural and smooth animation between segments switch.
 
 
 ## How to use
 
-Here is a simple steps to use Segmented Control.
+Steps to use **RESegmentedControl**:
 
-- Specify list of string that will be shown in segmented control:
+- Import **RESegmentedControl** to your class:
+
+``` Swift
+import RESegmentedControl
+```
+
+- Specify a list of string that will be shown in `RESegmentedControl`:
 
 ``` Swift
 /// List of items
 let items = ["safari", "chrome", "firefox"]
 ```
-- Create a Segmented Control using storyboard and @IBOutlet to your ViewController:
+- Add `UIView` to Storyboard's ViewController. Change class and module to `RESegmentedControl` and @IBOutlet to your ViewController:
 
 ![storyboard](Images/storyboard.png)
 
 ``` Swift
 /// Segmented Control
-@IBOutlet weak var segmentedControl: SegmentedControl!
+@IBOutlet weak var segmentedControl: RESegmentedControl!
 ```
-Or create a Segmented Control programmatically:
+*or create a `RESegmentedControl` programmatically:*
 
 ``` Swift
-let segmentedControl = SegmentedControl(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
+let segmentedControl = RESegmentedControl(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
 self.view.addSubview(segmentedControl)
-// Add segmentedControl Layouts…
+// -TODO: Add segmentedControl Auto-Layouts…
 ```
-- Create list of segment items:
+- Map a list of string to segment items:
 
 ``` Swift
-// List of segment items
+// Segment items
 var segmentItems: [SegmentModel] {
 	return items.map({ SegmentModel(title: $0, imageName: $0) })
 }
 ```
-- Create a Preset to style the Segmented Control:
+- Create a **preset** to style the Segmented Control:
 
 ``` Swift
 // Segmented Control Styles Preset
@@ -69,30 +60,31 @@ let preset = BootstapPreset(backgroundColor: .white, selectedBackgroundColor: .b
 // Segmented Control configuration method
 segmentedControl.configure(segmentItems: segmentItems, preset: preset)
 ```
-> *Still have questions, take a look to the example project.*
+> *To learn more, take a look at the demo project.*
 
 ## Layout Types
 
-<img align="right" src="./Images/1.png" width="280"/>
+<img align="right" src="./Images/1.png" width="300"/>
 
-It’s possible to show content in three way. `Segmented Control` could be show with text only, image inly or text with image.
+`RESegmentedControl` initialize with a list of `SegmentModel`. `RESegmentedControl ` could be shown in three ways, with text only, image only or with text and image.
 
-- To show titles, initiate a `SegmentModel` with `title` variable:
+- To show segments with **text**, initiate a `SegmentModel` with `title` variable:
 
 ``` Swift
 let segmentsItem: [SegmentModel] = [SegmentModel(title: “Title”)]
 ```
-- To show images, initiate a `SegmentModel` with `imageName` variable:
+- To show **image**, initiate a `SegmentModel` with `imageName` variable:
 
 ``` Swift
 let segmentsItem: [SegmentModel] = [SegmentModel(imageName: “imageNameInAseetCatalog”)]
 ```
-or `imageUrl` variable to load image from remote server:
+initiate a `SegmentModel` with `imageUrl` variable to load **image** from remote server:
+
 ``` Swift
 let imageUrl = “https://domain.com/image.png”
 let segmentsItem: [SegmentModel] = [SegmentModel(imageUrl: imageUrl)]
 ```
-- To show titles and images, initiate a `SegmentModel` with `title` and `imageName`  or `imageUrl` variable:
+- To show **text** and **image**, initiate a `SegmentModel` with `title` and `imageName`  or `imageUrl` variable:
 
 ``` Swift
 let segmentsItem: [SegmentModel] = [SegmentModel(title: “Title”, imageName: “imageNameInAseetCatalog”)]
@@ -101,48 +93,52 @@ let segmentsItem: [SegmentModel] = [SegmentModel(title: “Title”, imageName: 
 let imageUrl = “https://domain.com/image.png”
 let segmentsItem: [SegmentModel] = [SegmentModel(title: “Title”, imageUrl: imageUrl)]
 ```
-> *For more information, see `BasicExampleViewController` in the example project.*
+> *For more information, see `BasicExampleViewController` in the demo project.*
 
-## Actions
+## API
 
-<img align="right" src="./Images/3.png" width="280"/>
-
-Here is the list of available API:
+<img align="right" src="./Images/3.png" width="300"/>
 
 - Dynamically adds item:
+
 ``` Swift
 func addItem(_ item: SegmentModel, atIndex index: Int? = nil)
 ```
 
 - Dynamically removes item:
+
 ``` Swift
 func removeItem(atIndex index: Int? = nil)
 ```
 
 - Returns segment items count:
+
 ``` Swift
 var segmentItemsCount: Int
 ```
 
 - Returns or dynamically changes selected index:
+
 ``` Swift
 var selectedSegmentIndex: Int
 ```
 
 - Deselects selected segment item:
+
 ``` Swift
 func deselect()
 ```
 
-> *For more information, see `ActionViewController` in the example project.*
+> *For more information, see `ActionViewController` in the demo project.*
 
 ## Presets and Styles
 
-<img align="right" src="./Images/2.png" width="280"/>
+<img align="right" src="./Images/2.png" width="300"/>
 
-`SegmentControl` supports a wide range of customization appearance. It is also possible to apply ready-made presets of styles or create your own preset.
+`RESegmentedControl` supports a wide range of customization appearance. It is also possible to apply ready-made presets of styles or create your own preset.
 
 Currently 4 presets are available:
+
 - iOS7Preset - Stylizes to iOS7 system style.
 
 ``` swift
@@ -165,35 +161,34 @@ struct MaterialPreset: SegmentedControlPresettable
 struct BootstapPreset: SegmentedControlPresettable
 ```
 
-> *For more information, see `PresetsViewController` in the example project.*
+> *For more information, see `PresetsViewController` in the demo project.*
 
 
 
-To learn more about how to create a preset, follow the [**Creating a Preset Guide**](/Documentation/Preset.md).
+To learn more about how to create a preset, follow the [**Creating a Preset Guide**](/Documentation/Style.md).
 
 
 ## Installation
 
-To learn more see a full [**API Reference**](https://kean.github.io/Nuke/reference/8.0/index.html), and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md). See [**Requirements**](#h_requirements) for a list of supported platforms.
-
-### Insparation
-
-- [WWDC 2018: Adding Delight to your iOS App](https://developer.apple.com/videos/play/wwdc2018/233)
-
-
+To learn more see a full [**API Reference**](http://cocoadocs.org/docsets/RESegmentedControl/0.1.0/), and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md).
 
 <a name="h_requirements"></a>
-# Requirements
+## Requirements
 
 
-| App name              | Swift             | Xcode              | Platforms                                         |
+| App version              | Swift             | Xcode              | Platforms                                         |
 |-------------------|-------------------|--------------------|---------------------------------------------------|
-| App name 0.5 - current version    | Swift 5.0 – 5.1   | Xcode 10.2 – 11    | iOS 9.0  |
+|   current version    | Swift 5.0 – 5.1   | Xcode 10.2 – 11    | iOS 9.0  |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+
+## Insparation
+
+- [WWDC 2018: Adding Delight to your iOS App](https://developer.apple.com/videos/play/wwdc2018/233)
 
 ## Author
 
@@ -201,4 +196,4 @@ Sherzod Khashimov
 
 ## License
 
-OKSegmentedControl is available under the MIT license. See the LICENSE file for more info.
+RESegmentedControl is available under the MIT license. See the LICENSE file for more info.

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RESegmentedControl'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A Customizable Segmented Control.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Customizable segmented control with style presets. It can display both texts and images, vertically or horizontally. Able to download and cache images. Adaptive Layout-Driven UI. Natural and smooth animation between segments switch.
                        DESC
 
   s.homepage         = 'https://github.com/sh-khashimov/RESegmentedControl'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_versions = "5.0"
 
-  s.source_files = 'RESegmentedControl/Classes/**/*'
+  s.source_files = 'RESegmentedControl/Sources/**/*'
   
   # s.resource_bundles = {
   #   'RESegmentedControl' => ['RESegmentedControl/Assets/*.png']
