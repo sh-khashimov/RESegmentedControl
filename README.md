@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?label=version)](https://cocoapods.org/pods/RESegmentedControl)
 ![Support](https://img.shields.io/badge/supports-SPM%2C%20CocoaPods-green.svg)
 [![Platform](https://img.shields.io/cocoapods/p/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
-<img src="docs/badge.svg?style=flat"/>
+<img src="./docs/badge.svg?style=flat&sanitize=true">
 
 RESegmentedControl is customizable segmented control with style presets. It can display both texts and images, vertically or horizontally, able to download and cache images. It has natural and smooth animation between segments selection. RESegmentedControl also Layout-Driven UI.
 
