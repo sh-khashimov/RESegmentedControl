@@ -83,5 +83,5 @@ let preset = DarkPreset(backgroundColor: .white, selectedBackgroundColor: .red)
 segmentedControl.configure(segmentItems: items, preset: preset)
 ```
 
-> To learn more see a full [**API Reference**](../docs/index.html), and check out the demo project included in the repository.
+> To learn more see a full <a href="https://sh-khashimov.github.io/RESegmentedControl/" target="_blank">**API Reference**</a>, and check out the demo project included in the repository.
 

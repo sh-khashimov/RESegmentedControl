@@ -14,8 +14,6 @@ RESegmentedControl is customizable segmented control with style presets. It can 
 
 ## How to use
 
-Steps to use **RESegmentedControl**:
-
 - Import **RESegmentedControl** to your class:
 
 ``` Swift
@@ -162,12 +160,12 @@ struct BootstapPreset: SegmentedControlPresettable
 
 
 
-To learn more about how to create a preset, follow the [**Creating a Preset Guide**](/Documentation/Style.md).
+To learn more about how to create a preset, follow the [**Advanced Style Guide**](/Documentation/Style.md).
 
 
 ## Installation
 
-To learn more see a full [**API Reference**](/docs/index.html), and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md).
+To learn more see a full <a href="https://sh-khashimov.github.io/RESegmentedControl/" target="_blank">**API Reference**</a>, and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md).
 
 <a name="h_requirements"></a>
 ## Requirements
