@@ -1,0 +1,600 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 11,
+      "symbol": "BackgroundCollectionViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 13,
+      "symbol": "BackgroundCollectionViewCell.bgView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 14,
+      "symbol": "BackgroundCollectionViewCell.seporatorView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 16,
+      "symbol": "BackgroundCollectionViewCell.seporatorViewWidthLC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 17,
+      "symbol": "BackgroundCollectionViewCell.seporatorViewLeadingLC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 18,
+      "symbol": "BackgroundCollectionViewCell.seporatorViewTopLC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 19,
+      "symbol": "BackgroundCollectionViewCell.seporatorViewBottomLC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 29,
+      "symbol": "BackgroundCollectionViewCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 34,
+      "symbol": "BackgroundCollectionViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 63,
+      "symbol": "BackgroundCollectionViewCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/BackgroundCollectionViewCell.swift",
+      "line": 64,
+      "symbol": "BackgroundCollectionViewCell.configure(style:isSeporatorVisible:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 11,
+      "symbol": "SegmentCollectionViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 13,
+      "symbol": "SegmentCollectionViewCell.stackView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 14,
+      "symbol": "SegmentCollectionViewCell.imageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 15,
+      "symbol": "SegmentCollectionViewCell.textLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 17,
+      "symbol": "SegmentCollectionViewCell.imageViewHeightLC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 51,
+      "symbol": "SegmentCollectionViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 59,
+      "symbol": "SegmentCollectionViewCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 65,
+      "symbol": "SegmentCollectionViewCell.isSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 96,
+      "symbol": "SegmentCollectionViewCell.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 113,
+      "symbol": "SegmentCollectionViewCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Cells/SegmentCollectionViewCell.swift",
+      "line": 114,
+      "symbol": "SegmentCollectionViewCell.configure(_:style:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Extensions/Data+HexEncodedString.swift",
+      "line": 13,
+      "symbol": "Data.hexEncodedString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SegmentedControlSize.swift",
+      "line": 14,
+      "symbol": "SegmentedControlSize.maxHeight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SegmentedControlSize.swift",
+      "line": 15,
+      "symbol": "SegmentedControlSize.fixed(height:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SelectedSegmentSize.swift",
+      "line": 13,
+      "symbol": "SelectedSegmentSize.max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SelectedSegmentSize.swift",
+      "line": 14,
+      "symbol": "SelectedSegmentSize.height(_:position:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SelectedSegmentSize.swift",
+      "line": 18,
+      "symbol": "SelectedSegmentSize.Position.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Models/SelectedSegmentSize.swift",
+      "line": 19,
+      "symbol": "SelectedSegmentSize.Position.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Network/ImageDownloader.swift",
+      "line": 15,
+      "symbol": "ImageDownloader.ImageError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Network/ImageDownloader.swift",
+      "line": 16,
+      "symbol": "ImageDownloader.ImageError.downloadFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/BootstapPreset.swift",
+      "line": 12,
+      "symbol": "BootstapPreset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/BootstapPreset.swift",
+      "line": 18,
+      "symbol": "BootstapPreset.init(backgroundColor:selectedBackgroundColor:textColor:tintColor:selectedTextColor:selectedTintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 12,
+      "symbol": "MaterialPreset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 18,
+      "symbol": "MaterialPreset.SegmentStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 31,
+      "symbol": "MaterialPreset.SegmentStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 34,
+      "symbol": "MaterialPreset.SegmentItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 67,
+      "symbol": "MaterialPreset.SegmentItemStyle.init(backgroundColor:tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 74,
+      "symbol": "MaterialPreset.SegmentSelectedItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 90,
+      "symbol": "MaterialPreset.SegmentSelectedItemStyle.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/MaterialPreset.swift",
+      "line": 96,
+      "symbol": "MaterialPreset.init(backgroundColor:tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 12,
+      "symbol": "iOS13Preset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 18,
+      "symbol": "iOS13Preset.SegmentStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 31,
+      "symbol": "iOS13Preset.SegmentStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 34,
+      "symbol": "iOS13Preset.SegmentItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 67,
+      "symbol": "iOS13Preset.SegmentItemStyle.SeporatorStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 75,
+      "symbol": "iOS13Preset.SegmentItemStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 78,
+      "symbol": "iOS13Preset.SegmentSelectedItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 94,
+      "symbol": "iOS13Preset.SegmentSelectedItemStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 96,
+      "symbol": "iOS13Preset.SegmentSelectedItemStyle.SegmentItemShadowStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS13Preset.swift",
+      "line": 110,
+      "symbol": "iOS13Preset.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 12,
+      "symbol": "iOS7Preset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 18,
+      "symbol": "iOS7Preset.SegmentStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 31,
+      "symbol": "iOS7Preset.SegmentStyle.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 36,
+      "symbol": "iOS7Preset.SegmentItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 69,
+      "symbol": "iOS7Preset.SegmentItemStyle.SeporatorStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 76,
+      "symbol": "iOS7Preset.SegmentItemStyle.SeporatorStyle.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 81,
+      "symbol": "iOS7Preset.SegmentItemStyle.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 88,
+      "symbol": "iOS7Preset.SegmentSelectedItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 103,
+      "symbol": "iOS7Preset.SegmentSelectedItemStyle.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Presets/iOS7Preset.swift",
+      "line": 109,
+      "symbol": "iOS7Preset.init(tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 166,
+      "symbol": "RESegmentedControl.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 171,
+      "symbol": "RESegmentedControl.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 214,
+      "symbol": "RESegmentedControl.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 307,
+      "symbol": "RESegmentedControl.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 311,
+      "symbol": "RESegmentedControl.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 342,
+      "symbol": "RESegmentedControl.collectionView(_:didSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/RESegmentedControl.swift",
+      "line": 346,
+      "symbol": "RESegmentedControl.collectionView(_:shouldSelectItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemShadowStyle.swift",
+      "line": 12,
+      "symbol": "SegmentItemShadowStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemShadowStyle.swift",
+      "line": 24,
+      "symbol": "SegmentItemShadowStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemShadowStyle.swift",
+      "line": 26,
+      "symbol": "SegmentItemShadowStyle.init(color:opacity:offset:radius:path:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemStyle.swift",
+      "line": 12,
+      "symbol": "SegmentItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemStyle.swift",
+      "line": 46,
+      "symbol": "SegmentItemStyle.init(textColor:tintColor:selectedTextColor:selectedTintColor:backgroundColor:borderWidth:borderColor:font:selectedFont:imageHeight:imageRenderMode:spacing:cornerRadius:shadow:seporator:axis:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemStyle.swift",
+      "line": 65,
+      "symbol": "SegmentItemStyle.init(backgroundColor:textColor:tintColor:selectedTextColor:selectedTintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentItemStyle.swift",
+      "line": 77,
+      "symbol": "SegmentItemStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentSelectedItemStyle.swift",
+      "line": 12,
+      "symbol": "SegmentSelectedItemStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentSelectedItemStyle.swift",
+      "line": 28,
+      "symbol": "SegmentSelectedItemStyle.init(backgoundColor:cornerRadius:borderWidth:borderColor:size:offset:shadow:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentSelectedItemStyle.swift",
+      "line": 38,
+      "symbol": "SegmentSelectedItemStyle.init(backgoundColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentSelectedItemStyle.swift",
+      "line": 42,
+      "symbol": "SegmentSelectedItemStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentStyle.swift",
+      "line": 12,
+      "symbol": "SegmentStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentStyle.swift",
+      "line": 26,
+      "symbol": "SegmentStyle.init(size:clipsToBounds:borderWidth:borderColor:cornerRadius:spacing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SegmentStyle.swift",
+      "line": 35,
+      "symbol": "SegmentStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SeporatorStyle.swift",
+      "line": 12,
+      "symbol": "SeporatorStyle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SeporatorStyle.swift",
+      "line": 20,
+      "symbol": "SeporatorStyle.init(color:width:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl/Sources/RESegmentedControl/Classes/Styles/SeporatorStyle.swift",
+      "line": 26,
+      "symbol": "SeporatorStyle.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sherzod/Documents/Xcode/!opensourced/UI/RESegmentedControl"
+}

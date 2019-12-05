@@ -4,11 +4,12 @@
 <img align="right" src="./Images/demo.gif" width="320"/>
 
 [![CI Status](https://img.shields.io/travis/sh-khashimov/RESegmentedControl.svg?style=flat)](https://travis-ci.org/sh-khashimov/RESegmentedControl)
-[![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
-[![License](https://img.shields.io/cocoapods/l/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
+[![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?label=version)](https://cocoapods.org/pods/RESegmentedControl)
+![Support](https://img.shields.io/badge/supports-SPM%2C%20CocoaPods-green.svg)
 [![Platform](https://img.shields.io/cocoapods/p/RESegmentedControl.svg?style=flat)](https://cocoapods.org/pods/RESegmentedControl)
+![Documentation](docs/badge.svg?style=flat)
 
-Customizable segmented control with style presets. It can display both texts and images, vertically or horizontally. Able to download and cache images. Adaptive Layout-Driven UI. Natural and smooth animation between segments switch.
+RESegmentedControl is customizable segmented control with style presets. It can display both texts and images, vertically or horizontally, able to download and cache images. It has natural and smooth animation between segments selection. RESegmentedControl also Layout-Driven UI.
 
 
 ## How to use
@@ -21,12 +22,6 @@ Steps to use **RESegmentedControl**:
 import RESegmentedControl
 ```
 
-- Specify a list of string that will be shown in `RESegmentedControl`:
-
-``` Swift
-/// List of items
-let items = ["safari", "chrome", "firefox"]
-```
 - Add `UIView` to Storyboard's ViewController. Change class and module to `RESegmentedControl` and @IBOutlet to your ViewController:
 
 ![storyboard](Images/storyboard.png)
@@ -35,33 +30,33 @@ let items = ["safari", "chrome", "firefox"]
 /// Segmented Control
 @IBOutlet weak var segmentedControl: RESegmentedControl!
 ```
+
 *or create a `RESegmentedControl` programmatically:*
 
 ``` Swift
 let segmentedControl = RESegmentedControl(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
 self.view.addSubview(segmentedControl)
-// -TODO: Add segmentedControl Auto-Layouts…
+// TODO: Add segmentedControl Auto-Layouts…
 ```
-- Map a list of string to segment items:
+
+- Configure your segmentedControl with items and preset:
 
 ``` Swift
-// Segment items
+// Specify a list of string that will be shown
+let titles = ["safari", "chrome", "firefox"]
+
+// Map a list of string to the [SegmentModel]
 var segmentItems: [SegmentModel] {
-	return items.map({ SegmentModel(title: $0, imageName: $0) })
+	return titles.map({ SegmentModel(title: $0) })
 }
-```
-- Create a **preset** to style the Segmented Control:
 
-``` Swift
-// Segmented Control Styles Preset
+// Create a preset to style the segmentedControl
 let preset = BootstapPreset(backgroundColor: .white, selectedBackgroundColor: .black)
-```
-- Configure your Segmented Control with items and preset: 
 
-``` Swift
-// Segmented Control configuration method
+// segmentedControl configuration method
 segmentedControl.configure(segmentItems: segmentItems, preset: preset)
 ```
+
 > *To learn more, take a look at the demo project.*
 
 ## Layout Types
@@ -172,7 +167,7 @@ To learn more about how to create a preset, follow the [**Creating a Preset Guid
 
 ## Installation
 
-To learn more see a full [**API Reference**](http://cocoadocs.org/docsets/RESegmentedControl/0.1.0/), and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md).
+To learn more see a full [**API Reference**](/docs/index.html), and check out the demo project included in the repository. When you are ready to install, follow the [**Installation Guide**](/Documentation/Installation.md).
 
 <a name="h_requirements"></a>
 ## Requirements

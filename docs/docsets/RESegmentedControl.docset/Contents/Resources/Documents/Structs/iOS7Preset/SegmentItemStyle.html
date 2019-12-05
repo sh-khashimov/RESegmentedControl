@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SegmentItemStyle Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/SegmentItemStyle" class="dashAnchor"></a>
+    <a title="SegmentItemStyle Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">RESegmentedControl Docs</a> (75% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">RESegmentedControl Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        SegmentItemStyle Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/BackgroundCollectionViewCell.html">BackgroundCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ImageDownloader.html">ImageDownloader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ImageDownloader/ImageError.html">– ImageError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/RESegmentedControl.html">RESegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/SegmentCollectionViewCell.html">SegmentCollectionViewCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/SegmentedControlSize.html">SegmentedControlSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SelectedSegmentSize.html">SelectedSegmentSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/SelectedSegmentSize/Position.html">– Position</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/SegmentItemStylable.html">SegmentItemStylable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SegmentSelectedItemStylable.html">SegmentSelectedItemStylable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SegmentStylable.html">SegmentStylable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SegmentedControlPresettable.html">SegmentedControlPresettable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SeporatorStylable.html">SeporatorStylable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ShadowStylable.html">ShadowStylable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/BootstapPreset.html">BootstapPreset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/MaterialPreset.html">MaterialPreset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/MaterialPreset/SegmentStyle.html">– SegmentStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/MaterialPreset/SegmentItemStyle.html">– SegmentItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/MaterialPreset/SegmentSelectedItemStyle.html">– SegmentSelectedItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SegmentItemShadowStyle.html">SegmentItemShadowStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SegmentItemStyle.html">SegmentItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SegmentModel.html">SegmentModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SegmentSelectedItemStyle.html">SegmentSelectedItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SegmentStyle.html">SegmentStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SeporatorStyle.html">SeporatorStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS13Preset.html">iOS13Preset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS13Preset/SegmentStyle.html">– SegmentStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS13Preset/SegmentItemStyle.html">– SegmentItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS13Preset/SegmentSelectedItemStyle.html">– SegmentSelectedItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS7Preset.html">iOS7Preset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS7Preset/SegmentStyle.html">– SegmentStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS7Preset/SegmentItemStyle.html">– SegmentItemStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/iOS7Preset/SegmentSelectedItemStyle.html">– SegmentSelectedItemStyle</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SegmentItemStyle</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">SegmentItemStyle</span> <span class="p">:</span> <span class="kt"><a href="../../Protocols/SegmentItemStylable.html">SegmentItemStylable</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP9textColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/textColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP9textColorSo7UIColorCvp">textColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">textColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP9tintColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/tintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP9tintColorSo7UIColorCvp">tintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">tintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP17selectedTextColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP17selectedTextColorSo7UIColorCvp">selectedTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedTextColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP17selectedTintColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP17selectedTintColorSo7UIColorCvp">selectedTintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedTintColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP15backgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP15backgroundColorSo7UIColorCvp">backgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP11borderWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/borderWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP11borderWidth12CoreGraphics7CGFloatVvp">borderWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">borderWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP11borderColorSo10CGColorRefaSgvp"></a>
+                    <a name="//apple_ref/swift/Property/borderColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP11borderColorSo10CGColorRefaSgvp">borderColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">borderColor</span><span class="p">:</span> <span class="kt">CGColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP4fontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/font" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP4fontSo6UIFontCvp">font</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">font</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP12selectedFontSo6UIFontCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP12selectedFontSo6UIFontCSgvp">selectedFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedFont</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP11imageHeight12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/imageHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP11imageHeight12CoreGraphics7CGFloatVvp">imageHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP15imageRenderModeSo016UIImageRenderingH0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/imageRenderMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP15imageRenderModeSo016UIImageRenderingH0Vvp">imageRenderMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageRenderMode</span><span class="p">:</span> <span class="kt">UIImage</span><span class="o">.</span><span class="kt">RenderingMode</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP7spacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/spacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP7spacing12CoreGraphics7CGFloatVvp">spacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">spacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP12cornerRadius12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/cornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP12cornerRadius12CoreGraphics7CGFloatVvp">cornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP6shadowAA06ShadowE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/shadow" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP6shadowAA06ShadowE0_pSgvp">shadow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">shadow</span><span class="p">:</span> <span class="kt"><a href="../../Protocols/ShadowStylable.html">ShadowStylable</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP9seporatorAA09SeporatorE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/seporator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP9seporatorAA09SeporatorE0_pSgvp">seporator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">seporator</span><span class="p">:</span> <span class="kt"><a href="../../Protocols/SeporatorStylable.html">SeporatorStylable</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl19SegmentItemStylableP4axisSo22UILayoutConstraintAxisVvp"></a>
+                    <a name="//apple_ref/swift/Property/axis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl19SegmentItemStylableP4axisSo22UILayoutConstraintAxisVvp">axis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">axis</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">.</span><span class="kt">Axis</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl10iOS7PresetV16SegmentItemStyleV09SeporatorG0V"></a>
+                    <a name="//apple_ref/swift/Struct/SeporatorStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl10iOS7PresetV16SegmentItemStyleV09SeporatorG0V">SeporatorStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../../Structs/iOS7Preset/SegmentItemStyle/SeporatorStyle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">SeporatorStyle</span> <span class="p">:</span> <span class="kt"><a href="../../Protocols/SeporatorStylable.html">SeporatorStylable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18RESegmentedControl10iOS7PresetV16SegmentItemStyleV9tintColorAESo7UIColorC_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(tintColor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18RESegmentedControl10iOS7PresetV16SegmentItemStyleV9tintColorAESo7UIColorC_tcfc">init(tintColor:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">tintColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/sh-khashimov/RESegmentedControl" target="_blank" rel="external">Sherzod Khashimov</a>. All rights reserved. (Last updated: 2019-12-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
