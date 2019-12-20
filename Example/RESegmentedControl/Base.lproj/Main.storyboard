@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +11,7 @@
         <!--Example View Controller-->
         <scene sceneID="Iww-wf-reH">
             <objects>
-                <viewController id="7vo-ck-Eh0" customClass="ExampleViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7vo-ck-Eh0" customClass="ExampleViewController" customModule="RESegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ULF-TL-D2a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Presets View Controller-->
         <scene sceneID="21c-ea-Zfe">
             <objects>
-                <viewController id="5HL-TK-t5N" customClass="PresetsViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5HL-TK-t5N" customClass="PresetsViewController" customModule="RESegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bBE-qF-rZF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -262,7 +262,7 @@
         <!--Basic Example View Controller-->
         <scene sceneID="Wqs-8d-Yeq">
             <objects>
-                <viewController id="tKk-6W-ts3" customClass="BasicExampleViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tKk-6W-ts3" customClass="BasicExampleViewController" customModule="RESegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="snX-ie-sMp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -403,7 +403,7 @@
         <!--Action View Controller-->
         <scene sceneID="81o-wp-Sms">
             <objects>
-                <viewController id="i1a-zR-yeP" customClass="ActionViewController" customModule="OKSegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="i1a-zR-yeP" customClass="ActionViewController" customModule="RESegmentedControl_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="btt-jJ-8qm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -465,7 +465,6 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Kpy-C1-Woy" firstAttribute="top" secondItem="PRu-Un-7Nt" secondAttribute="bottom" constant="30" id="A27-1H-fJd"/>
                             <constraint firstItem="Kpy-C1-Woy" firstAttribute="leading" secondItem="PVU-Lr-cH1" secondAttribute="leading" constant="10" id="X5f-IX-yXO"/>

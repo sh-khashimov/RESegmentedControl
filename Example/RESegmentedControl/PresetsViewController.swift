@@ -41,7 +41,13 @@ class PresetsViewController: UIViewController {
 
     @IBOutlet weak var customSimple1SegmentedControl: RESegmentedControl! {
         didSet {
-            var preset = BootstapPreset(backgroundColor: .black, selectedBackgroundColor: .darkGray, textColor: .lightGray, selectedTextColor: .white)
+            var backgroundColor: UIColor = .black
+
+            if #available(iOS 11.0, *) {
+                backgroundColor = UIColor(named: "darkBlack") ?? .black
+            }
+
+            var preset = BootstapPreset(backgroundColor: backgroundColor, selectedBackgroundColor: .darkGray, textColor: .lightGray, selectedTextColor: .white)
 
             preset.textFont = UIFont.systemFont(ofSize: 11, weight: .bold)
             preset.selectedTextFont = UIFont.systemFont(ofSize: 11, weight: .bold)
@@ -68,7 +74,14 @@ class PresetsViewController: UIViewController {
 
 
     lazy var customSimple3preset: SegmentedControlPresettable = {
-        var preset = BootstapPreset(backgroundColor: .clear, selectedBackgroundColor: .black, textColor: #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1), selectedTextColor: .white)
+
+        var selectedBackgroundColor: UIColor = .black
+
+        if #available(iOS 11.0, *) {
+            selectedBackgroundColor = UIColor(named: "darkBlack") ?? .black
+        }
+
+        var preset = BootstapPreset(backgroundColor: .clear, selectedBackgroundColor: selectedBackgroundColor, textColor: #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1), selectedTextColor: .white)
 
         preset.segmentBorderWidth = 2
         preset.segmentBorderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
@@ -88,7 +101,14 @@ class PresetsViewController: UIViewController {
 
     @IBOutlet weak var customSimple4SegmentedControl: RESegmentedControl! {
         didSet {
-            var preset = BootstapPreset(backgroundColor: .clear, selectedBackgroundColor: #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1), textColor: .black, selectedTextColor: .white)
+
+            var textColor: UIColor = .black
+
+            if #available(iOS 13.0, *) {
+                textColor = .label
+            }
+
+            var preset = BootstapPreset(backgroundColor: .clear, selectedBackgroundColor: #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1), textColor: textColor, selectedTextColor: .white)
 
             preset.segmentSpacing = 15
 

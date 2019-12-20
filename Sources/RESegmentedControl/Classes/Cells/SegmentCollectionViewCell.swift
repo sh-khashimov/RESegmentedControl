@@ -52,6 +52,7 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         self.contentView.backgroundColor = .clear
         self.backgroundColor = .clear
+        item = nil
         imageView.image = nil
         imageDownload.cancel()
     }
@@ -59,6 +60,7 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         imageView.image = nil
+        item = nil
         imageDownload.cancel()
     }
 

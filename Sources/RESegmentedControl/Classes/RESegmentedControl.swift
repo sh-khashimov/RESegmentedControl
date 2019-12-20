@@ -17,6 +17,8 @@ open class RESegmentedControl: UIControl {
         collectionViewFlow.sectionInset = .zero
         collectionViewFlow.scrollDirection = .horizontal
         collectionViewFlow.minimumInteritemSpacing = 0
+        collectionViewFlow.minimumLineSpacing = 0
+        collectionViewFlow.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         return collectionViewFlow
     }()
 
@@ -181,6 +183,7 @@ open class RESegmentedControl: UIControl {
         collectionViewBackground.addSubview(selectedBackgroundView)
         self.addSubview(collectionView)
         addLayouts()
+        updateCollectionViewSize(withItemSize: itemSize)
     }
 
     /// Adds layouts to the views.

@@ -12,6 +12,7 @@
 		2761BF432396C1310088F3EF /* BasicExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF3F2396C1310088F3EF /* BasicExampleViewController.swift */; };
 		2761BF442396C1310088F3EF /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF402396C1310088F3EF /* ExampleViewController.swift */; };
 		2761BF452396C1310088F3EF /* PresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BF412396C1310088F3EF /* PresetsViewController.swift */; };
+		27997226239BF8D60034BBA8 /* RESegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27997225239BF8D60034BBA8 /* RESegmentedControlTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		2761BF3F2396C1310088F3EF /* BasicExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicExampleViewController.swift; sourceTree = "<group>"; };
 		2761BF402396C1310088F3EF /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		2761BF412396C1310088F3EF /* PresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetsViewController.swift; sourceTree = "<group>"; };
+		27997225239BF8D60034BBA8 /* RESegmentedControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESegmentedControlTests.swift; path = ../../Tests/RESegmentedControlTests/RESegmentedControlTests.swift; sourceTree = "<group>"; };
 		462BE5DA3480404C497B03F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C558C4879B21863C182B883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RESegmentedControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESegmentedControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				27997225239BF8D60034BBA8 /* RESegmentedControlTests.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -352,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				27997226239BF8D60034BBA8 /* RESegmentedControlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
