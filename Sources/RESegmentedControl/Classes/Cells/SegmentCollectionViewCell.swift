@@ -23,23 +23,28 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
             textLabel.text = item?.title ?? ""
             textLabel.isHidden = item?.title == nil
 
-            if let imageUrl = item?.imageUrl {
-                imageDownload.downloadImage(url: imageUrl) { [weak self] (image, url, error) in
-                    guard let image = image else { return }
-                    guard imageUrl == url else { return }
-                    self?.imageView.image = image.withRenderingMode(self?.style?.imageRenderMode ?? .automatic)
-                }
-            } else {
-                if let imageName = item?.imageName {
-                    let bundle = item?.bundle ?? Bundle.main
-                    if let image = UIImage(named: imageName, in: bundle, compatibleWith: nil) {
-                        imageView.image = image.withRenderingMode(style?.imageRenderMode ?? .automatic)
-                    }
-                }
-            }
-
             imageView.isHidden = !(item?.isImageAvailable ?? false)
         }
+    }
+
+    func loadImageIfNeeded() {
+        if let imageUrl = item?.imageUrl {
+            imageDownload.downloadImage(url: imageUrl) { [weak self] (image, url, error) in
+                guard let image = image else { return }
+                guard imageUrl == url else { return }
+                self?.imageView.image = image.withRenderingMode(self?.style?.imageRenderMode ?? .automatic)
+            }
+        } else if let imageName = item?.imageName {
+            let bundle = item?.bundle ?? Bundle.main
+            if let image = UIImage(named: imageName, in: bundle, compatibleWith: nil) {
+                imageView.image = image.withRenderingMode(style?.imageRenderMode ?? .automatic)
+            }
+        }
+    }
+
+    func cancelImageDownloadIfNeeded() {
+        guard item?.imageUrl != nil else { return }
+        imageDownload.cancel()
     }
 
     private var style: SegmentItemStylable? {
@@ -54,14 +59,12 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
         self.backgroundColor = .clear
         item = nil
         imageView.image = nil
-        imageDownload.cancel()
     }
 
     override func prepareForReuse() {
         super.prepareForReuse()
         imageView.image = nil
         item = nil
-        imageDownload.cancel()
     }
 
     override var isSelected: Bool {

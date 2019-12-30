@@ -189,6 +189,10 @@ Please make sure to update tests as appropriate.
 
 Sherzod Khashimov
 
+## Changelog
+
+See [**changelog here**](/Documentation/Changelog.md)
+
 ## License
 
 RESegmentedControl is available under the MIT license. See the LICENSE file for more info.

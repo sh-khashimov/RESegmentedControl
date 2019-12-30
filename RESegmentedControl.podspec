@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RESegmentedControl'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'A Customizable Segmented Control.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/sh-khashimov/RESegmentedControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.documentation_url = 'https://sh-khashimov.github.io/RESegmentedControl'
+  s.screenshots     = 'https://raw.githubusercontent.com/sh-khashimov/RESegmentedControl/master/Images/1.png', 'https://raw.githubusercontent.com/sh-khashimov/RESegmentedControl/master/Images/2.png', 'https://raw.githubusercontent.com/sh-khashimov/RESegmentedControl/master/Images/3.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sherzod Khashimov' => 'sh.khashimov@gmail.com' }
   s.source           = { :git => 'https://github.com/sh-khashimov/RESegmentedControl.git', :tag => s.version.to_s }

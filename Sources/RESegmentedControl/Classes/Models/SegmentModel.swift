@@ -58,7 +58,7 @@ public struct SegmentModel {
             return true
         }
 
-        if let imageName = imageName, imageName != "" {
+        if imageName != "" {
             return true
         }
 

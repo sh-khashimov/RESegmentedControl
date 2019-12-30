@@ -50,7 +50,7 @@ extension RESegmentedControl {
     }
 
     /// Clears images cache, that was downloaded from a remote server
-    public func clearCache() {
+    public static func clearCache() {
         let fileManager = FileManager()
         fileManager.removeImagesDirectory()
     }

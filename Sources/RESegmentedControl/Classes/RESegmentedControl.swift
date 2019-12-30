@@ -337,6 +337,18 @@ extension RESegmentedControl: UICollectionViewDataSource {
 
         return cell ?? UICollectionViewCell()
     }
+
+    public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard collectionView == self.collectionView else { return }
+        guard let _cell = cell as? SegmentCollectionViewCell else { return }
+        _cell.loadImageIfNeeded()
+    }
+
+    public func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard collectionView == self.collectionView else { return }
+        guard let _cell = cell as? SegmentCollectionViewCell else { return }
+        _cell.cancelImageDownloadIfNeeded()
+    }
 }
 
 // - MARK: UICollectionViewDelegate
