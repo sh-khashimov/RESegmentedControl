@@ -3,6 +3,7 @@
 
 <img align="right" src="./Images/demo.gif" width="320"/>
 
+[![Swift Version](https://img.shields.io/badge/Swift-5-orange.svg)]()
 [![CI Status](https://img.shields.io/travis/sh-khashimov/RESegmentedControl.svg?style=flat)](https://travis-ci.org/sh-khashimov/RESegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?label=version)](https://cocoapods.org/pods/RESegmentedControl)
 ![Support](https://img.shields.io/badge/supports-SPM%2C%20CocoaPods-green.svg)
@@ -173,7 +174,7 @@ To learn more see a full <a href="https://sh-khashimov.github.io/RESegmentedCont
 
 | App version              | Swift             | Xcode              | Platforms                                         |
 |-------------------|-------------------|--------------------|---------------------------------------------------|
-|   current version    | Swift 5.0 – 5.1   | Xcode 10.2 – 11    | iOS 9.0  |
+|   current version    | Swift 5.0   | Xcode 11    | iOS 9.0  |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
