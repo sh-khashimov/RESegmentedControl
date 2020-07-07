@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RESegmentedControl'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A Customizable Segmented Control.'
 
 # This description is used to generate tags and improve search results.

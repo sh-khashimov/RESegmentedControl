@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### v0.3.1
+
+- Issue [#2](https://github.com/sh-khashimov/RESegmentedControl/issues/2) fix;
+
 ### v0.3.0
 - The optimized image loading process;
 - `clearCache` now global method, use: `RESegmentedControl.clearCache()`;

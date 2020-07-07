@@ -14,6 +14,7 @@ open class RESegmentedControl: UIControl {
     /// Collection view flow
     private lazy var collectionViewFlow: UICollectionViewFlowLayout = {
         let collectionViewFlow = UICollectionViewFlowLayout()
+        collectionViewFlow.itemSize = CGSize(width: CGFloat.leastNonzeroMagnitude, height: CGFloat.leastNonzeroMagnitude)
         collectionViewFlow.sectionInset = .zero
         collectionViewFlow.scrollDirection = .horizontal
         collectionViewFlow.minimumInteritemSpacing = 0
@@ -183,7 +184,6 @@ open class RESegmentedControl: UIControl {
         collectionViewBackground.addSubview(selectedBackgroundView)
         self.addSubview(collectionView)
         addLayouts()
-        updateCollectionViewSize(withItemSize: itemSize)
     }
 
     /// Adds layouts to the views.
@@ -215,6 +215,7 @@ open class RESegmentedControl: UIControl {
     }
 
     open override func layoutSubviews() {
+        
         super.layoutSubviews()
 
         let itemSize = self.itemSize
