@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "RESegmentedControl",
             dependencies: [],
-            exclude: ["Example", "Documentation", ""]),
+            exclude: ["Example", "Documentation"]),
         .testTarget(
             name: "RESegmentedControlTests",
             dependencies: ["RESegmentedControl"]),
