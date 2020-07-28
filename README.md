@@ -1,8 +1,6 @@
 
 # RESegmentedControl
 
-<img align="right" src="./Images/demo.gif" width="320"/>
-
 [![Swift Version](https://img.shields.io/badge/Swift-5-orange.svg)]()
 [![CI Status](https://img.shields.io/travis/sh-khashimov/RESegmentedControl.svg?style=flat)](https://travis-ci.org/sh-khashimov/RESegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/RESegmentedControl.svg?label=version)](https://cocoapods.org/pods/RESegmentedControl)
@@ -22,6 +20,10 @@ RESegmentedControl is customizable segmented control with style presets.
 | 🥌 | Layout-Driven UI |
 | 🚀 | Written in Swift |
 
+
+## Preview
+
+<img src="./Images/demo.gif" width="360"/>
 
 ## How to use
 
