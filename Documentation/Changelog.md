@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v4.0.1
+- Issue [#5](https://github.com/sh-khashimov/RESegmentedControl/issues/5) fix;
+
 ### v0.4.0
 - Issue [#4](https://github.com/sh-khashimov/RESegmentedControl/issues/4): `replaceItem(item :SegmentModel, atIndex: Int)` API added;
 
