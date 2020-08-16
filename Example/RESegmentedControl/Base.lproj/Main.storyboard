@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -419,7 +419,7 @@
                                 </connections>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-C1-Woy">
-                                <rect key="frame" x="10" y="144" width="355" height="340"/>
+                                <rect key="frame" x="10" y="144" width="355" height="398"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDu-QR-HMI">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
@@ -460,6 +460,13 @@
                                         <state key="normal" title="Deselect Segment Item"/>
                                         <connections>
                                             <action selector="deselectItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="egJ-an-pO2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMx-RW-fD5">
+                                        <rect key="frame" x="0.0" y="348" width="355" height="50"/>
+                                        <state key="normal" title="Replace First Item"/>
+                                        <connections>
+                                            <action selector="replaceItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="bF8-ou-SOF"/>
                                         </connections>
                                     </button>
                                 </subviews>

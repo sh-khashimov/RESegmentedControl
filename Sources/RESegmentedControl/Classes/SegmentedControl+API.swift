@@ -49,6 +49,22 @@ extension RESegmentedControl {
 
     }
 
+    /// Replace the segment item with the specified model
+    /// - Parameters:
+    ///   - item: Segment item model
+    ///   - index: Index where should be replaced
+    public func replaceItem(_ item: SegmentModel, atIndex index: Int) {
+        
+        guard self.segmentItems.count > 0 else { return }
+        guard index < segmentItems.count else { return }
+
+        self.segmentItems[index] = item
+
+        reloadItems = [IndexPath(item: index, section: 0)]
+        updateLayouts()
+        reloadItems = nil
+    }
+
     /// Clears images cache, that was downloaded from a remote server
     public static func clearCache() {
         let fileManager = FileManager()

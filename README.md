@@ -137,6 +137,12 @@ var selectedSegmentIndex: Int
 func deselect()
 ```
 
+- Replace segment item:
+
+``` Swift
+func replaceItem(_ item: SegmentModel, atIndex index: Int)
+```
+
 > *For more information, see `ActionViewController` in the demo project.*
 
 ## Presets and Styles

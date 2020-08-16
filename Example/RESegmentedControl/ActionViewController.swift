@@ -63,5 +63,8 @@ class ActionViewController: UIViewController {
         segment.deselect()
     }
 
+    @IBAction func replaceItem(_ sender: Any) {
+        segment.replaceItem(SegmentModel(title: "Replaced Item"), atIndex: 0)
+    }
 }
 

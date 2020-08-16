@@ -72,7 +72,10 @@ open class RESegmentedControl: UIControl {
     }()
 
     /// Whether or not collection views should update its frame
-    private var canCollectionViewUpdateLayout: Bool = true
+    var canCollectionViewUpdateLayout: Bool = true
+    
+    /// Used to reload specific items in collections, should be set to nil manually after updates
+    var reloadItems: [IndexPath]? = nil
 
     /// Background view that overlay selected background segment
     private lazy var selectedBackgroundView: UIView = {
@@ -256,8 +259,12 @@ open class RESegmentedControl: UIControl {
         collectionView.collectionViewLayout = collectionViewFlow
         collectionViewBackground.collectionViewLayout = collectionViewFlow
 
-        collectionView.reloadData()
-        collectionViewBackground.reloadData()
+        if let reloadOnlyItems = reloadItems {
+            collectionView.reloadItems(at: reloadOnlyItems)
+        } else {
+            collectionView.reloadData()
+            collectionViewBackground.reloadData()
+        }
     }
 
     /// Updates selected background frame
