@@ -1,5 +1,5 @@
 //
-//  SeporatorStyle.swift
+//  SeparatorStyle.swift
 //  RESegmentedControl
 //
 //  Created by Sherzod Khashimov on 11/28/19.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public struct SeporatorStyle: SeporatorStylable {
+public struct SeparatorStyle: SeparatorStylable {
     
     public var color: UIColor = .gray
 

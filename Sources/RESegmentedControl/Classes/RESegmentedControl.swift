@@ -47,7 +47,7 @@ open class RESegmentedControl: UIControl {
         return collectionView
     }()
 
-    /// Collection view that displays a list of segment's backgrounds with seporator
+    /// Collection view that displays a list of segment's backgrounds with separator
     private lazy var collectionViewBackground: UICollectionView = {
 
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: collectionViewFlow)
@@ -93,7 +93,7 @@ open class RESegmentedControl: UIControl {
             collectionViewBackground.layer.cornerRadius = preset.segmentStyle.cornerRadius
             collectionView.layer.borderColor = preset.segmentStyle.borderColor
             collectionView.layer.borderWidth = preset.segmentStyle.borderWidth
-            selectedBackgroundView.backgroundColor = preset.segmentSelectedItemStyle.backgoundColor
+            selectedBackgroundView.backgroundColor = preset.segmentSelectedItemStyle.backgroundColor
             selectedBackgroundView.layer.cornerRadius = preset.segmentSelectedItemStyle.cornerRadius
             selectedBackgroundView.layer.borderWidth = preset.segmentSelectedItemStyle.borderWidth
             selectedBackgroundView.layer.borderColor = preset.segmentSelectedItemStyle.borderColor
@@ -323,7 +323,7 @@ extension RESegmentedControl: UICollectionViewDataSource {
 
         guard collectionView == self.collectionView else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(BackgroundCollectionViewCell.self)", for: indexPath) as? BackgroundCollectionViewCell
-            cell?.configure(style: preset.segmentItemStyle, isSeporatorVisible: indexPath.row != 0)
+            cell?.configure(style: preset.segmentItemStyle, isSeparatorVisible: indexPath.row != 0)
             return cell ?? UICollectionViewCell()
         }
 

@@ -60,11 +60,11 @@ public struct iOS13Preset: SegmentedControlPresettable {
 
         var shadow: ShadowStylable? = nil
 
-        var seporator: SeporatorStylable? = SeporatorStyle()
+        var separator: SeparatorStylable? = SeparatorStyle()
 
         var axis: NSLayoutConstraint.Axis = .horizontal
 
-        struct SeporatorStyle: SeporatorStylable {
+        struct SeparatorStyle: SeparatorStylable {
             var color: UIColor = #colorLiteral(red: 0.8745098039, green: 0.8745098039, blue: 0.8784313725, alpha: 1)
 
             var width: CGFloat = 1
@@ -77,7 +77,7 @@ public struct iOS13Preset: SegmentedControlPresettable {
 
     struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
 
-        var backgoundColor: UIColor = .white
+        var backgroundColor: UIColor = .white
 
         var cornerRadius: CGFloat = 6
 

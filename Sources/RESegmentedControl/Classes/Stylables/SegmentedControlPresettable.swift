@@ -92,10 +92,10 @@ public extension SegmentedControlPresettable {
     /// A segment item background color
     var backgroundColor: UIColor {
         get {
-            return segmentSelectedItemStyle.backgoundColor
+            return segmentSelectedItemStyle.backgroundColor
         }
         set {
-            segmentSelectedItemStyle.backgoundColor = newValue
+            segmentSelectedItemStyle.backgroundColor = newValue
         }
     }
 
@@ -241,13 +241,13 @@ public extension SegmentedControlPresettable {
         }
     }
 
-    /// A segment item seporator style
-    var segmentItemSeporator: SeporatorStylable? {
+    /// A segment item separator style
+    var segmentItemSeparator: SeparatorStylable? {
         get {
-            return segmentItemStyle.seporator
+            return segmentItemStyle.separator
         }
         set {
-            segmentItemStyle.seporator = newValue
+            segmentItemStyle.separator = newValue
         }
     }
 }
@@ -258,10 +258,10 @@ public extension SegmentedControlPresettable {
     /// Selected segment item background color
     var selectedSegmentItemColor: UIColor {
         get {
-            return segmentSelectedItemStyle.backgoundColor
+            return segmentSelectedItemStyle.backgroundColor
         }
         set {
-            segmentSelectedItemStyle.backgoundColor = newValue
+            segmentSelectedItemStyle.backgroundColor = newValue
         }
     }
 

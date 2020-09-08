@@ -54,8 +54,8 @@ public protocol SegmentItemStylable {
     /// A segment item shadow style
     var shadow: ShadowStylable? { get set }
 
-    /// A segment item seporator style
-    var seporator: SeporatorStylable? { get set }
+    /// A segment item separator style
+    var separator: SeparatorStylable? { get set }
 
     /// The axis between text and image
     var axis: NSLayoutConstraint.Axis { get set }

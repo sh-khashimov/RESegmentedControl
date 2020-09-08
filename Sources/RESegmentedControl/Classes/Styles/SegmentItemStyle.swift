@@ -39,11 +39,11 @@ public struct SegmentItemStyle: SegmentItemStylable {
 
     public var shadow: ShadowStylable?
 
-    public var seporator: SeporatorStylable?
+    public var separator: SeparatorStylable?
 
     public var axis: NSLayoutConstraint.Axis = .horizontal
 
-    public init(textColor: UIColor, tintColor: UIColor, selectedTextColor: UIColor, selectedTintColor: UIColor, backgroundColor: UIColor, borderWidth: CGFloat, borderColor: CGColor?, font: UIFont, selectedFont: UIFont, imageHeight: CGFloat, imageRenderMode: UIImage.RenderingMode, spacing: CGFloat, cornerRadius: CGFloat, shadow: ShadowStylable?, seporator: SeporatorStylable?, axis: NSLayoutConstraint.Axis) {
+    public init(textColor: UIColor, tintColor: UIColor, selectedTextColor: UIColor, selectedTintColor: UIColor, backgroundColor: UIColor, borderWidth: CGFloat, borderColor: CGColor?, font: UIFont, selectedFont: UIFont, imageHeight: CGFloat, imageRenderMode: UIImage.RenderingMode, spacing: CGFloat, cornerRadius: CGFloat, shadow: ShadowStylable?, separator: SeparatorStylable?, axis: NSLayoutConstraint.Axis) {
         self.textColor = textColor
         self.tintColor = tintColor
         self.selectedTextColor = selectedTextColor
@@ -58,7 +58,7 @@ public struct SegmentItemStyle: SegmentItemStylable {
         self.spacing = spacing
         self.cornerRadius = cornerRadius
         self.shadow = shadow
-        self.seporator = seporator
+        self.separator = separator
         self.axis = axis
     }
 

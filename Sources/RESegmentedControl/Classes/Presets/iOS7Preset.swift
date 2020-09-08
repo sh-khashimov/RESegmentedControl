@@ -62,11 +62,11 @@ public struct iOS7Preset: SegmentedControlPresettable {
 
         var shadow: ShadowStylable? = nil
 
-        var seporator: SeporatorStylable? = nil
+        var separator: SeparatorStylable? = nil
 
         var axis: NSLayoutConstraint.Axis = .horizontal
 
-        struct SeporatorStyle: SeporatorStylable {
+        struct SeparatorStyle: SeparatorStylable {
             var color: UIColor = .blue
 
             var width: CGFloat = 1
@@ -81,12 +81,12 @@ public struct iOS7Preset: SegmentedControlPresettable {
         init(tintColor: UIColor) {
             self.tintColor = tintColor
             self.textColor = tintColor
-            self.seporator = SeporatorStyle(tintColor: tintColor)
+            self.separator = SeparatorStyle(tintColor: tintColor)
         }
     }
 
     struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
-        var backgoundColor: UIColor = .blue
+        var backgroundColor: UIColor = .blue
 
         var cornerRadius: CGFloat = 0
 
@@ -101,7 +101,7 @@ public struct iOS7Preset: SegmentedControlPresettable {
         var shadow: ShadowStylable? = nil
 
         init(tintColor: UIColor) {
-            self.backgoundColor = tintColor
+            self.backgroundColor = tintColor
         }
 
     }

@@ -23,7 +23,7 @@ public struct BootstapPreset: SegmentedControlPresettable {
                 selectedTintColor: UIColor = .black) {
         segmentStyle = SegmentStyle()
         segmentItemStyle = SegmentItemStyle(backgroundColor: backgroundColor, textColor: textColor, tintColor: tintColor, selectedTextColor: selectedTextColor, selectedTintColor: selectedTintColor)
-        segmentSelectedItemStyle = SegmentSelectedItemStyle(backgoundColor: selectedBackgroundColor)
+        segmentSelectedItemStyle = SegmentSelectedItemStyle(backgroundColor: selectedBackgroundColor)
     }
 
 }

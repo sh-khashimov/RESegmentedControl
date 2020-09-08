@@ -1,5 +1,5 @@
 //
-//  SeporatorStylable.swift
+//  SeparatorStylable.swift
 //  RESegmentedControl
 //
 //  Created by Sherzod Khashimov on 11/25/19.
@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-/// A seporator style
-public protocol SeporatorStylable {
+/// A separator style
+public protocol SeparatorStylable {
 
-    /// Seporator color
+    /// Separator color
     var color: UIColor { get set }
 
-    /// Seporator width
+    /// Separator width
     var width: CGFloat { get set }
 
-    /// Seporator offset
+    /// Separator offset
     var offset: CGFloat { get set }
 }

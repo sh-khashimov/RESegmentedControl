@@ -13,7 +13,7 @@ import UIKit
 public protocol SegmentSelectedItemStylable {
 
     /// Selected segment item background color
-    var backgoundColor: UIColor { get set }
+    var backgroundColor: UIColor { get set }
 
     /// Selected segment item corner radius
     var cornerRadius: CGFloat { get set }

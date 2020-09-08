@@ -11,12 +11,12 @@ import UIKit
 class BackgroundCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var bgView: UIView!
-    @IBOutlet weak var seporatorView: UIView!
+    @IBOutlet weak var separatorView: UIView!
 
-    @IBOutlet weak var seporatorViewWidthLC: NSLayoutConstraint?
-    @IBOutlet weak var seporatorViewLeadingLC: NSLayoutConstraint?
-    @IBOutlet weak var seporatorViewTopLC: NSLayoutConstraint?
-    @IBOutlet weak var seporatorViewBottomLC: NSLayoutConstraint?
+    @IBOutlet weak var separatorViewWidthLC: NSLayoutConstraint?
+    @IBOutlet weak var separatorViewLeadingLC: NSLayoutConstraint?
+    @IBOutlet weak var separatorViewTopLC: NSLayoutConstraint?
+    @IBOutlet weak var separatorViewBottomLC: NSLayoutConstraint?
 
     private var style: SegmentItemStylable? {
         didSet {
@@ -24,11 +24,11 @@ class BackgroundCollectionViewCell: UICollectionViewCell {
         }
     }
 
-    private var isSeporatorVisible: Bool = false
+    private var isSeparatorVisible: Bool = false
 
     override func prepareForReuse() {
         super.prepareForReuse()
-        seporatorView.isHidden = true
+        separatorView.isHidden = true
     }
 
     override func awakeFromNib() {
@@ -46,23 +46,23 @@ class BackgroundCollectionViewCell: UICollectionViewCell {
         self.contentView.layer.masksToBounds = true
         self.applyShadow(with: style.shadow)
 
-        if let seporatorStyle = style.seporator {
-            seporatorViewWidthLC?.constant = seporatorStyle.width
-            seporatorViewTopLC?.constant = seporatorStyle.offset
-            seporatorViewBottomLC?.constant = seporatorStyle.offset
-            seporatorViewLeadingLC?.constant = -(seporatorStyle.width / 2)
-            seporatorView.backgroundColor = seporatorStyle.color
+        if let separatorStyle = style.separator {
+            separatorViewWidthLC?.constant = separatorStyle.width
+            separatorViewTopLC?.constant = separatorStyle.offset
+            separatorViewBottomLC?.constant = separatorStyle.offset
+            separatorViewLeadingLC?.constant = -(separatorStyle.width / 2)
+            separatorView.backgroundColor = separatorStyle.color
         }
 
-        self.seporatorView.isHidden = !isSeporatorVisible || style.seporator == nil
+        self.separatorView.isHidden = !isSeparatorVisible || style.separator == nil
     }
 
 }
 
 
 extension BackgroundCollectionViewCell {
-    func configure(style: SegmentItemStylable, isSeporatorVisible: Bool) {
-        self.isSeporatorVisible = isSeporatorVisible
+    func configure(style: SegmentItemStylable, isSeparatorVisible: Bool) {
+        self.isSeparatorVisible = isSeparatorVisible
         self.style = style
     }
 }
