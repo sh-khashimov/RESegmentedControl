@@ -7,55 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0530B7E01C21ACA3F7382BDB6E3B1FE0 /* Pods-RESegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DF3C70CD8ED4EC217E3E32802AA07 /* Pods-RESegmentedControl_Example-dummy.m */; };
-		1AD062414FE65AA48D872C0FE1857C67 /* Pods-RESegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD633DB8B5FF8C04B1CB22FA0617ED /* Pods-RESegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256E9CFB5F0C14A0E901496E98E32108 /* RESegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3CEA53C37046F53BC25B7C76CD47AB /* RESegmentedControl-dummy.m */; };
-		2761BFC92397B3090088F3EF /* SegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */; };
-		2761BFCA2397B3090088F3EF /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */; };
-		2761BFCB2397B3090088F3EF /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */; };
-		2761BFCC2397B3090088F3EF /* BackgroundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */; };
-		2761BFCE2397B3090088F3EF /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFA92397B3090088F3EF /* ImageDownloader.swift */; };
-		2761BFCF2397B3090088F3EF /* SegmentedControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */; };
-		2761BFD02397B3090088F3EF /* SelectedSegmentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */; };
-		2761BFD12397B3090088F3EF /* SegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAD2397B3090088F3EF /* SegmentModel.swift */; };
-		2761BFD22397B3090088F3EF /* Data+HexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */; };
-		2761BFD32397B3090088F3EF /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB02397B3090088F3EF /* URL+Filename.swift */; };
-		2761BFD42397B3090088F3EF /* FileManager+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB12397B3090088F3EF /* FileManager+Save.swift */; };
-		2761BFD52397B3090088F3EF /* UIView+SementItemShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */; };
-		2761BFD62397B3090088F3EF /* SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB42397B3090088F3EF /* SegmentStyle.swift */; };
-		2761BFD72397B3090088F3EF /* SeporatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB52397B3090088F3EF /* SeporatorStyle.swift */; };
-		2761BFD82397B3090088F3EF /* SegmentSelectedItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */; };
-		2761BFD92397B3090088F3EF /* SegmentItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */; };
-		2761BFDA2397B3090088F3EF /* SegmentItemShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */; };
-		2761BFDB2397B3090088F3EF /* RESegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFB92397B3090088F3EF /* RESegmentedControl.swift */; };
-		2761BFDC2397B3090088F3EF /* iOS7Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBB2397B3090088F3EF /* iOS7Preset.swift */; };
-		2761BFDD2397B3090088F3EF /* BootstapPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBC2397B3090088F3EF /* BootstapPreset.swift */; };
-		2761BFDE2397B3090088F3EF /* MaterialPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBD2397B3090088F3EF /* MaterialPreset.swift */; };
-		2761BFDF2397B3090088F3EF /* iOS13Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFBE2397B3090088F3EF /* iOS13Preset.swift */; };
-		2761BFE02397B3090088F3EF /* ShadowStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC02397B3090088F3EF /* ShadowStylable.swift */; };
-		2761BFE12397B3090088F3EF /* SegmentStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC12397B3090088F3EF /* SegmentStylable.swift */; };
-		2761BFE22397B3090088F3EF /* SegmentItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */; };
-		2761BFE32397B3090088F3EF /* SegmentSelectedItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */; };
-		2761BFE42397B3090088F3EF /* SegmentedControlPresettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */; };
-		2761BFE52397B3090088F3EF /* SeporatorStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC52397B3090088F3EF /* SeporatorStylable.swift */; };
-		2761BFE62397B3090088F3EF /* SegmentedControl+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */; };
-		349ED9E470D1F8A664F42D792810769D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		66599A363B95D2600C8E164533FE7517 /* RESegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB83A9242902A688FBF876FAE5A5EDE2 /* RESegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E030A6B5BF1AFF80EE0686720BAE79A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C4894E9C550541FD29F747BD06417A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D969C0AAA7CD111B4F2771546AC0A9F9 /* Pods-RESegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B86FE884522A6A478A1FF6231182397 /* Pods-RESegmentedControl_Tests-dummy.m */; };
-		ED24CF8F74D124B0531CDC3BC660068B /* Pods-RESegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD863281BB4C78FA6FD551ED11B727 /* Pods-RESegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095F0F24E27BD333FED0CBD090467436 /* SegmentedControlPresettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91F266C1FA8900CDB058CB52CF8607 /* SegmentedControlPresettable.swift */; };
+		0998E09728C897274AA318E1916DBA0E /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4006D36137D9C1350CAC5492B01EA2 /* URL+Filename.swift */; };
+		0CFE9944F62CEDA1496E37BD777048C1 /* FileManager+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3E02E6A49AAB32D8CB3CEC798DB08E /* FileManager+Save.swift */; };
+		1F7495E79AE1948640AB8E78CEB848C8 /* SegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858DF59D90516F2DEEBED351F093A30 /* SegmentModel.swift */; };
+		20D3B3D7060AB9266E53CD3B617A2044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		270CC13C1513E924F9BB4A787F4C7408 /* SeporatorStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E78FCC288F1C97B063126DC48AD991 /* SeporatorStylable.swift */; };
+		277274A508D7828F3CE0E7B488D29DDB /* RESegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9C33F04A1C9CBB7255EAB8FDD08822 /* RESegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384BAD653A5FFEC0D6184BEDF72A5287 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B725E5242F18072455D8F7DB9F25EED /* ImageDownloader.swift */; };
+		4180ED83B7B2DA2B1F5A1BC6682A9992 /* SegmentedControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBB27424AC59D90085F25196976791 /* SegmentedControlSize.swift */; };
+		5A26CFB93E429440CB0A77ED698FFB51 /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0A00CBA4798DB356C05F399AAC9F /* SegmentCollectionViewCell.swift */; };
+		5DC0433BB63EB23C33659CECB7C55C9F /* SegmentSelectedItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B838A5D1409CA5E57541CECB1A29EF /* SegmentSelectedItemStylable.swift */; };
+		610B944E0FDCC35BF3890F5E06173F6A /* ShadowStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BFF1712FC25D38850193DACDB9576 /* ShadowStylable.swift */; };
+		7085ACAAD9D67ECC77F8FF5A124E1481 /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E16C02A8F3657EDA66A4000A9A7F3 /* Bundle+Module.swift */; };
+		718B2A7C6B65928A4EC6A31042319FA9 /* SegmentItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA64CA6213A63D7A1F3F285C39B46 /* SegmentItemStyle.swift */; };
+		79CD4CD3BA4C0CF932C592D2806442F2 /* Pods-RESegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B86FE884522A6A478A1FF6231182397 /* Pods-RESegmentedControl_Tests-dummy.m */; };
+		7A1EE00789C3D986895404D07669AA6D /* SeporatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B478F661FDC67DE3F1C567D5366A0 /* SeporatorStyle.swift */; };
+		7DDBC1D24077DDD976D3951A942599BF /* SegmentStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F169D4356083910446B12B3849E87F8 /* SegmentStylable.swift */; };
+		807ED1A8F33EC6774CD4DAD7D4298E7B /* SelectedSegmentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB788B10544340D5F944DD679B0423 /* SelectedSegmentSize.swift */; };
+		874E346BFDA1CA4DEBE4444C1B589632 /* BackgroundCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CAB82F1D2FF33716EAF526B16ADF6FA9 /* BackgroundCollectionViewCell.xib */; };
+		8868DCEEB3CDA6B8663B3E9ECAB27982 /* SegmentSelectedItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684000C2F90568588936DAF60A948D5 /* SegmentSelectedItemStyle.swift */; };
+		8E0ECA88100BFED2CA04836245D57045 /* UIView+SementItemShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47C2CDD1795C079014610BE675E71D /* UIView+SementItemShadow.swift */; };
+		93F803AB2D5C6A2DC2718FFDA5837B3D /* iOS13Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4559A51F8095BF3EFC0B50A81AE65F /* iOS13Preset.swift */; };
+		982C3EA220E1BB1EDF37C9D1100C7185 /* BootstapPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5CBF5481ADBA9F924AAB6C0D71D5D /* BootstapPreset.swift */; };
+		9DC9537969C1B8DAF31154C352E7B504 /* Pods-RESegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD633DB8B5FF8C04B1CB22FA0617ED /* Pods-RESegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4EBAA2C6334B3C2E84D1BB22D77373 /* Pods-RESegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550DF3C70CD8ED4EC217E3E32802AA07 /* Pods-RESegmentedControl_Example-dummy.m */; };
+		A6D52626C9B80B785AD3CCDF0A172C50 /* SegmentCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = FD35C21C680F375E2FDEA4CE69717BE4 /* SegmentCollectionViewCell.xib */; };
+		A976F903A05818D12EDD3A2D258CA902 /* SegmentItemStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD3C6BD9A8BBE62CCB5C6A13B5768E5 /* SegmentItemStylable.swift */; };
+		AF8E0B3286E665A77D7FCCBBB02593FE /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02796FAD20EEFD01A05658BCCD8D44C /* BackgroundCollectionViewCell.swift */; };
+		B01761B56B8562B08343A9E646B17994 /* Bundle+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48D77D6F6B6E0A00F974AB72CF406C /* Bundle+Current.swift */; };
+		B0FE18C12AFFFE1F17DB2B951037D4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B16DC675E380EC3B16F89356897F8086 /* Pods-RESegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD863281BB4C78FA6FD551ED11B727 /* Pods-RESegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40E5F40C8689A06929D4FA12DF1E90D /* RESegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C26FB30E3A8D1787ECAF614E6CBE4ADD /* RESegmentedControl-dummy.m */; };
+		C07E4FFB05C8057B06A67A4861F8984B /* SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF5F27DB58ACCA14A8E07DDA59F71B /* SegmentStyle.swift */; };
+		C1D16A5DB717F92F65981F90C9470F33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		C6A306E48045D717E453A06F636E7BC9 /* SegmentItemShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316837BF9956B24E5DBAFB5FC69E581 /* SegmentItemShadowStyle.swift */; };
+		D5D84FF4CA1B2E7ECB7BA39EE1DB7317 /* SegmentedControl+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1A0FE2294C7661D5A35C710ED17C7 /* SegmentedControl+API.swift */; };
+		DC5CB39C2E650A35FBDEC685B9BC4EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		DF4FF055BC437B10A0C1125DF4B0069A /* iOS7Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6E22F2EF24FA5CE986A4C27862060 /* iOS7Preset.swift */; };
+		EE601A0F36035C75B1A09A217338A7DA /* Data+HexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910B84FF016645E5594CE3A7119923D /* Data+HexEncodedString.swift */; };
+		F7CD4FA3183F5C4E732E5FDBAA536E15 /* MaterialPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B220B64E523915856C912B29A80BC /* MaterialPreset.swift */; };
+		FF726049119332145880DDB6BAC9C8D3 /* RESegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D9DD7F06866F5A99700018E244EFFA /* RESegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6BD8D8577A0BB8BDDB35C5D35AE5D4D0 /* PBXContainerItemProxy */ = {
+		05618B7790A7CFC960C8929090955E8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C86911914DA12B3B38B5EEFD19789941;
 			remoteInfo = "Pods-RESegmentedControl_Example";
 		};
-		87C944272FF3A7434350A79DC24192A5 /* PBXContainerItemProxy */ = {
+		C473D581DF9FC2035080DF84B5BD27E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -65,211 +68,277 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CFE462C7B4BA29BCBD11D73F585918 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS7Preset/SegmentStyle.html; sourceTree = "<group>"; };
+		00F38B423FDBF8B014B42C033EAEF440 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03713E4758FAB2BCE41C2FDC5DBB62C3 /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/MaterialPreset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		05ABE0B157D03D894F1B06E633266657 /* SegmentModel.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentModel.html; path = docs/Structs/SegmentModel.html; sourceTree = "<group>"; };
+		06D222BDE0E01B92C691784D524C3AFA /* ShadowStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ShadowStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/ShadowStylable.html; sourceTree = "<group>"; };
 		08AD863281BB4C78FA6FD551ED11B727 /* Pods-RESegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RESegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		09BBB27424AC59D90085F25196976791 /* SegmentedControlSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedControlSize.swift; sourceTree = "<group>"; };
+		0A48D77D6F6B6E0A00F974AB72CF406C /* Bundle+Current.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
 		0A925AC2B98C07C1FB83AA21E756E639 /* Pods-RESegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RESegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1661523385C9DF202E139812774A571F /* RESegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RESegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		0B430C3C3188E9DE1277441FE1A2208E /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
+		0BEB788B10544340D5F944DD679B0423 /* SelectedSegmentSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectedSegmentSize.swift; sourceTree = "<group>"; };
+		1156597B031B55EA48208164642C9C9C /* SelectedSegmentSize.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SelectedSegmentSize.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Enums/SelectedSegmentSize.html; sourceTree = "<group>"; };
+		12BDEF779FBB065EF37B758D4AD59B38 /* ImageError.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageError.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes/ImageDownloader/ImageError.html; sourceTree = "<group>"; };
+		1352D1FAA9EE9C06DF4AA3D3687CA287 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		15B838A5D1409CA5E57541CECB1A29EF /* SegmentSelectedItemStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStylable.swift; sourceTree = "<group>"; };
 		16BC05B3E3382074D32E4D3CC12A34B2 /* Pods-RESegmentedControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Example-Info.plist"; sourceTree = "<group>"; };
+		1782004E2C07EE46A033B447D3F9E33B /* Position.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Position.html; path = docs/Enums/SelectedSegmentSize/Position.html; sourceTree = "<group>"; };
 		182AC485D9C1F5B3EC811125D64BE6EA /* Pods-RESegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RESegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
-		19367A7CCECA76265EEE3197B63FFE97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
-		2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
-		2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
-		2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
-		2761BFA92397B3090088F3EF /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlSize.swift; sourceTree = "<group>"; };
-		2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedSegmentSize.swift; sourceTree = "<group>"; };
-		2761BFAD2397B3090088F3EF /* SegmentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentModel.swift; sourceTree = "<group>"; };
-		2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+HexEncodedString.swift"; sourceTree = "<group>"; };
-		2761BFB02397B3090088F3EF /* URL+Filename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Filename.swift"; sourceTree = "<group>"; };
-		2761BFB12397B3090088F3EF /* FileManager+Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Save.swift"; sourceTree = "<group>"; };
-		2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SementItemShadow.swift"; sourceTree = "<group>"; };
-		2761BFB42397B3090088F3EF /* SegmentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
-		2761BFB52397B3090088F3EF /* SeporatorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStyle.swift; sourceTree = "<group>"; };
-		2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStyle.swift; sourceTree = "<group>"; };
-		2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStyle.swift; sourceTree = "<group>"; };
-		2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemShadowStyle.swift; sourceTree = "<group>"; };
-		2761BFB92397B3090088F3EF /* RESegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESegmentedControl.swift; sourceTree = "<group>"; };
-		2761BFBB2397B3090088F3EF /* iOS7Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS7Preset.swift; sourceTree = "<group>"; };
-		2761BFBC2397B3090088F3EF /* BootstapPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstapPreset.swift; sourceTree = "<group>"; };
-		2761BFBD2397B3090088F3EF /* MaterialPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
-		2761BFBE2397B3090088F3EF /* iOS13Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS13Preset.swift; sourceTree = "<group>"; };
-		2761BFC02397B3090088F3EF /* ShadowStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStylable.swift; sourceTree = "<group>"; };
-		2761BFC12397B3090088F3EF /* SegmentStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStylable.swift; sourceTree = "<group>"; };
-		2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentItemStylable.swift; sourceTree = "<group>"; };
-		2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStylable.swift; sourceTree = "<group>"; };
-		2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlPresettable.swift; sourceTree = "<group>"; };
-		2761BFC52397B3090088F3EF /* SeporatorStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeporatorStylable.swift; sourceTree = "<group>"; };
-		2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SegmentedControl+API.swift"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19ECC75AD2F42FD9D5A05FE84B924A3A /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/Structs/iOS13Preset/SegmentStyle.html; sourceTree = "<group>"; };
+		1A803E42529D5776A7FC5352ABC043BF /* ImageDownloader.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageDownloader.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes/ImageDownloader.html; sourceTree = "<group>"; };
+		1AE4A56CFC4ACB29283E5F9C5FF7C6CB /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SegmentStyle.html; sourceTree = "<group>"; };
+		1C63BAAD3996E45CD96087E3A173D224 /* MaterialPreset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialPreset.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/MaterialPreset.html; sourceTree = "<group>"; };
+		1EBA7C128BB4E02BB01F498FB5EDEFA6 /* RESegmentedControl.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = RESegmentedControl.tgz; path = docs/docsets/RESegmentedControl.tgz; sourceTree = "<group>"; };
+		1EE66272F069B18A77EC4B675F00FBB7 /* MaterialPreset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialPreset.html; path = docs/Structs/MaterialPreset.html; sourceTree = "<group>"; };
+		1EF7B772F9039D866EE1A5AB21C080DD /* SegmentedControlSize.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentedControlSize.html; path = docs/Enums/SegmentedControlSize.html; sourceTree = "<group>"; };
+		1F47B8449AAC71234A349F91C50A2B00 /* Data.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Data.html; path = docs/Extensions/Data.html; sourceTree = "<group>"; };
+		21D4158F6C0BFB54FCAECE32BFF27834 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		25E0D60EDE448DE28BD5F8B66B63809F /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/MaterialPreset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		26CB893AD0D1BA9034631068EF5B51AF /* BootstapPreset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BootstapPreset.html; path = docs/Structs/BootstapPreset.html; sourceTree = "<group>"; };
+		28AF5F27DB58ACCA14A8E07DDA59F71B /* SegmentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
+		296BB6DD1F13D02E37AE993D717A671E /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		2A8B563B995134F1558980DD3E5F3C2B /* SeporatorStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SeporatorStylable.html; sourceTree = "<group>"; };
+		2ACC30B13122EF61DE84636B54E36E92 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		2D9054DC95DBDE1B34561EAE55ED898D /* ImageDownloader.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageDownloader.html; path = docs/Classes/ImageDownloader.html; sourceTree = "<group>"; };
+		2EEEC380EA3ED08D0E0EB6AE35A4FC84 /* SegmentItemShadowStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemShadowStyle.html; path = docs/Structs/iOS13Preset/SegmentSelectedItemStyle/SegmentItemShadowStyle.html; sourceTree = "<group>"; };
+		2F169D4356083910446B12B3849E87F8 /* SegmentStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentStylable.swift; sourceTree = "<group>"; };
+		3075729CC7474B068FA7170403B00401 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		311C0D668E1B10E7079EEF9E6C6641BF /* SeporatorStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStylable.html; path = docs/Protocols/SeporatorStylable.html; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31DFAAE9383D5A9D2AA20F62F717E658 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/Structs/MaterialPreset/SegmentStyle.html; sourceTree = "<group>"; };
+		336FF01D158E11F1045A15161937D361 /* SegmentItemStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SegmentItemStylable.html; sourceTree = "<group>"; };
+		33DC22C40CF2205269262C50BD8FFFB8 /* RESegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RESegmentedControl.modulemap; sourceTree = "<group>"; };
+		33FDF9883481866FD714255412039EE4 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		341210BB020D68A1ABE21A7252559B4F /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		35995B299C27AA09EEC6314134E6F9F9 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/MaterialPreset/SegmentStyle.html; sourceTree = "<group>"; };
+		380B478F661FDC67DE3F1C567D5366A0 /* SeporatorStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeporatorStyle.swift; sourceTree = "<group>"; };
+		382006F8DC55B3292BF0302DAEEFCDB7 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		3CD43265383A70CBB4FDF1D0D06BB1BC /* SegmentCollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentCollectionViewCell.html; path = docs/Classes/SegmentCollectionViewCell.html; sourceTree = "<group>"; };
+		4278A52AFEAC5D0DA2DAFE989481609D /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/Structs/SegmentItemStyle.html; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4515F7C362E5601C0D797FDDA16704E0 /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		45E6E22F2EF24FA5CE986A4C27862060 /* iOS7Preset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOS7Preset.swift; sourceTree = "<group>"; };
+		5050C263FDA8C5BAB2C8E769211809F0 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		52E2927204360A7FB265F57F07F167B5 /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/Structs/iOS7Preset/SegmentItemStyle/SeporatorStyle.html; sourceTree = "<group>"; };
+		5326815F6E2A419A49B59A8A892B0291 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		539081352B112AE456B2A8DC94E963C4 /* SegmentItemStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStylable.html; path = docs/Protocols/SegmentItemStylable.html; sourceTree = "<group>"; };
+		54C59565E17B92647F65C4B871B8B450 /* BackgroundCollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BackgroundCollectionViewCell.html; path = docs/Classes/BackgroundCollectionViewCell.html; sourceTree = "<group>"; };
 		550DF3C70CD8ED4EC217E3E32802AA07 /* Pods-RESegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RESegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
+		55A2832180BF091131BFB3F5FE76365F /* SegmentItemShadowStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemShadowStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SegmentItemShadowStyle.html; sourceTree = "<group>"; };
+		55F453D1809D6D7D3862F8F8E4D605BB /* SegmentedControlPresettable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentedControlPresettable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SegmentedControlPresettable.html; sourceTree = "<group>"; };
+		561B220B64E523915856C912B29A80BC /* MaterialPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialPreset.swift; sourceTree = "<group>"; };
 		56550EFF1DE5DEEF073A48040D8A665D /* Pods-RESegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		63E9677D8ED932473A4E2FBA24B5FFBF /* RESegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESegmentedControl.xcconfig; sourceTree = "<group>"; };
+		5684000C2F90568588936DAF60A948D5 /* SegmentSelectedItemStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSelectedItemStyle.swift; sourceTree = "<group>"; };
+		59164107349C4D302D986BED1CF12A16 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIView.html; path = docs/Extensions/UIView.html; sourceTree = "<group>"; };
+		5995E2F51817568BF57FCAF58B1E1577 /* iOS7Preset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = iOS7Preset.html; path = docs/Structs/iOS7Preset.html; sourceTree = "<group>"; };
+		5E39040151AEDB91CF34E6889DACDB8B /* FileManager.html */ = {isa = PBXFileReference; includeInIndex = 1; name = FileManager.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Extensions/FileManager.html; sourceTree = "<group>"; };
+		5EF9C244749E54363977A4A1E1B4E1C2 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		6007C1118CC99E13628A91538A36336C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/RESegmentedControl.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		62FBC676E29B5F2C99DA55C4EE4DDC67 /* RESegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RESegmentedControl-Info.plist"; sourceTree = "<group>"; };
 		6660A4E1922EAB6DD3F0464339AC5475 /* Pods-RESegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RESegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D7B401C92FC041A43216D46FD3AE0D4 /* RESegmentedControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RESegmentedControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		671A9F2A899130494EB978318102C225 /* URL.html */ = {isa = PBXFileReference; includeInIndex = 1; name = URL.html; path = docs/Extensions/URL.html; sourceTree = "<group>"; };
+		6A160FA4987C50494483195A2BCF0AAF /* SelectedSegmentSize.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SelectedSegmentSize.html; path = docs/Enums/SelectedSegmentSize.html; sourceTree = "<group>"; };
+		6F4ABD4433A4CC9449BE53A4FBBE4B1D /* ImageError.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageError.html; path = docs/Classes/ImageDownloader/ImageError.html; sourceTree = "<group>"; };
+		7063E2135BAEC89DA5D7ECB3809115FC /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		72D52960E24135C986329CCF89A2E29A /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS7Preset/SegmentItemStyle/SeporatorStyle.html; sourceTree = "<group>"; };
+		7452DDA914AE73339C8E2C56DF4A5B15 /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		74C02429D6928F6D795908E97FBD5E43 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		7589A310F499E1F535F6EDEB2CE034A7 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		768B40451DECE8F0F67480D76D710830 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIView.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Extensions/UIView.html; sourceTree = "<group>"; };
+		7A5CA5B0E34D8F431B7557E99D46ED23 /* iOS13Preset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = iOS13Preset.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset.html; sourceTree = "<group>"; };
+		7B725E5242F18072455D8F7DB9F25EED /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		7B78940F8238C2D175F30BCC8427AC64 /* Data.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Data.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Extensions/Data.html; sourceTree = "<group>"; };
 		7B86FE884522A6A478A1FF6231182397 /* Pods-RESegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RESegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		7CBD633DB8B5FF8C04B1CB22FA0617ED /* Pods-RESegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RESegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		8F22F0DB667FFEB2C16F85ACDFFB15C3 /* RESegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESegmentedControl-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5911D8CEBCE3598F9D255321F74F9B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		802883FE666EC5D44EECFAAE1916E029 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		81F0EB5D21DDCC4DDCFEE80A87AEFBD2 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		85C16C5A709B9339FEB8758A79F3E7D1 /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/Structs/iOS13Preset/SegmentItemStyle/SeporatorStyle.html; sourceTree = "<group>"; };
+		873E16C02A8F3657EDA66A4000A9A7F3 /* Bundle+Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Module.swift"; sourceTree = "<group>"; };
+		889D0D48FC260749C50130BC7ED23DBA /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		899154838A5F64512B8CCE3BEFE97FB0 /* SegmentItemShadowStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemShadowStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset/SegmentSelectedItemStyle/SegmentItemShadowStyle.html; sourceTree = "<group>"; };
+		8B12E6F46E96B062AF2B61AB8B18BEA9 /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		8FD3C6BD9A8BBE62CCB5C6A13B5768E5 /* SegmentItemStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentItemStylable.swift; sourceTree = "<group>"; };
+		9434C679DC40CDEF1EC8567882DFB356 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		94C95201C45BEFF0F04CAC59BF268A4B /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/Structs/MaterialPreset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		95B65BDF5A6EA975799E37E2632E500D /* RESegmentedControl.html */ = {isa = PBXFileReference; includeInIndex = 1; name = RESegmentedControl.html; path = docs/Classes/RESegmentedControl.html; sourceTree = "<group>"; };
+		964DFBE7A87A80AEF3FF1D256B1E3266 /* SegmentModel.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentModel.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SegmentModel.html; sourceTree = "<group>"; };
+		96E98363BEA2F1F3F75FBEFAF6AAC7EA /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/Structs/iOS13Preset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		96F1D308F23739929454DADF6934396F /* RESegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESegmentedControl.debug.xcconfig; sourceTree = "<group>"; };
+		973D0A00CBA4798DB356C05F399AAC9F /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		989B26A71BCE7DC5B425690ACF792773 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		9B47C2CDD1795C079014610BE675E71D /* UIView+SementItemShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+SementItemShadow.swift"; sourceTree = "<group>"; };
+		9C4006D36137D9C1350CAC5492B01EA2 /* URL+Filename.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+Filename.swift"; sourceTree = "<group>"; };
+		9C6684D8C514E0218FC0C8DC65FF2A5D /* RESegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESegmentedControl.release.xcconfig; sourceTree = "<group>"; };
+		9D6EEE9631DF72DBD2BDA64F10BFB3A7 /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/Structs/SeporatorStyle.html; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC36EA36928A1C5C8D26F93636CF828 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset/SegmentStyle.html; sourceTree = "<group>"; };
 		A897EF618E62F4EC4599770667E33D4B /* Pods-RESegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RESegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
-		AB83A9242902A688FBF876FAE5A5EDE2 /* RESegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		ABEB165017C33606C6ECDC44FD90F931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AC47F0FFBF522B1100BE7735FAB379C9 /* Pods-RESegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF3CEA53C37046F53BC25B7C76CD47AB /* RESegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		AC9C33F04A1C9CBB7255EAB8FDD08822 /* RESegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		AD1852039393F621331D1FCF355579BD /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/Structs/iOS13Preset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		AF2FEF04E580238AA9F2B3FB9089E2CC /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/Structs/iOS7Preset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
 		B07421830A8E95FB875F5CCE916BBD27 /* Pods-RESegmentedControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Tests-Info.plist"; sourceTree = "<group>"; };
-		B429E5189B1913F383CA318DF506BE75 /* RESegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RESegmentedControl.modulemap; sourceTree = "<group>"; };
-		C580FB6D1B489E308BAE8B73ED2F995B /* Pods_RESegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DB8FD12161771579D95B19E5CB9009 /* SegmentedControlPresettable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentedControlPresettable.html; path = docs/Protocols/SegmentedControlPresettable.html; sourceTree = "<group>"; };
+		B65F13B73B1DAB20874E0A05830385F4 /* SegmentSelectedItemStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStylable.html; path = docs/Protocols/SegmentSelectedItemStylable.html; sourceTree = "<group>"; };
+		B8643EC34EC098FB3AC6C594A11142C6 /* SegmentStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStylable.html; path = docs/Protocols/SegmentStylable.html; sourceTree = "<group>"; };
+		B909EE7F0C9DA9564832CABF81C8B76D /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		B910B84FF016645E5594CE3A7119923D /* Data+HexEncodedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+HexEncodedString.swift"; sourceTree = "<group>"; };
+		B9A9155F981DDC5B35C0E80D9284C54C /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
+		BA6B87E2E15B344765D8390E5B1F4A29 /* SegmentedControlSize.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentedControlSize.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Enums/SegmentedControlSize.html; sourceTree = "<group>"; };
+		BBB03855EEBA0531CED186571CB438FF /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		BBFC5D843CBC729D0EFBFE6F270FA87A /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/Structs/iOS7Preset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		BC42FE34A39C68CAC2E5BC5ACF79A03F /* RESegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		BC7312BE289973DBAC04F8224B94A6C2 /* iOS7Preset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = iOS7Preset.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS7Preset.html; sourceTree = "<group>"; };
+		BF9BFF1712FC25D38850193DACDB9576 /* ShadowStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShadowStylable.swift; sourceTree = "<group>"; };
+		BFF29E756855C44BF8F8F361F97D11C5 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/Structs/iOS7Preset/SegmentStyle.html; sourceTree = "<group>"; };
+		C1CCC86ED6FB41B0CC1C66061DFABDDE /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/Structs/MaterialPreset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		C1D9DD7F06866F5A99700018E244EFFA /* RESegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RESegmentedControl.swift; sourceTree = "<group>"; };
+		C26FB30E3A8D1787ECAF614E6CBE4ADD /* RESegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		C3AA638C43367A0195D4EA18B3E78F81 /* BootstapPreset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BootstapPreset.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/BootstapPreset.html; sourceTree = "<group>"; };
+		C4269E69A926172622559F0FE94CF328 /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS13Preset/SegmentItemStyle/SeporatorStyle.html; sourceTree = "<group>"; };
+		C520EBE3870A35FBE85CC65914997100 /* SegmentStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStyle.html; path = docs/Structs/SegmentStyle.html; sourceTree = "<group>"; };
+		C580FB6D1B489E308BAE8B73ED2F995B /* Pods_RESegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RESegmentedControl_Tests.framework; path = "Pods-RESegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C0309733EFE64378DC5FE5EB23F2B1 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		C925ECC7CA7C7C9296A8B867F46557F0 /* Pods-RESegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A21E6BFB160714EAC8A8FE37CEAFC5 /* RESegmentedControl.html */ = {isa = PBXFileReference; includeInIndex = 1; name = RESegmentedControl.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes/RESegmentedControl.html; sourceTree = "<group>"; };
+		C9D812CC91C14FCB66AB4EF046347799 /* BackgroundCollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = BackgroundCollectionViewCell.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes/BackgroundCollectionViewCell.html; sourceTree = "<group>"; };
+		CA89A869D5A7798AAB68A05CAE207FB0 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		CAB82F1D2FF33716EAF526B16ADF6FA9 /* BackgroundCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BackgroundCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB91F266C1FA8900CDB058CB52CF8607 /* SegmentedControlPresettable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedControlPresettable.swift; sourceTree = "<group>"; };
+		CBCD79625F37E09311CB88573196212B /* ShadowStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = ShadowStylable.html; path = docs/Protocols/ShadowStylable.html; sourceTree = "<group>"; };
 		CED9D6BE3918C9F6BAD6A38486456C82 /* Pods-RESegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D02796FAD20EEFD01A05658BCCD8D44C /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1F1A0FE2294C7661D5A35C710ED17C7 /* SegmentedControl+API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SegmentedControl+API.swift"; sourceTree = "<group>"; };
+		D307CD07800150BC9A8BEB95D632DF85 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		D316837BF9956B24E5DBAFB5FC69E581 /* SegmentItemShadowStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentItemShadowStyle.swift; sourceTree = "<group>"; };
+		D35CD8587A2ADC7707300BC5F0C5B921 /* FileManager.html */ = {isa = PBXFileReference; includeInIndex = 1; name = FileManager.html; path = docs/Extensions/FileManager.html; sourceTree = "<group>"; };
+		D3616D46F3AE6D069FF7C6130CBC543D /* Position.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Position.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Enums/SelectedSegmentSize/Position.html; sourceTree = "<group>"; };
+		D536432B386E33B89D2F84A9CCF47F40 /* _config.yml */ = {isa = PBXFileReference; includeInIndex = 1; name = _config.yml; path = docs/_config.yml; sourceTree = "<group>"; };
 		D62F79C212672E6E1218249349BAF3E5 /* Pods-RESegmentedControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESegmentedControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB06A21EB633413CA28EFD4AA872D200 /* Pods_RESegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D858DF59D90516F2DEEBED351F093A30 /* SegmentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentModel.swift; sourceTree = "<group>"; };
+		DB06A21EB633413CA28EFD4AA872D200 /* Pods_RESegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RESegmentedControl_Example.framework; path = "Pods-RESegmentedControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2B6CF5E74450FD83C060F3EED983A8 /* Pods-RESegmentedControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RESegmentedControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DDA6203EA3B05DBC814B1D500BC82DB8 /* SegmentSelectedItemStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SegmentSelectedItemStylable.html; sourceTree = "<group>"; };
+		E0D5853E6754FA2E90B2480D3242DA13 /* RESegmentedControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RESegmentedControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E428C7E3C7CA86D983916AF2AD74E1F0 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		E9636965B2C28E07CC5FFAC8F7EF45BD /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS7Preset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
+		E98360A8A2CB270369E8D8BD1B39C07E /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		EA7A09E48DA1B48823A31D65E689C761 /* SegmentCollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentCollectionViewCell.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Classes/SegmentCollectionViewCell.html; sourceTree = "<group>"; };
+		EB3E02E6A49AAB32D8CB3CEC798DB08E /* FileManager+Save.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+Save.swift"; sourceTree = "<group>"; };
 		EBA44B195505B8723549F423FBD34C38 /* Pods-RESegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F6177DE5A2A95C674C1E7FACCEBC4988 /* RESegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RESegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC65C872F02C918DFEAF47D52ECB246 /* SegmentItemShadowStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemShadowStyle.html; path = docs/Structs/SegmentItemShadowStyle.html; sourceTree = "<group>"; };
+		F09425EF5E301E5C0563AD40ACB83482 /* SegmentStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SegmentStylable.html; sourceTree = "<group>"; };
+		F14458DAF932B8FD1F0ECA67326E4C4C /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SegmentItemStyle.html; sourceTree = "<group>"; };
+		F1E78FCC288F1C97B063126DC48AD991 /* SeporatorStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeporatorStylable.swift; sourceTree = "<group>"; };
+		F3D9AD0F162A9BEDDB68115CC7AE3189 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		F4ECA64CA6213A63D7A1F3F285C39B46 /* SegmentItemStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentItemStyle.swift; sourceTree = "<group>"; };
+		F52D3F3895BFB5C353C13B08C7FD8478 /* SeporatorStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SeporatorStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/SeporatorStyle.html; sourceTree = "<group>"; };
+		F5D5CBF5481ADBA9F924AAB6C0D71D5D /* BootstapPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BootstapPreset.swift; sourceTree = "<group>"; };
+		F6177DE5A2A95C674C1E7FACCEBC4988 /* RESegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RESegmentedControl.framework; path = RESegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634E3D0128197A330D8553830A18905 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		F7598314825F712F9EC9C87D1C83848C /* SegmentItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/iOS7Preset/SegmentItemStyle.html; sourceTree = "<group>"; };
+		F886B6AD337D0B8464C34CDD090343CB /* iOS13Preset.html */ = {isa = PBXFileReference; includeInIndex = 1; name = iOS13Preset.html; path = docs/Structs/iOS13Preset.html; sourceTree = "<group>"; };
+		F8FFB96CBABE2C225C1E6660D55DFADB /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		FA4559A51F8095BF3EFC0B50A81AE65F /* iOS13Preset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iOS13Preset.swift; sourceTree = "<group>"; };
+		FC0C46D33CF343E5927E1609AE28A068 /* URL.html */ = {isa = PBXFileReference; includeInIndex = 1; name = URL.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Extensions/URL.html; sourceTree = "<group>"; };
+		FD35C21C680F375E2FDEA4CE69717BE4 /* SegmentCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE02D94549921CC5F672D66792680276 /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmentSelectedItemStyle.html; path = docs/Structs/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		831F4364941884B64A39BC32E7813F2F /* Frameworks */ = {
+		5A39C6CCDBF4E72C0653F07551D03790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E030A6B5BF1AFF80EE0686720BAE79A /* Foundation.framework in Frameworks */,
+				20D3B3D7060AB9266E53CD3B617A2044 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88C4BA88E9E2FF6BA6124AD34ACDB308 /* Frameworks */ = {
+		881536E746DBF6604A728F81CCA6BF98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4894E9C550541FD29F747BD06417A22 /* Foundation.framework in Frameworks */,
+				DC5CB39C2E650A35FBDEC685B9BC4EE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7BC262D052A0D613140C8AA5C37CB46 /* Frameworks */ = {
+		AC49F0E1E24D08182E1E533DCFEFD7A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349ED9E470D1F8A664F42D792810769D /* Foundation.framework in Frameworks */,
+				B0FE18C12AFFFE1F17DB2B951037D4C9 /* Foundation.framework in Frameworks */,
+				C1D16A5DB717F92F65981F90C9470F33 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2761BF9F2397B3090088F3EF /* Sources */ = {
+		069A5C90CFCF1FB0D2E2438C1D79160A /* Presets */ = {
 			isa = PBXGroup;
 			children = (
-				2761BFA02397B3090088F3EF /* RESegmentedControl */,
+				F5D5CBF5481ADBA9F924AAB6C0D71D5D /* BootstapPreset.swift */,
+				FA4559A51F8095BF3EFC0B50A81AE65F /* iOS13Preset.swift */,
+				45E6E22F2EF24FA5CE986A4C27862060 /* iOS7Preset.swift */,
+				561B220B64E523915856C912B29A80BC /* MaterialPreset.swift */,
 			);
-			name = Sources;
-			path = ../../Sources;
-			sourceTree = "<group>";
-		};
-		2761BFA02397B3090088F3EF /* RESegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFA12397B3090088F3EF /* Classes */,
-				2761BFC72397B3090088F3EF /* Assets */,
-			);
-			path = RESegmentedControl;
-			sourceTree = "<group>";
-		};
-		2761BFA12397B3090088F3EF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFA22397B3090088F3EF /* Cells */,
-				2761BFA82397B3090088F3EF /* Network */,
-				2761BFAA2397B3090088F3EF /* Models */,
-				2761BFAE2397B3090088F3EF /* Extensions */,
-				2761BFB32397B3090088F3EF /* Styles */,
-				2761BFB92397B3090088F3EF /* RESegmentedControl.swift */,
-				2761BFBA2397B3090088F3EF /* Presets */,
-				2761BFBF2397B3090088F3EF /* Stylables */,
-				2761BFC62397B3090088F3EF /* SegmentedControl+API.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		2761BFA22397B3090088F3EF /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFA32397B3090088F3EF /* SegmentCollectionViewCell.xib */,
-				2761BFA42397B3090088F3EF /* BackgroundCollectionViewCell.swift */,
-				2761BFA52397B3090088F3EF /* SegmentCollectionViewCell.swift */,
-				2761BFA62397B3090088F3EF /* BackgroundCollectionViewCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		2761BFA82397B3090088F3EF /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFA92397B3090088F3EF /* ImageDownloader.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		2761BFAA2397B3090088F3EF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFAB2397B3090088F3EF /* SegmentedControlSize.swift */,
-				2761BFAC2397B3090088F3EF /* SelectedSegmentSize.swift */,
-				2761BFAD2397B3090088F3EF /* SegmentModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		2761BFAE2397B3090088F3EF /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFAF2397B3090088F3EF /* Data+HexEncodedString.swift */,
-				2761BFB02397B3090088F3EF /* URL+Filename.swift */,
-				2761BFB12397B3090088F3EF /* FileManager+Save.swift */,
-				2761BFB22397B3090088F3EF /* UIView+SementItemShadow.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2761BFB32397B3090088F3EF /* Styles */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFB42397B3090088F3EF /* SegmentStyle.swift */,
-				2761BFB52397B3090088F3EF /* SeporatorStyle.swift */,
-				2761BFB62397B3090088F3EF /* SegmentSelectedItemStyle.swift */,
-				2761BFB72397B3090088F3EF /* SegmentItemStyle.swift */,
-				2761BFB82397B3090088F3EF /* SegmentItemShadowStyle.swift */,
-			);
-			path = Styles;
-			sourceTree = "<group>";
-		};
-		2761BFBA2397B3090088F3EF /* Presets */ = {
-			isa = PBXGroup;
-			children = (
-				2761BFBB2397B3090088F3EF /* iOS7Preset.swift */,
-				2761BFBC2397B3090088F3EF /* BootstapPreset.swift */,
-				2761BFBD2397B3090088F3EF /* MaterialPreset.swift */,
-				2761BFBE2397B3090088F3EF /* iOS13Preset.swift */,
-			);
+			name = Presets;
 			path = Presets;
 			sourceTree = "<group>";
 		};
-		2761BFBF2397B3090088F3EF /* Stylables */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2761BFC02397B3090088F3EF /* ShadowStylable.swift */,
-				2761BFC12397B3090088F3EF /* SegmentStylable.swift */,
-				2761BFC22397B3090088F3EF /* SegmentItemStylable.swift */,
-				2761BFC32397B3090088F3EF /* SegmentSelectedItemStylable.swift */,
-				2761BFC42397B3090088F3EF /* SegmentedControlPresettable.swift */,
-				2761BFC52397B3090088F3EF /* SeporatorStylable.swift */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			path = Stylables;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2761BFC72397B3090088F3EF /* Assets */ = {
+		1FEE8FBE4F7161F8A85E6DF9FC7519B7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C1D9DD7F06866F5A99700018E244EFFA /* RESegmentedControl.swift */,
+				D1F1A0FE2294C7661D5A35C710ED17C7 /* SegmentedControl+API.swift */,
+				BFDE786D559F9F39E9885336B8B4A274 /* Cells */,
+				6C16E67D5EC57AC39521083EB77FEC5D /* Extensions */,
+				C44FE5A71304FC3004F16E60055022B8 /* Models */,
+				92AB38184CE4BFCB021D78C3430B6020 /* Network */,
+				069A5C90CFCF1FB0D2E2438C1D79160A /* Presets */,
+				F9DC35B0DE309E29BDE5A9806EEBE203 /* Stylables */,
+				63C34EB22741FD9546CBF5E8A6DA342C /* Styles */,
 			);
-			path = Assets;
+			name = Classes;
+			path = Sources/RESegmentedControl/Classes;
+			sourceTree = "<group>";
+		};
+		63C34EB22741FD9546CBF5E8A6DA342C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D316837BF9956B24E5DBAFB5FC69E581 /* SegmentItemShadowStyle.swift */,
+				F4ECA64CA6213A63D7A1F3F285C39B46 /* SegmentItemStyle.swift */,
+				5684000C2F90568588936DAF60A948D5 /* SegmentSelectedItemStyle.swift */,
+				28AF5F27DB58ACCA14A8E07DDA59F71B /* SegmentStyle.swift */,
+				380B478F661FDC67DE3F1C567D5366A0 /* SeporatorStyle.swift */,
+			);
+			name = Styles;
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		6C16E67D5EC57AC39521083EB77FEC5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A48D77D6F6B6E0A00F974AB72CF406C /* Bundle+Current.swift */,
+				873E16C02A8F3657EDA66A4000A9A7F3 /* Bundle+Module.swift */,
+				B910B84FF016645E5594CE3A7119923D /* Data+HexEncodedString.swift */,
+				EB3E02E6A49AAB32D8CB3CEC798DB08E /* FileManager+Save.swift */,
+				9B47C2CDD1795C079014610BE675E71D /* UIView+SementItemShadow.swift */,
+				9C4006D36137D9C1350CAC5492B01EA2 /* URL+Filename.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		87AA70D404FDACCA0737EB19B4F0BCCC /* Pods-RESegmentedControl_Example */ = {
@@ -299,6 +368,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		92AB38184CE4BFCB021D78C3430B6020 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7B725E5242F18072455D8F7DB9F25EED /* ImageDownloader.swift */,
+			);
+			name = Network;
+			path = Network;
+			sourceTree = "<group>";
+		};
 		AA3853A54A9BCD2E4557CD26406E2A6F /* Pods-RESegmentedControl_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,14 +393,22 @@
 			path = "Target Support Files/Pods-RESegmentedControl_Tests";
 			sourceTree = "<group>";
 		};
-		B72DAAF43DFB609C987BD9C154A326A4 /* Pod */ = {
+		B848097D1F75B08ED67E91A49DA774BE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19367A7CCECA76265EEE3197B63FFE97 /* LICENSE */,
-				A5911D8CEBCE3598F9D255321F74F9B9 /* README.md */,
-				6D7B401C92FC041A43216D46FD3AE0D4 /* RESegmentedControl.podspec */,
+				FFB71B5C492B18493C2CDB1DDF4A04B5 /* RESegmentedControl */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BFDE786D559F9F39E9885336B8B4A274 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D02796FAD20EEFD01A05658BCCD8D44C /* BackgroundCollectionViewCell.swift */,
+				973D0A00CBA4798DB356C05F399AAC9F /* SegmentCollectionViewCell.swift */,
+			);
+			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C00C6F83526DCAEA96A55B79566CBCCB /* Targets Support Files */ = {
@@ -334,23 +420,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C44FE5A71304FC3004F16E60055022B8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				09BBB27424AC59D90085F25196976791 /* SegmentedControlSize.swift */,
+				D858DF59D90516F2DEEBED351F093A30 /* SegmentModel.swift */,
+				0BEB788B10544340D5F944DD679B0423 /* SelectedSegmentSize.swift */,
 			);
-			name = iOS;
+			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		CB5580DC9F03FDDB0288625944F14B81 /* Support Files */ = {
+		CC9DCFD0C19CE14B20CFBD57E20C1CD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B429E5189B1913F383CA318DF506BE75 /* RESegmentedControl.modulemap */,
-				63E9677D8ED932473A4E2FBA24B5FFBF /* RESegmentedControl.xcconfig */,
-				AF3CEA53C37046F53BC25B7C76CD47AB /* RESegmentedControl-dummy.m */,
-				1661523385C9DF202E139812774A571F /* RESegmentedControl-Info.plist */,
-				8F22F0DB667FFEB2C16F85ACDFFB15C3 /* RESegmentedControl-prefix.pch */,
-				AB83A9242902A688FBF876FAE5A5EDE2 /* RESegmentedControl-umbrella.h */,
+				33DC22C40CF2205269262C50BD8FFFB8 /* RESegmentedControl.modulemap */,
+				C26FB30E3A8D1787ECAF614E6CBE4ADD /* RESegmentedControl-dummy.m */,
+				62FBC676E29B5F2C99DA55C4EE4DDC67 /* RESegmentedControl-Info.plist */,
+				BC42FE34A39C68CAC2E5BC5ACF79A03F /* RESegmentedControl-prefix.pch */,
+				AC9C33F04A1C9CBB7255EAB8FDD08822 /* RESegmentedControl-umbrella.h */,
+				96F1D308F23739929454DADF6934396F /* RESegmentedControl.debug.xcconfig */,
+				9C6684D8C514E0218FC0C8DC65FF2A5D /* RESegmentedControl.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RESegmentedControl";
@@ -360,35 +450,177 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EDD74A64B0081C0558BCC69C6E46178F /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B848097D1F75B08ED67E91A49DA774BE /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				8C925534D80EFD9A0DC548FEB5707169 /* Products */,
 				C00C6F83526DCAEA96A55B79566CBCCB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D94A2E8FDB0B40675E52B69E17CFDD50 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				D536432B386E33B89D2F84A9CCF47F40 /* _config.yml */,
+				54C59565E17B92647F65C4B871B8B450 /* BackgroundCollectionViewCell.html */,
+				C9D812CC91C14FCB66AB4EF046347799 /* BackgroundCollectionViewCell.html */,
+				81F0EB5D21DDCC4DDCFEE80A87AEFBD2 /* badge.svg */,
+				26CB893AD0D1BA9034631068EF5B51AF /* BootstapPreset.html */,
+				C3AA638C43367A0195D4EA18B3E78F81 /* BootstapPreset.html */,
+				F8FFB96CBABE2C225C1E6660D55DFADB /* carat.png */,
+				5326815F6E2A419A49B59A8A892B0291 /* carat.png */,
+				3075729CC7474B068FA7170403B00401 /* Classes.html */,
+				7589A310F499E1F535F6EDEB2CE034A7 /* Classes.html */,
+				296BB6DD1F13D02E37AE993D717A671E /* dash.png */,
+				802883FE666EC5D44EECFAAE1916E029 /* dash.png */,
+				1F47B8449AAC71234A349F91C50A2B00 /* Data.html */,
+				7B78940F8238C2D175F30BCC8427AC64 /* Data.html */,
+				E98360A8A2CB270369E8D8BD1B39C07E /* docSet.dsidx */,
+				B909EE7F0C9DA9564832CABF81C8B76D /* Enums.html */,
+				2ACC30B13122EF61DE84636B54E36E92 /* Enums.html */,
+				7063E2135BAEC89DA5D7ECB3809115FC /* Extensions.html */,
+				E428C7E3C7CA86D983916AF2AD74E1F0 /* Extensions.html */,
+				D35CD8587A2ADC7707300BC5F0C5B921 /* FileManager.html */,
+				5E39040151AEDB91CF34E6889DACDB8B /* FileManager.html */,
+				D307CD07800150BC9A8BEB95D632DF85 /* gh.png */,
+				9434C679DC40CDEF1EC8567882DFB356 /* gh.png */,
+				382006F8DC55B3292BF0302DAEEFCDB7 /* highlight.css */,
+				C8C0309733EFE64378DC5FE5EB23F2B1 /* highlight.css */,
+				2D9054DC95DBDE1B34561EAE55ED898D /* ImageDownloader.html */,
+				1A803E42529D5776A7FC5352ABC043BF /* ImageDownloader.html */,
+				12BDEF779FBB065EF37B758D4AD59B38 /* ImageError.html */,
+				6F4ABD4433A4CC9449BE53A4FBBE4B1D /* ImageError.html */,
+				989B26A71BCE7DC5B425690ACF792773 /* index.html */,
+				F3D9AD0F162A9BEDDB68115CC7AE3189 /* index.html */,
+				6007C1118CC99E13628A91538A36336C /* Info.plist */,
+				F886B6AD337D0B8464C34CDD090343CB /* iOS13Preset.html */,
+				7A5CA5B0E34D8F431B7557E99D46ED23 /* iOS13Preset.html */,
+				5995E2F51817568BF57FCAF58B1E1577 /* iOS7Preset.html */,
+				BC7312BE289973DBAC04F8224B94A6C2 /* iOS7Preset.html */,
+				33FDF9883481866FD714255412039EE4 /* jazzy.css */,
+				CA89A869D5A7798AAB68A05CAE207FB0 /* jazzy.css */,
+				74C02429D6928F6D795908E97FBD5E43 /* jazzy.js */,
+				5EF9C244749E54363977A4A1E1B4E1C2 /* jazzy.js */,
+				341210BB020D68A1ABE21A7252559B4F /* jquery.min.js */,
+				BBB03855EEBA0531CED186571CB438FF /* jquery.min.js */,
+				ABEB165017C33606C6ECDC44FD90F931 /* LICENSE */,
+				1C63BAAD3996E45CD96087E3A173D224 /* MaterialPreset.html */,
+				1EE66272F069B18A77EC4B675F00FBB7 /* MaterialPreset.html */,
+				1782004E2C07EE46A033B447D3F9E33B /* Position.html */,
+				D3616D46F3AE6D069FF7C6130CBC543D /* Position.html */,
+				21D4158F6C0BFB54FCAECE32BFF27834 /* Protocols.html */,
+				5050C263FDA8C5BAB2C8E769211809F0 /* Protocols.html */,
+				00F38B423FDBF8B014B42C033EAEF440 /* README.md */,
+				C9A21E6BFB160714EAC8A8FE37CEAFC5 /* RESegmentedControl.html */,
+				95B65BDF5A6EA975799E37E2632E500D /* RESegmentedControl.html */,
+				E0D5853E6754FA2E90B2480D3242DA13 /* RESegmentedControl.podspec */,
+				1EBA7C128BB4E02BB01F498FB5EDEFA6 /* RESegmentedControl.tgz */,
+				889D0D48FC260749C50130BC7ED23DBA /* search.json */,
+				F634E3D0128197A330D8553830A18905 /* search.json */,
+				EA7A09E48DA1B48823A31D65E689C761 /* SegmentCollectionViewCell.html */,
+				3CD43265383A70CBB4FDF1D0D06BB1BC /* SegmentCollectionViewCell.html */,
+				55F453D1809D6D7D3862F8F8E4D605BB /* SegmentedControlPresettable.html */,
+				B0DB8FD12161771579D95B19E5CB9009 /* SegmentedControlPresettable.html */,
+				BA6B87E2E15B344765D8390E5B1F4A29 /* SegmentedControlSize.html */,
+				1EF7B772F9039D866EE1A5AB21C080DD /* SegmentedControlSize.html */,
+				899154838A5F64512B8CCE3BEFE97FB0 /* SegmentItemShadowStyle.html */,
+				EEC65C872F02C918DFEAF47D52ECB246 /* SegmentItemShadowStyle.html */,
+				2EEEC380EA3ED08D0E0EB6AE35A4FC84 /* SegmentItemShadowStyle.html */,
+				55A2832180BF091131BFB3F5FE76365F /* SegmentItemShadowStyle.html */,
+				336FF01D158E11F1045A15161937D361 /* SegmentItemStylable.html */,
+				539081352B112AE456B2A8DC94E963C4 /* SegmentItemStylable.html */,
+				C1CCC86ED6FB41B0CC1C66061DFABDDE /* SegmentItemStyle.html */,
+				F14458DAF932B8FD1F0ECA67326E4C4C /* SegmentItemStyle.html */,
+				AD1852039393F621331D1FCF355579BD /* SegmentItemStyle.html */,
+				03713E4758FAB2BCE41C2FDC5DBB62C3 /* SegmentItemStyle.html */,
+				8B12E6F46E96B062AF2B61AB8B18BEA9 /* SegmentItemStyle.html */,
+				BBFC5D843CBC729D0EFBFE6F270FA87A /* SegmentItemStyle.html */,
+				F7598314825F712F9EC9C87D1C83848C /* SegmentItemStyle.html */,
+				4278A52AFEAC5D0DA2DAFE989481609D /* SegmentItemStyle.html */,
+				05ABE0B157D03D894F1B06E633266657 /* SegmentModel.html */,
+				964DFBE7A87A80AEF3FF1D256B1E3266 /* SegmentModel.html */,
+				DDA6203EA3B05DBC814B1D500BC82DB8 /* SegmentSelectedItemStylable.html */,
+				B65F13B73B1DAB20874E0A05830385F4 /* SegmentSelectedItemStylable.html */,
+				FE02D94549921CC5F672D66792680276 /* SegmentSelectedItemStyle.html */,
+				AF2FEF04E580238AA9F2B3FB9089E2CC /* SegmentSelectedItemStyle.html */,
+				25E0D60EDE448DE28BD5F8B66B63809F /* SegmentSelectedItemStyle.html */,
+				7452DDA914AE73339C8E2C56DF4A5B15 /* SegmentSelectedItemStyle.html */,
+				94C95201C45BEFF0F04CAC59BF268A4B /* SegmentSelectedItemStyle.html */,
+				4515F7C362E5601C0D797FDDA16704E0 /* SegmentSelectedItemStyle.html */,
+				E9636965B2C28E07CC5FFAC8F7EF45BD /* SegmentSelectedItemStyle.html */,
+				96E98363BEA2F1F3F75FBEFAF6AAC7EA /* SegmentSelectedItemStyle.html */,
+				F09425EF5E301E5C0563AD40ACB83482 /* SegmentStylable.html */,
+				B8643EC34EC098FB3AC6C594A11142C6 /* SegmentStylable.html */,
+				19ECC75AD2F42FD9D5A05FE84B924A3A /* SegmentStyle.html */,
+				BFF29E756855C44BF8F8F361F97D11C5 /* SegmentStyle.html */,
+				31DFAAE9383D5A9D2AA20F62F717E658 /* SegmentStyle.html */,
+				9EC36EA36928A1C5C8D26F93636CF828 /* SegmentStyle.html */,
+				C520EBE3870A35FBE85CC65914997100 /* SegmentStyle.html */,
+				35995B299C27AA09EEC6314134E6F9F9 /* SegmentStyle.html */,
+				00CFE462C7B4BA29BCBD11D73F585918 /* SegmentStyle.html */,
+				1AE4A56CFC4ACB29283E5F9C5FF7C6CB /* SegmentStyle.html */,
+				1156597B031B55EA48208164642C9C9C /* SelectedSegmentSize.html */,
+				6A160FA4987C50494483195A2BCF0AAF /* SelectedSegmentSize.html */,
+				2A8B563B995134F1558980DD3E5F3C2B /* SeporatorStylable.html */,
+				311C0D668E1B10E7079EEF9E6C6641BF /* SeporatorStylable.html */,
+				85C16C5A709B9339FEB8758A79F3E7D1 /* SeporatorStyle.html */,
+				72D52960E24135C986329CCF89A2E29A /* SeporatorStyle.html */,
+				52E2927204360A7FB265F57F07F167B5 /* SeporatorStyle.html */,
+				C4269E69A926172622559F0FE94CF328 /* SeporatorStyle.html */,
+				F52D3F3895BFB5C353C13B08C7FD8478 /* SeporatorStyle.html */,
+				9D6EEE9631DF72DBD2BDA64F10BFB3A7 /* SeporatorStyle.html */,
+				06D222BDE0E01B92C691784D524C3AFA /* ShadowStylable.html */,
+				CBCD79625F37E09311CB88573196212B /* ShadowStylable.html */,
+				B9A9155F981DDC5B35C0E80D9284C54C /* Structs.html */,
+				0B430C3C3188E9DE1277441FE1A2208E /* Structs.html */,
+				768B40451DECE8F0F67480D76D710830 /* UIView.html */,
+				59164107349C4D302D986BED1CF12A16 /* UIView.html */,
+				1352D1FAA9EE9C06DF4AA3D3687CA287 /* undocumented.json */,
+				FC0C46D33CF343E5927E1609AE28A068 /* URL.html */,
+				671A9F2A899130494EB978318102C225 /* URL.html */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		EDD74A64B0081C0558BCC69C6E46178F /* Development Pods */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2761BF9F2397B3090088F3EF /* Sources */,
-				F9D9DA0B2E12138BE5862602803D640A /* RESegmentedControl */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		F9D9DA0B2E12138BE5862602803D640A /* RESegmentedControl */ = {
+		F9DC35B0DE309E29BDE5A9806EEBE203 /* Stylables */ = {
 			isa = PBXGroup;
 			children = (
-				B72DAAF43DFB609C987BD9C154A326A4 /* Pod */,
-				CB5580DC9F03FDDB0288625944F14B81 /* Support Files */,
+				CB91F266C1FA8900CDB058CB52CF8607 /* SegmentedControlPresettable.swift */,
+				8FD3C6BD9A8BBE62CCB5C6A13B5768E5 /* SegmentItemStylable.swift */,
+				15B838A5D1409CA5E57541CECB1A29EF /* SegmentSelectedItemStylable.swift */,
+				2F169D4356083910446B12B3849E87F8 /* SegmentStylable.swift */,
+				F1E78FCC288F1C97B063126DC48AD991 /* SeporatorStylable.swift */,
+				BF9BFF1712FC25D38850193DACDB9576 /* ShadowStylable.swift */,
+			);
+			name = Stylables;
+			path = Stylables;
+			sourceTree = "<group>";
+		};
+		FE9DE91E154EA1764A003BA143E19EF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB82F1D2FF33716EAF526B16ADF6FA9 /* BackgroundCollectionViewCell.xib */,
+				FD35C21C680F375E2FDEA4CE69717BE4 /* SegmentCollectionViewCell.xib */,
+			);
+			name = Resources;
+			path = Sources/RESegmentedControl/Resources;
+			sourceTree = "<group>";
+		};
+		FFB71B5C492B18493C2CDB1DDF4A04B5 /* RESegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1FEE8FBE4F7161F8A85E6DF9FC7519B7 /* Classes */,
+				D94A2E8FDB0B40675E52B69E17CFDD50 /* Pod */,
+				FE9DE91E154EA1764A003BA143E19EF1 /* Resources */,
+				CC9DCFD0C19CE14B20CFBD57E20C1CD0 /* Support Files */,
 			);
 			name = RESegmentedControl;
 			path = ../..;
@@ -397,27 +629,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3EB2A9C6674590BAEF2C2524A15CB16D /* Headers */ = {
+		6847B9338FF0DA3BF2A33B02A08A3F4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED24CF8F74D124B0531CDC3BC660068B /* Pods-RESegmentedControl_Tests-umbrella.h in Headers */,
+				B16DC675E380EC3B16F89356897F8086 /* Pods-RESegmentedControl_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A17708866ACDEEF5D9E8EC9295803B7 /* Headers */ = {
+		79FEE02CE7A34FD9E1738C3EC60AE064 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66599A363B95D2600C8E164533FE7517 /* RESegmentedControl-umbrella.h in Headers */,
+				9DC9537969C1B8DAF31154C352E7B504 /* Pods-RESegmentedControl_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E66FF484617CB0097ABAE705534BC346 /* Headers */ = {
+		D8A8902214F1761BC11522C82CDB735C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD062414FE65AA48D872C0FE1857C67 /* Pods-RESegmentedControl_Example-umbrella.h in Headers */,
+				277274A508D7828F3CE0E7B488D29DDB /* RESegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +658,12 @@
 /* Begin PBXNativeTarget section */
 		ADE9DED381AD2FA4F422A595F208BB63 /* RESegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 151688798644CC5072A2DE32F6C73D1E /* Build configuration list for PBXNativeTarget "RESegmentedControl" */;
+			buildConfigurationList = 0C20E97D8DC254123F8CCDCBF0CCF2C1 /* Build configuration list for PBXNativeTarget "RESegmentedControl" */;
 			buildPhases = (
-				5A17708866ACDEEF5D9E8EC9295803B7 /* Headers */,
-				58C160016F6873F8FADB4F9D23F1CA91 /* Sources */,
-				E7BC262D052A0D613140C8AA5C37CB46 /* Frameworks */,
-				C3693A7866FF9E8D41FF69A3D3E51616 /* Resources */,
+				D8A8902214F1761BC11522C82CDB735C /* Headers */,
+				3F68F9DD49331B945D3B10B92EA767F0 /* Sources */,
+				AC49F0E1E24D08182E1E533DCFEFD7A8 /* Frameworks */,
+				39188DEB5A2C3543C62107D498355149 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -444,17 +676,17 @@
 		};
 		B77A9EFF6A48F30D32D524F980F698E1 /* Pods-RESegmentedControl_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41FE5C067B5503C7F7E5442ECE41368E /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Tests" */;
+			buildConfigurationList = 411232AF3F9154B32AC0A576B8EB3C60 /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Tests" */;
 			buildPhases = (
-				3EB2A9C6674590BAEF2C2524A15CB16D /* Headers */,
-				E1E19574EA3F4CFC26653FB43B2FA79C /* Sources */,
-				831F4364941884B64A39BC32E7813F2F /* Frameworks */,
-				9CDEFBDC9A6E7E5B9A2D4D4306AE7ED1 /* Resources */,
+				6847B9338FF0DA3BF2A33B02A08A3F4C /* Headers */,
+				2D3FDE98E1000D3C95C862CB0BD8A86C /* Sources */,
+				881536E746DBF6604A728F81CCA6BF98 /* Frameworks */,
+				40CAA44FAE4AF039E7BA1CED912B34A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C17BC534930065FBC929028E5F049C7 /* PBXTargetDependency */,
+				080E8FAF43CB9B1363C9A771A423F1F1 /* PBXTargetDependency */,
 			);
 			name = "Pods-RESegmentedControl_Tests";
 			productName = "Pods-RESegmentedControl_Tests";
@@ -463,17 +695,17 @@
 		};
 		C86911914DA12B3B38B5EEFD19789941 /* Pods-RESegmentedControl_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCF9628F25C82E026BF4279892A4A627 /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Example" */;
+			buildConfigurationList = 1253579765B1D07EB13040CDFD1F8FAE /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Example" */;
 			buildPhases = (
-				E66FF484617CB0097ABAE705534BC346 /* Headers */,
-				F744A572B4A25C985E9F43204DF6E4A0 /* Sources */,
-				88C4BA88E9E2FF6BA6124AD34ACDB308 /* Frameworks */,
-				CF48AEE26EE2F470E0FD95A17C9D57E5 /* Resources */,
+				79FEE02CE7A34FD9E1738C3EC60AE064 /* Headers */,
+				709DA9C535F6ED2972DE331E55F89396 /* Sources */,
+				5A39C6CCDBF4E72C0653F07551D03790 /* Frameworks */,
+				FF8769BDA95808BFA51FECA96A63AE32 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				25EA912955F2FB825916B5581D43040A /* PBXTargetDependency */,
+				AD0C5C0228D210E44139952A2B210E91 /* PBXTargetDependency */,
 			);
 			name = "Pods-RESegmentedControl_Example";
 			productName = "Pods-RESegmentedControl_Example";
@@ -488,11 +720,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					C86911914DA12B3B38B5EEFD19789941 = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -515,23 +742,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9CDEFBDC9A6E7E5B9A2D4D4306AE7ED1 /* Resources */ = {
+		39188DEB5A2C3543C62107D498355149 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3693A7866FF9E8D41FF69A3D3E51616 /* Resources */ = {
+		40CAA44FAE4AF039E7BA1CED912B34A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2761BFCC2397B3090088F3EF /* BackgroundCollectionViewCell.xib in Resources */,
-				2761BFC92397B3090088F3EF /* SegmentCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF48AEE26EE2F470E0FD95A17C9D57E5 /* Resources */ = {
+		FF8769BDA95808BFA51FECA96A63AE32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,211 +766,80 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58C160016F6873F8FADB4F9D23F1CA91 /* Sources */ = {
+		2D3FDE98E1000D3C95C862CB0BD8A86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2761BFE32397B3090088F3EF /* SegmentSelectedItemStylable.swift in Sources */,
-				2761BFDA2397B3090088F3EF /* SegmentItemShadowStyle.swift in Sources */,
-				2761BFCA2397B3090088F3EF /* BackgroundCollectionViewCell.swift in Sources */,
-				2761BFD62397B3090088F3EF /* SegmentStyle.swift in Sources */,
-				2761BFD22397B3090088F3EF /* Data+HexEncodedString.swift in Sources */,
-				2761BFE52397B3090088F3EF /* SeporatorStylable.swift in Sources */,
-				2761BFCF2397B3090088F3EF /* SegmentedControlSize.swift in Sources */,
-				2761BFD72397B3090088F3EF /* SeporatorStyle.swift in Sources */,
-				2761BFD52397B3090088F3EF /* UIView+SementItemShadow.swift in Sources */,
-				256E9CFB5F0C14A0E901496E98E32108 /* RESegmentedControl-dummy.m in Sources */,
-				2761BFD92397B3090088F3EF /* SegmentItemStyle.swift in Sources */,
-				2761BFD02397B3090088F3EF /* SelectedSegmentSize.swift in Sources */,
-				2761BFD32397B3090088F3EF /* URL+Filename.swift in Sources */,
-				2761BFD42397B3090088F3EF /* FileManager+Save.swift in Sources */,
-				2761BFDB2397B3090088F3EF /* RESegmentedControl.swift in Sources */,
-				2761BFDD2397B3090088F3EF /* BootstapPreset.swift in Sources */,
-				2761BFCE2397B3090088F3EF /* ImageDownloader.swift in Sources */,
-				2761BFE02397B3090088F3EF /* ShadowStylable.swift in Sources */,
-				2761BFCB2397B3090088F3EF /* SegmentCollectionViewCell.swift in Sources */,
-				2761BFE42397B3090088F3EF /* SegmentedControlPresettable.swift in Sources */,
-				2761BFD12397B3090088F3EF /* SegmentModel.swift in Sources */,
-				2761BFDE2397B3090088F3EF /* MaterialPreset.swift in Sources */,
-				2761BFDC2397B3090088F3EF /* iOS7Preset.swift in Sources */,
-				2761BFD82397B3090088F3EF /* SegmentSelectedItemStyle.swift in Sources */,
-				2761BFDF2397B3090088F3EF /* iOS13Preset.swift in Sources */,
-				2761BFE22397B3090088F3EF /* SegmentItemStylable.swift in Sources */,
-				2761BFE12397B3090088F3EF /* SegmentStylable.swift in Sources */,
-				2761BFE62397B3090088F3EF /* SegmentedControl+API.swift in Sources */,
+				79CD4CD3BA4C0CF932C592D2806442F2 /* Pods-RESegmentedControl_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1E19574EA3F4CFC26653FB43B2FA79C /* Sources */ = {
+		3F68F9DD49331B945D3B10B92EA767F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D969C0AAA7CD111B4F2771546AC0A9F9 /* Pods-RESegmentedControl_Tests-dummy.m in Sources */,
+				AF8E0B3286E665A77D7FCCBBB02593FE /* BackgroundCollectionViewCell.swift in Sources */,
+				874E346BFDA1CA4DEBE4444C1B589632 /* BackgroundCollectionViewCell.xib in Sources */,
+				982C3EA220E1BB1EDF37C9D1100C7185 /* BootstapPreset.swift in Sources */,
+				B01761B56B8562B08343A9E646B17994 /* Bundle+Current.swift in Sources */,
+				7085ACAAD9D67ECC77F8FF5A124E1481 /* Bundle+Module.swift in Sources */,
+				EE601A0F36035C75B1A09A217338A7DA /* Data+HexEncodedString.swift in Sources */,
+				0CFE9944F62CEDA1496E37BD777048C1 /* FileManager+Save.swift in Sources */,
+				384BAD653A5FFEC0D6184BEDF72A5287 /* ImageDownloader.swift in Sources */,
+				93F803AB2D5C6A2DC2718FFDA5837B3D /* iOS13Preset.swift in Sources */,
+				DF4FF055BC437B10A0C1125DF4B0069A /* iOS7Preset.swift in Sources */,
+				F7CD4FA3183F5C4E732E5FDBAA536E15 /* MaterialPreset.swift in Sources */,
+				B40E5F40C8689A06929D4FA12DF1E90D /* RESegmentedControl-dummy.m in Sources */,
+				FF726049119332145880DDB6BAC9C8D3 /* RESegmentedControl.swift in Sources */,
+				5A26CFB93E429440CB0A77ED698FFB51 /* SegmentCollectionViewCell.swift in Sources */,
+				A6D52626C9B80B785AD3CCDF0A172C50 /* SegmentCollectionViewCell.xib in Sources */,
+				D5D84FF4CA1B2E7ECB7BA39EE1DB7317 /* SegmentedControl+API.swift in Sources */,
+				095F0F24E27BD333FED0CBD090467436 /* SegmentedControlPresettable.swift in Sources */,
+				4180ED83B7B2DA2B1F5A1BC6682A9992 /* SegmentedControlSize.swift in Sources */,
+				C6A306E48045D717E453A06F636E7BC9 /* SegmentItemShadowStyle.swift in Sources */,
+				A976F903A05818D12EDD3A2D258CA902 /* SegmentItemStylable.swift in Sources */,
+				718B2A7C6B65928A4EC6A31042319FA9 /* SegmentItemStyle.swift in Sources */,
+				1F7495E79AE1948640AB8E78CEB848C8 /* SegmentModel.swift in Sources */,
+				5DC0433BB63EB23C33659CECB7C55C9F /* SegmentSelectedItemStylable.swift in Sources */,
+				8868DCEEB3CDA6B8663B3E9ECAB27982 /* SegmentSelectedItemStyle.swift in Sources */,
+				7DDBC1D24077DDD976D3951A942599BF /* SegmentStylable.swift in Sources */,
+				C07E4FFB05C8057B06A67A4861F8984B /* SegmentStyle.swift in Sources */,
+				807ED1A8F33EC6774CD4DAD7D4298E7B /* SelectedSegmentSize.swift in Sources */,
+				270CC13C1513E924F9BB4A787F4C7408 /* SeporatorStylable.swift in Sources */,
+				7A1EE00789C3D986895404D07669AA6D /* SeporatorStyle.swift in Sources */,
+				610B944E0FDCC35BF3890F5E06173F6A /* ShadowStylable.swift in Sources */,
+				8E0ECA88100BFED2CA04836245D57045 /* UIView+SementItemShadow.swift in Sources */,
+				0998E09728C897274AA318E1916DBA0E /* URL+Filename.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F744A572B4A25C985E9F43204DF6E4A0 /* Sources */ = {
+		709DA9C535F6ED2972DE331E55F89396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0530B7E01C21ACA3F7382BDB6E3B1FE0 /* Pods-RESegmentedControl_Example-dummy.m in Sources */,
+				9E4EBAA2C6334B3C2E84D1BB22D77373 /* Pods-RESegmentedControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25EA912955F2FB825916B5581D43040A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RESegmentedControl;
-			target = ADE9DED381AD2FA4F422A595F208BB63 /* RESegmentedControl */;
-			targetProxy = 87C944272FF3A7434350A79DC24192A5 /* PBXContainerItemProxy */;
-		};
-		9C17BC534930065FBC929028E5F049C7 /* PBXTargetDependency */ = {
+		080E8FAF43CB9B1363C9A771A423F1F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RESegmentedControl_Example";
 			target = C86911914DA12B3B38B5EEFD19789941 /* Pods-RESegmentedControl_Example */;
-			targetProxy = 6BD8D8577A0BB8BDDB35C5D35AE5D4D0 /* PBXContainerItemProxy */;
+			targetProxy = 05618B7790A7CFC960C8929090955E8C /* PBXContainerItemProxy */;
+		};
+		AD0C5C0228D210E44139952A2B210E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RESegmentedControl;
+			target = ADE9DED381AD2FA4F422A595F208BB63 /* RESegmentedControl */;
+			targetProxy = C473D581DF9FC2035080DF84B5BD27E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13DA1D93CF717636A564BBB611DC03BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA44B195505B8723549F423FBD34C38 /* Pods-RESegmentedControl_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1EC14B79C36D50DA305E74ACC4427012 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C925ECC7CA7C7C9296A8B867F46557F0 /* Pods-RESegmentedControl_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		823CE18961791210F3E2C9BD8F62AE9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC47F0FFBF522B1100BE7735FAB379C9 /* Pods-RESegmentedControl_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4CE7585AE7C795BE9ECE060B39E0E18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63E9677D8ED932473A4E2FBA24B5FFBF /* RESegmentedControl.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RESegmentedControl/RESegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RESegmentedControl/RESegmentedControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RESegmentedControl/RESegmentedControl.modulemap";
-				PRODUCT_MODULE_NAME = RESegmentedControl;
-				PRODUCT_NAME = RESegmentedControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -793,21 +887,59 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B3B28F9FF3659938FC24AD406CC769F3 /* Debug */ = {
+		3920E3F0A87C46D55A266F3CB967DF6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63E9677D8ED932473A4E2FBA24B5FFBF /* RESegmentedControl.xcconfig */;
+			baseConfigurationReference = AC47F0FFBF522B1100BE7735FAB379C9 /* Pods-RESegmentedControl_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44394E21A11244DA1CDC8813FD596AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F1D308F23739929454DADF6934396F /* RESegmentedControl.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -835,7 +967,75 @@
 			};
 			name = Debug;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		729CCF3C481A6C719FDB38377C156D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6684D8C514E0218FC0C8DC65FF2A5D /* RESegmentedControl.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RESegmentedControl/RESegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESegmentedControl/RESegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESegmentedControl/RESegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = RESegmentedControl;
+				PRODUCT_NAME = RESegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B318E443DE232AB0A68B4CFDE0B3278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA44B195505B8723549F423FBD34C38 /* Pods-RESegmentedControl_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -886,7 +1086,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -899,12 +1099,13 @@
 			};
 			name = Debug;
 		};
-		CAFF39246381E07E4A9BC941EFC8E432 /* Release */ = {
+		E0C395BBF8A1B07A9547F66F54096A4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CED9D6BE3918C9F6BAD6A38486456C82 /* Pods-RESegmentedControl_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -916,7 +1117,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Example/Pods-RESegmentedControl_Example.modulemap";
@@ -927,7 +1128,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -935,23 +1135,67 @@
 			};
 			name = Release;
 		};
+		E0DC9695BDABDA633C1E952A32584897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C925ECC7CA7C7C9296A8B867F46557F0 /* Pods-RESegmentedControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESegmentedControl_Tests/Pods-RESegmentedControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		151688798644CC5072A2DE32F6C73D1E /* Build configuration list for PBXNativeTarget "RESegmentedControl" */ = {
+		0C20E97D8DC254123F8CCDCBF0CCF2C1 /* Build configuration list for PBXNativeTarget "RESegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3B28F9FF3659938FC24AD406CC769F3 /* Debug */,
-				A4CE7585AE7C795BE9ECE060B39E0E18 /* Release */,
+				44394E21A11244DA1CDC8813FD596AF8 /* Debug */,
+				729CCF3C481A6C719FDB38377C156D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41FE5C067B5503C7F7E5442ECE41368E /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Tests" */ = {
+		1253579765B1D07EB13040CDFD1F8FAE /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EC14B79C36D50DA305E74ACC4427012 /* Debug */,
-				823CE18961791210F3E2C9BD8F62AE9E /* Release */,
+				B318E443DE232AB0A68B4CFDE0B3278B /* Debug */,
+				E0C395BBF8A1B07A9547F66F54096A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411232AF3F9154B32AC0A576B8EB3C60 /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DC9695BDABDA633C1E952A32584897 /* Debug */,
+				3920E3F0A87C46D55A266F3CB967DF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -959,17 +1203,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCF9628F25C82E026BF4279892A4A627 /* Build configuration list for PBXNativeTarget "Pods-RESegmentedControl_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13DA1D93CF717636A564BBB611DC03BC /* Debug */,
-				CAFF39246381E07E4A9BC941EFC8E432 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

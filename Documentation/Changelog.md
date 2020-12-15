@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.5.1
+- Issue [#7](https://github.com/sh-khashimov/RESegmentedControl/issues/7) fix;
+
 ### v0.5.0
 - Issue [#6](https://github.com/sh-khashimov/RESegmentedControl/issues/6) fix;
 

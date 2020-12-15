@@ -38,9 +38,9 @@ open class RESegmentedControl: UIControl {
 
         collectionView.delegate = self
         collectionView.dataSource = self
-
-        let collectionViewCellBundle = Bundle(for: SegmentCollectionViewCell.self)
-        let cellNib = UINib(nibName: "\(SegmentCollectionViewCell.self)", bundle: collectionViewCellBundle)
+        
+        let bundle = Bundle.bundle(forResource: "\(SegmentCollectionViewCell.self)", ofType: "nib")
+        let cellNib = UINib(nibName: "\(SegmentCollectionViewCell.self)", bundle: bundle)
 
         collectionView.register(cellNib, forCellWithReuseIdentifier: "\(SegmentCollectionViewCell.self)")
 
@@ -62,10 +62,10 @@ open class RESegmentedControl: UIControl {
 
         collectionView.delegate = self
         collectionView.dataSource = self
-
-        let collectionViewCellBundle = Bundle(for: BackgroundCollectionViewCell.self)
-        let cellNib = UINib(nibName: "\(BackgroundCollectionViewCell.self)", bundle: collectionViewCellBundle)
-
+        
+        let bundle = Bundle.bundle(forResource: "\(BackgroundCollectionViewCell.self)", ofType: "nib")
+        let cellNib = UINib(nibName: "\(BackgroundCollectionViewCell.self)", bundle: bundle)
+        
         collectionView.register(cellNib, forCellWithReuseIdentifier: "\(BackgroundCollectionViewCell.self)")
 
         return collectionView

@@ -24,3 +24,7 @@ pod "RESegmentedControl"
 You can directly drag and drop the needed files into your project, but keep in mind that this way you won't be able to automatically get all the latest `RESegmentedControl` features (e.g. new files including new operations).
 
 The files are contained in the `Sources` folder.
+
+Make sure that **Inherit Module From Target** is turned on, both for `BackgroundCollectionViewCell.xib` and  `SegmentCollectionViewCell.xib` in your project.
+
+<img src="../Images/inherit.png" width="360"/>
