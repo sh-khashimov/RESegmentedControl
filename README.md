@@ -192,7 +192,7 @@ To learn more see a full <a href="https://sh-khashimov.github.io/RESegmentedCont
 
 | App version              | Swift             | Xcode              | Platforms                                         |
 |-------------------|-------------------|--------------------|---------------------------------------------------|
-|   current version    | Swift 5.0   | Xcode 11    | iOS 9.0  |
+|   current version    | Swift 5.0   | Xcode 12    | iOS 9.0  |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
