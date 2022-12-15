@@ -27,11 +27,14 @@ public struct MaterialPreset: SegmentedControlPresettable {
         var cornerRadius: CGFloat = 0
 
         var spacing: CGFloat = 0
+        
+        var contentWidthType: SegmentContentWidthType = .dynamic
 
         init() { }
     }
 
     struct SegmentItemStyle: SegmentItemStylable {
+        
         var textColor: UIColor = .white
 
         var tintColor: UIColor = .white
@@ -49,6 +52,10 @@ public struct MaterialPreset: SegmentedControlPresettable {
         var font: UIFont = .systemFont(ofSize: 13, weight: .semibold)
 
         var selectedFont: UIFont?
+        
+        var textAlignment: NSTextAlignment? = .center
+        
+        var selectedTextAlignment: NSTextAlignment? = .center
 
         var imageHeight: CGFloat = 15
 

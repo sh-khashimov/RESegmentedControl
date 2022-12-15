@@ -27,6 +27,8 @@ public struct iOS7Preset: SegmentedControlPresettable {
         var cornerRadius: CGFloat = 5
 
         var spacing: CGFloat = 0
+        
+        var contentWidthType: SegmentContentWidthType = .dynamic
 
         init(tintColor: UIColor) {
             self.borderColor = tintColor.cgColor
@@ -34,6 +36,7 @@ public struct iOS7Preset: SegmentedControlPresettable {
     }
 
     struct SegmentItemStyle: SegmentItemStylable {
+        
         var textColor: UIColor = .blue
 
         var tintColor: UIColor = .blue
@@ -51,6 +54,10 @@ public struct iOS7Preset: SegmentedControlPresettable {
         var font: UIFont = .systemFont(ofSize: 13)
 
         var selectedFont: UIFont?
+        
+        var textAlignment: NSTextAlignment? = .center
+        
+        var selectedTextAlignment: NSTextAlignment? = .center
 
         var imageHeight: CGFloat = 15
 

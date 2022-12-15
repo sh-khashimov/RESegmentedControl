@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.5.2
+- text Alignment issue [#10](https://github.com/sh-khashimov/RESegmentedControl/issues/10) fix;
+
 ### v0.5.1
 - Issue [#7](https://github.com/sh-khashimov/RESegmentedControl/issues/7) fix;
 

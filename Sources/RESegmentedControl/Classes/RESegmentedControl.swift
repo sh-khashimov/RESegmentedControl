@@ -334,7 +334,7 @@ extension RESegmentedControl: UICollectionViewDataSource {
         cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(SegmentCollectionViewCell.self)", for: indexPath)
         as? SegmentCollectionViewCell
 
-        cell?.configure(segmentItem, style: preset.segmentItemStyle)
+        cell?.configure(segmentItem, style: preset.segmentItemStyle, segmentContentWidthType: preset.segmentStyle.contentWidthType)
 
         if selectedSegmentIndex >= 0,
             selectedSegmentIndex < segmentItems.count,

@@ -28,6 +28,10 @@ public struct SegmentItemStyle: SegmentItemStylable {
     public var font: UIFont = UIFont.systemFont(ofSize: 11, weight: .semibold)
 
     public var selectedFont: UIFont? = UIFont.systemFont(ofSize: 11, weight: .bold)
+    
+    public var textAlignment: NSTextAlignment? = .center
+    
+    public var selectedTextAlignment: NSTextAlignment? = .center
 
     public var imageHeight: CGFloat = 15
 

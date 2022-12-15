@@ -38,6 +38,13 @@ public protocol SegmentItemStylable {
 
     /// A segment item selected font (Optional)
     var selectedFont: UIFont? { get set }
+    
+    /// A segment item text aligment
+    var textAlignment: NSTextAlignment? { get set }
+    
+    /// A selected segment item text aligment
+    /// if not set, will be set from textAligment
+    var selectedTextAlignment: NSTextAlignment? { get set }
 
     /// A segment item image height
     var imageHeight: CGFloat { get set }

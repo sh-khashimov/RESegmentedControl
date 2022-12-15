@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -55,6 +55,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="O9Q-qD-Aq3" firstAttribute="centerY" secondItem="m4I-Pt-rEK" secondAttribute="centerY" id="Hw4-OD-YaZ"/>
+                            <constraint firstItem="O9Q-qD-Aq3" firstAttribute="leading" secondItem="m4I-Pt-rEK" secondAttribute="leading" id="Q4w-CQ-FmS"/>
+                            <constraint firstAttribute="trailing" secondItem="O9Q-qD-Aq3" secondAttribute="trailing" id="T9s-6q-Mr0"/>
                             <constraint firstItem="O9Q-qD-Aq3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="m4I-Pt-rEK" secondAttribute="top" id="WXZ-VV-GGX"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="O9Q-qD-Aq3" secondAttribute="bottom" id="YdK-4l-5Dk"/>
                             <constraint firstItem="O9Q-qD-Aq3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m4I-Pt-rEK" secondAttribute="leading" id="eLg-kd-4cl"/>
@@ -75,6 +77,10 @@
                 <outlet property="imageView" destination="DJv-VB-xTO" id="ePT-S8-h1m"/>
                 <outlet property="imageViewHeightLC" destination="LCU-lQ-yWz" id="UNl-lW-QYK"/>
                 <outlet property="stackView" destination="O9Q-qD-Aq3" id="Geg-Yh-ImN"/>
+                <outlet property="stackViewLeadingDynamicLC" destination="eLg-kd-4cl" id="asn-jR-ndD"/>
+                <outlet property="stackViewLeadingStaticLC" destination="Q4w-CQ-FmS" id="V6y-nb-ptO"/>
+                <outlet property="stackViewTrailingDynamicLC" destination="jcx-IS-lSa" id="XAj-2g-Y0c"/>
+                <outlet property="stackViewTrailingStaticLC" destination="T9s-6q-Mr0" id="RwW-PT-pM1"/>
                 <outlet property="textLabel" destination="8yL-P2-gVE" id="cFl-A8-v3o"/>
             </connections>
             <point key="canvasLocation" x="89.599999999999994" y="48.575712143928037"/>

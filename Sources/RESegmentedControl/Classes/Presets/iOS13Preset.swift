@@ -16,6 +16,7 @@ public struct iOS13Preset: SegmentedControlPresettable {
     public var segmentSelectedItemStyle: SegmentSelectedItemStylable
 
     struct SegmentStyle: SegmentStylable {
+        
         var size: SegmentedControlSize = .fixed(height: 29)
 
         var clipsToBounds: Bool = true
@@ -27,11 +28,14 @@ public struct iOS13Preset: SegmentedControlPresettable {
         var cornerRadius: CGFloat = 6
 
         var spacing: CGFloat = 0
+        
+        var contentWidthType: SegmentContentWidthType = .dynamic
 
         init() { }
     }
 
     struct SegmentItemStyle: SegmentItemStylable {
+        
         var textColor: UIColor = .black
 
         var tintColor: UIColor = .black
@@ -49,6 +53,10 @@ public struct iOS13Preset: SegmentedControlPresettable {
         var font: UIFont = .systemFont(ofSize: 13)
 
         var selectedFont: UIFont? = .systemFont(ofSize: 13, weight: .semibold)
+        
+        var textAlignment: NSTextAlignment? = .center
+        
+        var selectedTextAlignment: NSTextAlignment? = .center
 
         var imageHeight: CGFloat = 15
 

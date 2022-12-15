@@ -29,4 +29,9 @@ public protocol SegmentStylable {
 
     /// Segmetned control corner radius
     var cornerRadius: CGFloat { get set }
+    
+    /// Segment content width type, default is dynamic
+    /// Use full, if you need to stretch the text width
+    /// Dynamic will be change the content width dynamically
+    var contentWidthType: SegmentContentWidthType { get set }
 }

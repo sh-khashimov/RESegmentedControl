@@ -15,7 +15,12 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var textLabel: UILabel!
 
     @IBOutlet weak var imageViewHeightLC: NSLayoutConstraint?
-
+    
+    @IBOutlet weak var stackViewTrailingDynamicLC: NSLayoutConstraint?
+    @IBOutlet weak var stackViewLeadingDynamicLC: NSLayoutConstraint?
+    @IBOutlet weak var stackViewLeadingStaticLC: NSLayoutConstraint?
+    @IBOutlet weak var stackViewTrailingStaticLC: NSLayoutConstraint?
+    
     private lazy var imageDownload = ImageDownloader()
 
     private var item: SegmentModel? {
@@ -50,6 +55,12 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
     private var style: SegmentItemStylable? {
         didSet {
             configUI()
+        }
+    }
+    
+    private var segmentContentWidthType: SegmentContentWidthType = .dynamic {
+        didSet {
+            configStackView()
         }
     }
 
@@ -97,6 +108,13 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
             self.applyShadow(with: shadowStyle)
         }
     }
+    
+    private func configStackView() {
+        stackViewTrailingDynamicLC?.isActive = segmentContentWidthType == .dynamic
+        stackViewLeadingDynamicLC?.isActive = segmentContentWidthType == .dynamic
+        stackViewTrailingStaticLC?.isActive = segmentContentWidthType == .full
+        stackViewLeadingStaticLC?.isActive = segmentContentWidthType == .full
+    }
 
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -105,10 +123,12 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
         if isSelected {
             self.textLabel.textColor = style.selectedTextColor
             self.textLabel.font = style.selectedFont ?? style.font
+            self.textLabel.textAlignment = style.selectedTextAlignment ?? style.textAlignment ?? .natural
             self.imageView?.tintColor = style.selectedTintColor
         } else {
             self.textLabel.textColor = style.textColor
             self.textLabel.font = style.font
+            self.textLabel.textAlignment = style.textAlignment ?? .natural
             self.imageView?.tintColor = style.tintColor
         }
     }
@@ -116,8 +136,9 @@ internal class SegmentCollectionViewCell: UICollectionViewCell {
 }
 
 extension SegmentCollectionViewCell {
-    func configure(_ item: SegmentModel, style: SegmentItemStylable) {
+    func configure(_ item: SegmentModel, style: SegmentItemStylable, segmentContentWidthType: SegmentContentWidthType) {
         self.style = style
         self.item = item
+        self.segmentContentWidthType = segmentContentWidthType
     }
 }

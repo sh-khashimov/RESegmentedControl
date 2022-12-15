@@ -22,6 +22,8 @@ public struct SegmentStyle: SegmentStylable {
     public var cornerRadius: CGFloat = 0
 
     public var spacing: CGFloat = 0
+    
+    public var contentWidthType: SegmentContentWidthType = .dynamic
 
     public init(size: SegmentedControlSize, clipsToBounds: Bool, borderWidth: CGFloat, borderColor: CGColor?, cornerRadius: CGFloat, spacing: CGFloat) {
         self.size = size
