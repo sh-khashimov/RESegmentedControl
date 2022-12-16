@@ -20,6 +20,8 @@ public struct SegmentItemStyle: SegmentItemStylable {
     public var selectedTintColor: UIColor = .yellow
 
     public var backgroundColor: UIColor = .black
+    
+    public var gradientColor: SegmentGradientColor? = nil
 
     public var borderWidth: CGFloat = 0
 

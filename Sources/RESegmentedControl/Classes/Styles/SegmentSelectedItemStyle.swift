@@ -12,6 +12,8 @@ import UIKit
 public struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
 
     public var backgroundColor: UIColor = .darkGray
+    
+    public var gradientColor: SegmentGradientColor? = nil
 
     public var cornerRadius: CGFloat = 0
 
@@ -25,7 +27,7 @@ public struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
 
     public var shadow: ShadowStylable? = nil
 
-    public init(backgroundColor: UIColor, cornerRadius: CGFloat, borderWidth: CGFloat, borderColor: CGColor?, size: SelectedSegmentSize, offset: CGFloat, shadow: ShadowStylable?) {
+    public init(backgroundColor: UIColor, cornerRadius: CGFloat, borderWidth: CGFloat, borderColor: CGColor?, size: SelectedSegmentSize, offset: CGFloat, shadow: ShadowStylable?, gradientColor: SegmentGradientColor? = nil) {
         self.backgroundColor = backgroundColor
         self.cornerRadius = cornerRadius
         self.borderWidth = borderWidth
@@ -33,6 +35,7 @@ public struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
         self.size = size
         self.offset = offset
         self.shadow = shadow
+        self.gradientColor = gradientColor
     }
 
     public init(backgroundColor: UIColor) {

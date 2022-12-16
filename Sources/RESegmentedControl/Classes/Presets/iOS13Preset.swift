@@ -45,6 +45,8 @@ public struct iOS13Preset: SegmentedControlPresettable {
         var selectedTintColor: UIColor = .black
 
         var backgroundColor: UIColor = #colorLiteral(red: 0.9333333333, green: 0.9333333333, blue: 0.9411764706, alpha: 1)
+        
+        var gradientColor: SegmentGradientColor? = nil
 
         var borderWidth: CGFloat = 0
 
@@ -86,6 +88,8 @@ public struct iOS13Preset: SegmentedControlPresettable {
     struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
 
         var backgroundColor: UIColor = .white
+        
+        var gradientColor: SegmentGradientColor? = nil
 
         var cornerRadius: CGFloat = 6
 

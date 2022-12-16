@@ -26,6 +26,9 @@ public protocol SegmentItemStylable {
 
     /// A segment item background color
     var backgroundColor: UIColor { get set }
+    
+    /// Segment item background gradient color
+    var gradientColor: SegmentGradientColor? { get set }
 
     /// A segment item boroder width
     var borderWidth: CGFloat { get set }

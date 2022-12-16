@@ -138,6 +138,28 @@ class PresetsViewController: UIViewController {
             customSimple5SegmentedControl.configure(segmentItems: items.map({ SegmentModel(title: $0.uppercased()) }), preset: preset)
         }
     }
+    
+    @IBOutlet weak var gradientSimpleSegmentedControl: RESegmentedControl! {
+        didSet {
+            var preset = BootstapPreset(backgroundColor: .white, selectedBackgroundColor: #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1), textColor: .yellow, selectedTextColor: .white)
+            
+            let selectedSegmentGradientColor = SegmentGradientColor(colors: [UIColor.blue, UIColor.red])
+            
+            let unselectedSegmentGradientColor = SegmentGradientColor(colors: [UIColor.lightGray, UIColor.darkGray])
+
+            preset.segmentSpacing = 15
+            preset.segmentItemCornerRadius = 10
+            preset.selectedSegmentItemCornerRadius = 10
+            preset.segmentItemShadow = SegmentItemShadowStyle(color: UIColor.black.cgColor, opacity: 0.2, offset: .zero, radius: 5, path: nil)
+            preset.selectedSegmentItemGradientColor = selectedSegmentGradientColor
+            preset.gradientColor = unselectedSegmentGradientColor
+
+            preset.textFont = UIFont.systemFont(ofSize: 11, weight: .bold)
+            preset.selectedTextFont = UIFont.systemFont(ofSize: 11, weight: .bold)
+
+            gradientSimpleSegmentedControl.configure(segmentItems: items.map({ SegmentModel(title: $0.uppercased()) }), preset: preset)
+        }
+    }
 
 
     override func viewDidLoad() {

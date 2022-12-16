@@ -98,6 +98,16 @@ public extension SegmentedControlPresettable {
             segmentSelectedItemStyle.backgroundColor = newValue
         }
     }
+    
+    /// A segment item gradient background color
+    var gradientColor: SegmentGradientColor? {
+        get {
+            return segmentItemStyle.gradientColor
+        }
+        set {
+            segmentItemStyle.gradientColor = newValue
+        }
+    }
 
     /// A segment item font
     var textFont: UIFont {
@@ -262,6 +272,16 @@ public extension SegmentedControlPresettable {
         }
         set {
             segmentSelectedItemStyle.backgroundColor = newValue
+        }
+    }
+    
+    /// Selected segment item gradient background color
+    var selectedSegmentItemGradientColor: SegmentGradientColor? {
+        get {
+            return segmentSelectedItemStyle.gradientColor
+        }
+        set {
+            segmentSelectedItemStyle.gradientColor = newValue
         }
     }
 

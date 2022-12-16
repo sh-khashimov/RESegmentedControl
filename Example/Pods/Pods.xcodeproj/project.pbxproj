@@ -15,6 +15,8 @@
 		270CC13C1513E924F9BB4A787F4C7408 /* SeporatorStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E78FCC288F1C97B063126DC48AD991 /* SeporatorStylable.swift */; };
 		277274A508D7828F3CE0E7B488D29DDB /* RESegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9C33F04A1C9CBB7255EAB8FDD08822 /* RESegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27F17CAD294B8CC50084A6A1 /* SegmentContentWidthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F17CAC294B8CC50084A6A1 /* SegmentContentWidthType.swift */; };
+		27F17CAF294C14400084A6A1 /* SegmentGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F17CAE294C14400084A6A1 /* SegmentGradientColor.swift */; };
+		27F17CB1294C17630084A6A1 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F17CB0294C17630084A6A1 /* UIView+Gradient.swift */; };
 		384BAD653A5FFEC0D6184BEDF72A5287 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B725E5242F18072455D8F7DB9F25EED /* ImageDownloader.swift */; };
 		4180ED83B7B2DA2B1F5A1BC6682A9992 /* SegmentedControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BBB27424AC59D90085F25196976791 /* SegmentedControlSize.swift */; };
 		5A26CFB93E429440CB0A77ED698FFB51 /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973D0A00CBA4798DB356C05F399AAC9F /* SegmentCollectionViewCell.swift */; };
@@ -99,6 +101,8 @@
 		25E0D60EDE448DE28BD5F8B66B63809F /* SegmentSelectedItemStyle.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = SegmentSelectedItemStyle.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Structs/MaterialPreset/SegmentSelectedItemStyle.html; sourceTree = "<group>"; };
 		26CB893AD0D1BA9034631068EF5B51AF /* BootstapPreset.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = BootstapPreset.html; path = docs/Structs/BootstapPreset.html; sourceTree = "<group>"; };
 		27F17CAC294B8CC50084A6A1 /* SegmentContentWidthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentContentWidthType.swift; sourceTree = "<group>"; };
+		27F17CAE294C14400084A6A1 /* SegmentGradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentGradientColor.swift; sourceTree = "<group>"; };
+		27F17CB0294C17630084A6A1 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		28AF5F27DB58ACCA14A8E07DDA59F71B /* SegmentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
 		296BB6DD1F13D02E37AE993D717A671E /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
 		2A8B563B995134F1558980DD3E5F3C2B /* SeporatorStylable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = SeporatorStylable.html; path = docs/docsets/RESegmentedControl.docset/Contents/Resources/Documents/Protocols/SeporatorStylable.html; sourceTree = "<group>"; };
@@ -336,6 +340,7 @@
 				EB3E02E6A49AAB32D8CB3CEC798DB08E /* FileManager+Save.swift */,
 				9B47C2CDD1795C079014610BE675E71D /* UIView+SementItemShadow.swift */,
 				9C4006D36137D9C1350CAC5492B01EA2 /* URL+Filename.swift */,
+				27F17CB0294C17630084A6A1 /* UIView+Gradient.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				D858DF59D90516F2DEEBED351F093A30 /* SegmentModel.swift */,
 				0BEB788B10544340D5F944DD679B0423 /* SelectedSegmentSize.swift */,
 				27F17CAC294B8CC50084A6A1 /* SegmentContentWidthType.swift */,
+				27F17CAE294C14400084A6A1 /* SegmentGradientColor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -799,8 +805,10 @@
 				1F7495E79AE1948640AB8E78CEB848C8 /* SegmentModel.swift in Sources */,
 				5DC0433BB63EB23C33659CECB7C55C9F /* SegmentSelectedItemStylable.swift in Sources */,
 				8868DCEEB3CDA6B8663B3E9ECAB27982 /* SegmentSelectedItemStyle.swift in Sources */,
+				27F17CAF294C14400084A6A1 /* SegmentGradientColor.swift in Sources */,
 				7DDBC1D24077DDD976D3951A942599BF /* SegmentStylable.swift in Sources */,
 				C07E4FFB05C8057B06A67A4861F8984B /* SegmentStyle.swift in Sources */,
+				27F17CB1294C17630084A6A1 /* UIView+Gradient.swift in Sources */,
 				807ED1A8F33EC6774CD4DAD7D4298E7B /* SelectedSegmentSize.swift in Sources */,
 				270CC13C1513E924F9BB4A787F4C7408 /* SeporatorStylable.swift in Sources */,
 				7A1EE00789C3D986895404D07669AA6D /* SeporatorStyle.swift in Sources */,

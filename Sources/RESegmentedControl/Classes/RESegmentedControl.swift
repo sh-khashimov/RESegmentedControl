@@ -83,6 +83,9 @@ open class RESegmentedControl: UIControl {
         selectedBackgroundView.translatesAutoresizingMaskIntoConstraints = false
         return selectedBackgroundView
     }()
+    
+    /// Background view gradient layer
+    private var selectedBackgroundViewGradientLayer: CAGradientLayer?
 
     /// Preset that applied to style Segmented control and it's child views
     public var preset: SegmentedControlPresettable = BootstapPreset() {
@@ -99,6 +102,10 @@ open class RESegmentedControl: UIControl {
             selectedBackgroundView.layer.borderColor = preset.segmentSelectedItemStyle.borderColor
             if let shadowStyle = preset.segmentSelectedItemStyle.shadow {
                 selectedBackgroundView.applyShadow(with: shadowStyle)
+            }
+            if selectedBackgroundViewGradientLayer == nil,
+                let gradientColor = preset.segmentSelectedItemStyle.gradientColor {
+                selectedBackgroundViewGradientLayer = selectedBackgroundView.addGradient(with: gradientColor)
             }
             self.collectionView.reloadData()
             self.collectionViewBackground.reloadData()
@@ -228,6 +235,9 @@ open class RESegmentedControl: UIControl {
         }
 
         updateSelectedBackgroundViewFrame(withItemSize: itemSize)
+        
+        selectedBackgroundViewGradientLayer?.frame = selectedBackgroundView.bounds
+        selectedBackgroundViewGradientLayer?.cornerRadius = selectedBackgroundView.layer.cornerRadius
     }
 
     /// Updates views layouts.

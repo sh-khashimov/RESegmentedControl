@@ -44,6 +44,8 @@ public struct MaterialPreset: SegmentedControlPresettable {
         var selectedTintColor: UIColor = .black
 
         var backgroundColor: UIColor = .white
+        
+        var gradientColor: SegmentGradientColor? = nil
 
         var borderWidth: CGFloat = 0
 
@@ -81,6 +83,8 @@ public struct MaterialPreset: SegmentedControlPresettable {
     struct SegmentSelectedItemStyle: SegmentSelectedItemStylable {
 
         var backgroundColor: UIColor = .white
+        
+        var gradientColor: SegmentGradientColor? = nil
 
         var cornerRadius: CGFloat = 0
 

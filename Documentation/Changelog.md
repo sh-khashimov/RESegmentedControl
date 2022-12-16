@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.5.3
+- gradient background color [#9](https://github.com/sh-khashimov/RESegmentedControl/issues/9) fix;
+
 ### v0.5.2
 - text Alignment issue [#10](https://github.com/sh-khashimov/RESegmentedControl/issues/10) fix;
 

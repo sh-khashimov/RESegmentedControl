@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="a2d-ak-oDh">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +19,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="FMf-es-GNY">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="IlT-3u-BNt" style="IBUITableViewCellStyleDefault" id="7SD-fh-QbJ">
                                         <rect key="frame" x="0.0" y="55.5" width="375" height="43.5"/>
@@ -28,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IlT-3u-BNt">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -40,14 +41,14 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="o6O-5I-3Ie"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="o6O-5I-3Ie" firstAttribute="bottom" secondItem="FMf-es-GNY" secondAttribute="bottom" id="5w4-ab-Suq"/>
                             <constraint firstItem="o6O-5I-3Ie" firstAttribute="trailing" secondItem="FMf-es-GNY" secondAttribute="trailing" id="QyK-6C-7KE"/>
                             <constraint firstItem="FMf-es-GNY" firstAttribute="leading" secondItem="o6O-5I-3Ie" secondAttribute="leading" id="omj-7I-7Oq"/>
                             <constraint firstItem="FMf-es-GNY" firstAttribute="top" secondItem="o6O-5I-3Ie" secondAttribute="top" id="pvw-Cx-OPW"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="o6O-5I-3Ie"/>
                     </view>
                     <navigationItem key="navigationItem" id="aCW-ZJ-Nf3"/>
                     <connections>
@@ -73,7 +74,7 @@
                                 <rect key="frame" x="10" y="54" width="355" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="29e-Pv-5eh">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="659"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="752"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ed3-R4-fQz">
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="58"/>
@@ -86,7 +87,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oeM-Fy-WTa" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="30"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="w3f-ku-uFu"/>
                                                         </constraints>
@@ -104,7 +105,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epW-AF-aw9" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="30"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="7pF-OC-Oz8"/>
                                                         </constraints>
@@ -122,7 +123,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8B-b0-pMX" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="50"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="AJ3-Oe-PtT"/>
                                                         </constraints>
@@ -140,7 +141,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fKY-eI-Y0z" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="40"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="mGr-DF-PaP"/>
                                                         </constraints>
@@ -158,7 +159,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-RV-4UJ" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="40"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="oDm-eL-NJW"/>
                                                         </constraints>
@@ -176,7 +177,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fw-MA-Oxt" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="40"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="ylg-yJ-Bzt"/>
                                                         </constraints>
@@ -194,7 +195,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7C0-fI-iPL" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="50"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="iai-Z3-1Pq"/>
                                                         </constraints>
@@ -212,9 +213,27 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42j-UW-F99" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="50"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="nwz-64-uYa"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TCW-MW-XRH">
+                                                <rect key="frame" x="0.0" y="674" width="355" height="78"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gradient (SimpleSegmentedControlOptions)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMX-1i-omE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7W-qs-V3d" customClass="RESegmentedControl" customModule="RESegmentedControl">
+                                                        <rect key="frame" x="0.0" y="28" width="355" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="cdh-Ms-qQS"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
@@ -222,6 +241,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <viewLayoutGuide key="safeArea" id="ICI-AF-KAd"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="29e-Pv-5eh" secondAttribute="bottom" id="Mr2-Vu-Qs5"/>
                                     <constraint firstItem="29e-Pv-5eh" firstAttribute="top" secondItem="6FO-Dm-O8g" secondAttribute="top" id="QUv-Au-o5Z"/>
@@ -229,19 +249,18 @@
                                     <constraint firstItem="29e-Pv-5eh" firstAttribute="leading" secondItem="6FO-Dm-O8g" secondAttribute="leading" id="mDV-bh-3lR"/>
                                     <constraint firstAttribute="trailing" secondItem="29e-Pv-5eh" secondAttribute="trailing" id="pbR-yX-9rD"/>
                                 </constraints>
-                                <viewLayoutGuide key="safeArea" id="ICI-AF-KAd"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="DPj-Rb-Y3b"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="RfW-ji-b6b"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="b6r-9C-fG3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6FO-Dm-O8g" firstAttribute="trailing" secondItem="b6r-9C-fG3" secondAttribute="trailing" constant="-10" id="BLu-nL-8vZ"/>
                             <constraint firstItem="6FO-Dm-O8g" firstAttribute="leading" secondItem="b6r-9C-fG3" secondAttribute="leading" constant="10" id="K8E-lK-kbL"/>
                             <constraint firstItem="b6r-9C-fG3" firstAttribute="bottom" secondItem="6FO-Dm-O8g" secondAttribute="bottom" constant="10" id="Rzn-li-bSR"/>
                             <constraint firstItem="6FO-Dm-O8g" firstAttribute="top" secondItem="b6r-9C-fG3" secondAttribute="top" constant="10" id="mvB-Bm-OgA"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="b6r-9C-fG3"/>
                     </view>
                     <navigationItem key="navigationItem" id="COP-d5-mD9"/>
                     <connections>
@@ -250,6 +269,7 @@
                         <outlet property="customSimple3SegmentedControl" destination="3fw-MA-Oxt" id="pZ7-ND-BXx"/>
                         <outlet property="customSimple4SegmentedControl" destination="7C0-fI-iPL" id="bCW-TQ-BCQ"/>
                         <outlet property="customSimple5SegmentedControl" destination="42j-UW-F99" id="ELF-kj-kOD"/>
+                        <outlet property="gradientSimpleSegmentedControl" destination="M7W-qs-V3d" id="swm-HE-1al"/>
                         <outlet property="ios13SegmentedControl" destination="epW-AF-aw9" id="nsM-BS-2VY"/>
                         <outlet property="ios7SegmentedControl" destination="oeM-Fy-WTa" id="Fdo-Wt-PyY"/>
                         <outlet property="materialSegmentedControl" destination="l8B-b0-pMX" id="KdB-qk-SHQ"/>
@@ -284,7 +304,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="olM-tv-ujn" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="30"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="7dY-zK-uPu"/>
                                                         </constraints>
@@ -302,7 +322,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtb-DG-ven" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="30"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="ORs-RN-svu"/>
                                                         </constraints>
@@ -320,7 +340,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zU-2M-0BB" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="50"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="e1A-XE-af4"/>
                                                         </constraints>
@@ -338,7 +358,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9l-gM-daj" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="40"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="Wzk-r5-Hfg"/>
                                                         </constraints>
@@ -356,7 +376,7 @@
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfg-5g-hn7" customClass="RESegmentedControl" customModule="RESegmentedControl">
                                                         <rect key="frame" x="0.0" y="28" width="355" height="40"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="DOa-Oe-0yp"/>
                                                         </constraints>
@@ -366,6 +386,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <viewLayoutGuide key="safeArea" id="n3C-HA-Wc7"/>
                                 <constraints>
                                     <constraint firstItem="4ud-J5-Lbn" firstAttribute="leading" secondItem="SrG-R9-vht" secondAttribute="leading" id="9K4-Or-F8j"/>
                                     <constraint firstItem="4ud-J5-Lbn" firstAttribute="top" secondItem="SrG-R9-vht" secondAttribute="top" id="L9g-9U-Odr"/>
@@ -373,19 +394,18 @@
                                     <constraint firstItem="4ud-J5-Lbn" firstAttribute="width" secondItem="Cv0-zr-jTD" secondAttribute="width" id="ZDJ-Nq-aJE"/>
                                     <constraint firstAttribute="trailing" secondItem="4ud-J5-Lbn" secondAttribute="trailing" id="mv0-BH-Clf"/>
                                 </constraints>
-                                <viewLayoutGuide key="safeArea" id="n3C-HA-Wc7"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="HqT-WO-qAs"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Cv0-zr-jTD"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="au1-B4-AID"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="SrG-R9-vht" firstAttribute="top" secondItem="au1-B4-AID" secondAttribute="top" constant="10" id="4Ke-Up-CBw"/>
                             <constraint firstItem="SrG-R9-vht" firstAttribute="leading" secondItem="au1-B4-AID" secondAttribute="leading" constant="10" id="Qrh-U7-u0U"/>
                             <constraint firstItem="au1-B4-AID" firstAttribute="bottom" secondItem="SrG-R9-vht" secondAttribute="bottom" constant="10" id="pM3-Rk-C7m"/>
                             <constraint firstItem="SrG-R9-vht" firstAttribute="trailing" secondItem="au1-B4-AID" secondAttribute="trailing" constant="-10" id="zsB-Pr-64C"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="au1-B4-AID"/>
                     </view>
                     <navigationItem key="navigationItem" id="rCA-n6-P91"/>
                     <connections>
@@ -427,42 +447,42 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-86-IZC">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-86-IZC">
                                         <rect key="frame" x="0.0" y="58" width="355" height="50"/>
                                         <state key="normal" title="Add Item"/>
                                         <connections>
                                             <action selector="addItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="Xrg-SM-X0E"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBL-gB-aht">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBL-gB-aht">
                                         <rect key="frame" x="0.0" y="116" width="355" height="50"/>
                                         <state key="normal" title="Remove First Item"/>
                                         <connections>
                                             <action selector="removeFirstItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="CB2-gt-28D"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N5-PW-9Gb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N5-PW-9Gb">
                                         <rect key="frame" x="0.0" y="174" width="355" height="50"/>
                                         <state key="normal" title="Remove Last Time"/>
                                         <connections>
                                             <action selector="removeItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="WtL-x3-z9O"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVM-VE-mE1">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVM-VE-mE1">
                                         <rect key="frame" x="0.0" y="232" width="355" height="50"/>
                                         <state key="normal" title="Select Last Segment Item"/>
                                         <connections>
                                             <action selector="selectLastItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="X5s-YR-KAT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZS-fe-v6S">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZS-fe-v6S">
                                         <rect key="frame" x="0.0" y="290" width="355" height="50"/>
                                         <state key="normal" title="Deselect Segment Item"/>
                                         <connections>
                                             <action selector="deselectItem:" destination="i1a-zR-yeP" eventType="touchUpInside" id="egJ-an-pO2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMx-RW-fD5">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMx-RW-fD5">
                                         <rect key="frame" x="0.0" y="348" width="355" height="50"/>
                                         <state key="normal" title="Replace First Item"/>
                                         <connections>
@@ -472,7 +492,8 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PVU-Lr-cH1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Kpy-C1-Woy" firstAttribute="top" secondItem="PRu-Un-7Nt" secondAttribute="bottom" constant="30" id="A27-1H-fJd"/>
                             <constraint firstItem="Kpy-C1-Woy" firstAttribute="leading" secondItem="PVU-Lr-cH1" secondAttribute="leading" constant="10" id="X5f-IX-yXO"/>
@@ -481,7 +502,6 @@
                             <constraint firstItem="PVU-Lr-cH1" firstAttribute="trailing" secondItem="PRu-Un-7Nt" secondAttribute="trailing" constant="15" id="ugD-cz-XsT"/>
                             <constraint firstItem="PVU-Lr-cH1" firstAttribute="trailing" secondItem="Kpy-C1-Woy" secondAttribute="trailing" constant="10" id="wEU-qp-Ldh"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PVU-Lr-cH1"/>
                     </view>
                     <navigationItem key="navigationItem" id="zGQ-wz-sia"/>
                     <connections>
@@ -512,4 +532,9 @@
             <point key="canvasLocation" x="-891.304347826087" y="130.58035714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

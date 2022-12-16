@@ -14,6 +14,9 @@ public protocol SegmentSelectedItemStylable {
 
     /// Selected segment item background color
     var backgroundColor: UIColor { get set }
+    
+    /// Selected segment gradient color
+    var gradientColor: SegmentGradientColor? { get set }
 
     /// Selected segment item corner radius
     var cornerRadius: CGFloat { get set }

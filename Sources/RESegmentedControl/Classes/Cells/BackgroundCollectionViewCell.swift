@@ -25,14 +25,19 @@ class BackgroundCollectionViewCell: UICollectionViewCell {
     }
 
     private var isSeparatorVisible: Bool = false
+    
+    /// gradient layer
+    private var gradientLayer: CAGradientLayer?
 
     override func prepareForReuse() {
         super.prepareForReuse()
         separatorView.isHidden = true
+        gradientLayer = nil
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        gradientLayer = nil
         // Initialization code
     }
 
@@ -45,6 +50,11 @@ class BackgroundCollectionViewCell: UICollectionViewCell {
         bgView.layer.borderWidth = style.borderWidth
         self.contentView.layer.masksToBounds = true
         self.applyShadow(with: style.shadow)
+        
+        if gradientLayer == nil,
+            let gradientColor = style.gradientColor {
+            gradientLayer = self.bgView.addGradient(with: gradientColor)
+        }
 
         if let separatorStyle = style.separator {
             separatorViewWidthLC?.constant = separatorStyle.width
@@ -55,6 +65,12 @@ class BackgroundCollectionViewCell: UICollectionViewCell {
         }
 
         self.separatorView.isHidden = !isSeparatorVisible || style.separator == nil
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        gradientLayer?.frame = self.bounds
+        gradientLayer?.cornerRadius = self.style?.cornerRadius ?? bgView.layer.cornerRadius
     }
 
 }
