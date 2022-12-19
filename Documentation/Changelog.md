@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.5.4
+- Issue [#11](https://github.com/sh-khashimov/RESegmentedControl/issues/11) fix;
+
 ### v0.5.3
 - gradient background color [#9](https://github.com/sh-khashimov/RESegmentedControl/issues/9) fix;
 
